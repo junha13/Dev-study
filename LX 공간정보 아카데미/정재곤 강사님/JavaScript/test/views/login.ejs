@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>로그인 관리 페이지</title>
+    </head>
+    <body>
+        <div>
+                <input type="text" id='input1'>
+                <input type="password" id='input2'>
+
+                <button onclick = "login()">로그인</button>
+        </div>
+        <script>
+            function login() {
+                console.log(`login 메서드 실행`);
+
+                const form = document.createElement(`form`);
+                // 처음에 form 요소를 만들어서 보낼 준비를 함
+                form.setAttribute(`action`, `/page/menu`)
+                form.setAttribute(`method`, `get`);
+
+                const input1 = document.querySelector(`#input1`);
+                // id로 가져옴 
+
+                const data1 = document.createElement(`input`)
+                // input 요소를 만들겠습니다. 
+                data1.setAttribute(`type`, `hidden`)
+                data1.setAttribute(`name`, `username`)
+                data1.setAttribute(`value`, input1.value)
+                // input 요소의 밸류값만 input1의 밸류값으로 초기화
+                form.appendChild(data1);
+
+                document.body.appendChild(form);
+                // body에 넣고
+                form.submit();
+                // form 전송
+            }
+
+        </script>
+    </body>
+</html>

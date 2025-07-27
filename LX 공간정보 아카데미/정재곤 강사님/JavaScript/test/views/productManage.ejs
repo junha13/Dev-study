@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+    </head>
+    <body>
+
+        <div>
+            <p>상품관리</p>
+            <p><%=name%>님</p>
+            <button onclick="sendName()">돌아가기</button>
+       </div>
+        <script>
+            function sendName() {
+                const form = document.createElement(`form`);
+                form.setAttribute(`action`, `/page/menu`);
+                form.setAttribute(`method`, `get`);
+
+                const input1 = document.createElement(`input`);
+                input1.setAttribute(`type`, `hidden`);
+                input1.setAttribute(`name`,`username`);
+                input1.setAttribute(`value`, `<%=name%>`);
+                form.appendChild(input1);
+
+                const input2 = document.createElement(`input`);
+                input2.setAttribute(`type`, `hidden`);
+                input2.setAttribute(`name`,`lastname`);
+                input2.setAttribute(`value`, `상품관리`);
+                form.appendChild(input2);
+
+                document.body.appendChild(form);
+                form.submit();
+            }
+
+
+        </script>
+    </body>
+</html>

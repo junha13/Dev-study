@@ -1,0 +1,91 @@
+<!DoCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <!-- 한글로 바꾸는거임 -->
+         <title>연습</title>
+
+         <style>
+            /* body 안에 있는 태그 중에서 태그의 이름으로 선택하기 */
+            p {
+                border: 2px solid blue;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            /* body 안에 있는 태그 중에서 클래스 이름으로 선택하기 */
+            .group1 {
+                color: magenta;
+            }
+
+            /* body 안에 있는 태그 중에서 아이디를 이용해 선택하기 */
+            #my1 {
+                font-size: 2em;
+            }
+
+
+
+         </style>
+    </head>
+    <body>
+
+        <h3>연습 1</h3> <!--h는 글자크기를 얘기함-->
+
+        <div>
+            <p class="group1">연습입니다.</p>
+            <p id="my1">연습입니다.</p>
+            <p>연습입니다.</p>
+        </div>
+
+        <div>
+            <span class="group1">연습입니다.</span>
+            <span>연습입니다.</span>
+            <span>연습입니다.</span>
+        </div>
+
+        <div>
+            <input id="input1" type="text" value="홍길동1">
+            <button onclick="show()">확인</button> <!--클릭 시 show함수 실행-->
+        </div>
+
+        <div>
+            <img id="output2" src="/images/fish1.png">
+        </div>
+
+        <div id = "output1">
+            <!-- <p>결과</p> -->
+        </div>
+
+        <script>
+
+            let type = 1;
+
+            function show() {
+                console.log(`show 함수 호출됨`);
+                // 개발자도구, console에 출력됨
+
+                // 입력상자에서 값을 가지고 와서 화면에 보여주기
+                let input1 = document.querySelector(`#input1`);  
+                // 넣는게 id라서 유일함, document.querySelector로 가져오는건 태그 전체임
+                // <input id="input1" type="text" value="홍길동1"> <--이거
+                // 그래서 input1.value로 name을 뽑아와야됨
+                let name = input1.value;
+
+                let output1 = document.querySelector("#output1")
+                output1.innerHTML = `<p>결과 : ${name}</p>`;
+                // 글자로 넣어주는 순간 띄워줌
+
+                // 이미지 바꿔보기
+                let output2 = document.querySelector(`#output2`);
+                if(type == 1) {
+                    output2.src = `images/fish3.png`;
+                    type++;
+                } else if (type == 2) {
+                    output2.src = `images/fish2.png`;
+                    type--;
+                }
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "UTF-8">
+        <title>입장료 계산기</title>
+
+        <style>
+            body {
+                width: 300px;
+                border: 2px solid silver;
+            }
+            #d {
+                margin: 10px;
+                width: 275px;
+                border: 2px solid silver;
+            }
+            #input1 {
+                width: 50px;
+                margin-left: 25px;
+            }
+            #input2 {
+                width: 50px;
+                margin-left: 10px;
+            }
+            #calculatorButton{
+                margin-left: 25px;
+                width: 80px;
+            }
+            #a {
+                margin: 10px;
+            }
+
+            #imageeee {
+                width:40px;
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <div id="a">
+            <div>
+                <h2>입장료 계산기</h2>
+            </div>
+            <div>
+                <span>성인 수</span>
+                <input id="input1" type="text" value="0">
+                <span>명</span>
+                <button onclick="calculator()" id ="calculatorButton">계산</button>
+            </div>
+            <div>
+                <span>어린이 수</span>
+                <input id="input2" type="text" value="0">
+                <span>명</span>
+            </div>
+            
+            <div>
+                <span>입장료</span>
+                <span id = output1></span>
+                <span>원</span>
+                <img id="imageeee" src="" style="display:none">
+            </div>
+
+            <div>
+                <span>단체할인</span>
+                <input type="radio" id="sale" disabled><span>예</span>
+                <input type="radio" id="nonSale" checked disabled><span>아니오</span>
+            </div>
+        </div>
+        <div id = "d">
+            <div>
+                <span>성인 1인 당</span>
+                <span id = output2></span>
+                <span>원</span>
+            </div>
+
+            <div>
+                <span>어린이 1인 당</span>
+                <span id = output3></span>
+                <span>원</span>
+            </div>
+
+            <div>
+                <span>단체 할인 : 5명 이상 20%</span>
+            </div>
+        </div>
+
+
+        <script>
+            function calculator() {
+                let input1 = document.querySelector(`#input1`);
+                let input2 = document.querySelector(`#input2`);
+                let adultN = Number(input1.value);
+                let kidN = Number(input2.value);
+
+                let output1 = document.querySelector(`#output1`);
+                let output2 = document.querySelector(`#output2`);
+                let output3 = document.querySelector(`#output3`);
+                let sale = document.querySelector(`#sale`);
+                let nonSale = document.querySelector(`#nonSale`);
+                let imageeee = document.querySelector(`#imageeee`);
+                if (isNaN(adultN) || isNaN(kidN)) {
+                    imageeee.src = "unsmile.png";
+                    imageeee.style = "display:block";
+                    alert("다시 입력해주세요");
+                    return;
+                }
+
+                if (adultN + kidN > 5) {
+                    nonSale.checked = false;
+                    sale.checked = true;
+                    output2.innerHTML = 20000*0.8 ;
+                    output3.innerHTML = 9900*0.8;
+                    result = (adultN*20000) * 0.8 + (kidN*9900) * 0.8
+                } else {
+                    output2.innerHTML = 20000;
+                    output3.innerHTML = 9900;
+                    result = (adultN*20000) + (kidN*9900)
+                }
+
+                output1.innerHTML = `${result}`;
+                imageeee.src = "smile.png";
+                imageeee.style = "display:block";
+            }
+        </script>
+    </body>
+</html>

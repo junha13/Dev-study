@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+    </head>
+    <body>
+        <div>
+            <h2><%=name%>님 환영합니다.</h2>
+        </div>
+        <div>
+                <button onclick="customer()">고객관리</button> 
+        </div>
+        <div>
+                <button onclick="product()">상품관리</button> 
+        </div>
+        <div>
+                <button onclick="sales()">매출관리</button> 
+           <p>선택했던 화면<%=lastName%></p> 
+        </div>
+        <div>
+            <form action="/page/login" method="get">
+                <button>로그아웃</button>
+            </form>
+        </div>
+        <script>
+            function customer() {
+                console.log(`costomer 함수 실행`);
+
+                const form = document.createElement(`form`);
+                form.setAttribute(`action`, `/page/customerManage`);
+                form.setAttribute(`method`, `get`)
+
+                const input1 = document.createElement(`input`);
+                input1.setAttribute(`name`, `username`);
+                input1.setAttribute(`value`, `<%=name%>`)
+                form.appendChild(input1);
+
+                document.body.appendChild(form);
+                form.submit();
+            }
+            function product() {
+                console.log(`costomer 함수 실행`);
+
+                const form = document.createElement(`form`);
+                form.setAttribute(`action`, `/page/productManage`);
+                form.setAttribute(`method`, `get`)
+
+                const input1 = document.createElement(`input`);
+                input1.setAttribute(`name`, `username`);
+                input1.setAttribute(`value`, `<%=name%>`)
+                form.appendChild(input1);
+
+                document.body.appendChild(form);
+                form.submit();
+            }
+            function sales() {
+                console.log(`costomer 함수 실행`);
+
+                const form = document.createElement(`form`);
+                form.setAttribute(`action`, `/page/salesManage`);
+                form.setAttribute(`method`, `get`)
+
+                const input1 = document.createElement(`input`);
+                input1.setAttribute(`name`, `username`);
+                input1.setAttribute(`value`, `<%=name%>`)
+                form.appendChild(input1);
+
+                document.body.appendChild(form);
+                form.submit();
+            }
+
+
+        </script>
+        
+    </body>
+</html>

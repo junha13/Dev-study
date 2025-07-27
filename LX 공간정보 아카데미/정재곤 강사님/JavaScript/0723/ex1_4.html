@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>연습</title>
+        <!-- CSS 스타일 : 글자를 꾸며주거나 하는 것, 스타일이 엄청 많음 -->
+        <style>
+            p { 
+                border: 2px solid blue;
+            }
+            span {
+                border: 2px solid green;
+            }
+            img {
+                border: 2px solid red;
+            }
+            .group1 {
+                border: 2px solid magenta;
+            }
+            #my1 {
+                color: red;
+                font-size: 2em;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>연습 첫 번째</h1>
+
+        <!-- 이게 주석임 ㄷㄷ -->
+        <!-- 블럭단위 요소 : 눈에 보이는 현상은 -> 자동으로 줄바꿈된다 (단순히 줄바꿈보다는 화면에서 차지하는 오른쪽 영역까지 다 자기 영역으로 가져가는 거임)-->
+        <div class="group1">
+            <p id="my1">연습입니다.</p>
+            <p>연습입니다.</p>
+            <p>연습입니다.</p>
+        </div>
+
+        <!-- 인라인단위 요소 : 눈에 보이는 현상은 -> 오른쪽으로 추가한다. -->
+        <div class="group1">
+            <span>테스트입니다.</span>
+            <span>테스트입니다.</span>
+            <span>테스트입니다.</span>
+        </div>
+        <!-- 인라인단위 요소 : 눈에 보이는 현상은 -> 오른쪽으로 추가한다. 그림도 -->
+        <div class="group1">
+            <img src="images/fish1.png">
+            <img src="images/fish2.png">
+        </div>
+
+        <div>
+            <input type="text" value="" id =input1>
+            <input type="text" value="21">
+            <input type="text" value="010-0000-0000">
+            
+            <button onclick="show()">확인</button>
+        </div>
+
+        <div id="output1">
+
+        </div>
+        <!-- 버튼을 눌렀을 때 어떤 동작을 가능하게 하는게 js임 -->
+
+        <!-- 여따가 코드를 넣을 수 있ㅇㅁ, function show임, 이제 함수상자 변수상자 막 나옴 -->
+        <script>
+            function show() {
+                console.log('버튼이 눌렸어요.');
+
+                const input1 = document.querySelector('#input1');
+                const output1 = document.querySelector('#output1');
+
+                output1.innerHTML = `<p>입력한 값 : ${input1.value}</p>`;
+            }
+        
+        </script>
+    </body>
+</html> 
