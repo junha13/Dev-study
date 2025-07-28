@@ -1,0 +1,2 @@
+S25-pro:Samsung:1500000
+iphone16-pro:Apple:1650000
