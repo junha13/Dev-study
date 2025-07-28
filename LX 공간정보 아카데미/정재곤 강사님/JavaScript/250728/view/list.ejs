@@ -18,13 +18,53 @@
                         <td><%= persons[i].name %></td>
                         <td><%= persons[i].age %></td>
                         <td><%= persons[i].mobile %></td>
+                        <td><button onclick="update('<%= i %>')">값 변경</button></td>
+                        <!--<td><button onclick="Delete(`${i]`)">값 삭제</button></td>-->
                     </tr>
                 <% }%>
            </table>
         </div>
         <div>
-            <a href="/page/add">추가</a>
+            <a href="/page/add">값 추가하기</a>
         </div>
+        <script>
+            const persons = <%- JSON.stringify(persons) %>;
+
+            function update(index) {
+                console.log(`update 메서드 실행`);
+
+                const form = document.createElement(`form`);
+                form.action = "/page/plus"
+                form.method = "get"
+
+                const indexx = document.createElement(`input`);
+                indexx.type = "hidden";
+                indexx.name = "index";
+                indexx.value = index;
+                form.appendChild(indexx);
+
+                const name = document.createElement(`input`);
+                name.type = "hidden";
+                name.name = "name";
+                name.value = persons[index].name;
+                form.appendChild(name);
+
+                const age = document.createElement(`input`);
+                age.type = "hidden";
+                age.name = "age";
+                age.value = persons[index].age;
+                form.appendChild(age);
+
+                const mobile = document.createElement(`input`);
+                mobile.type = "hidden";
+                mobile.name = "mobile";
+                mobile.value = persons[index].mobile;
+                form.appendChild(mobile);
+
+                document.body.appendChild(form);
+                form.submit();
+            }
+        </script>
 
        
     </body>
