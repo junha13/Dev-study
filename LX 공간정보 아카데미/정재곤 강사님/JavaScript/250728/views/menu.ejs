@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>메뉴</title>
+    </head>
+    <body>
+          <div>
+            <form action="/page/update" method="get"> 
+                <input type="text" name="id" value="id">
+                <input type="text" name="username" value="username">
+                <input type="text" name="age" value="age">
+                <input type="text" name="mobile" value="mobile">
+                <button>변경하기</button>
+            </form>
+        </div>
+          <div>
+            <form action="/page/insert" method="get"> 
+                <input type="text" name="username" value="">
+                <input type="text" name="age" value="">
+                <input type="text" name="mobile" value="">
+                <button>추가하기</button>
+            </form>
+        </div>
+          <div>
+            <form action="/page/select" method="get"> 
+                <input type="text" name="id" value="id">
+                <button>선택하기</button>
+            </form>
+        </div>
+          <div>
+            <form action="/page/delete" method="get"> 
+                <input type="text" name="id" value="id">
+                <button>삭제하기</button>
+            </form>
+        </div>
+    </body>
+
+</html>
+
+<!--html 확장자를 ejs로 바꾼거임 동일함-->
