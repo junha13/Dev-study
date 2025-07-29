@@ -7,13 +7,16 @@
     <body>
 
         <div>
-           <form action ="/page/update" method="get">
+           <form action ="/page/add" method="get">
                 <input type ="text" name="name" value="">
                 <input type ="text" name="age" value="">
                 <input type ="text" name="mobile" value="">
-                <input type ="hidden" name="index" value=<%=index%>>
                 <button>추가</button>
            </form>
+           <form action = "/person/list" method="get">
+                <button>취소</button>
+           </form>
+
         </div>
 
        

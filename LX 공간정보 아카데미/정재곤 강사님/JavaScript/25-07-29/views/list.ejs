@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>웹서버에서 보내온 페이지</title>
+
+        <style>
+
+
+        </style>
+    </head>
+    <body>
+
+        <div>
+           <table>
+                <tr id = title>
+                    <th>이름</th>  <!--컬럼 명이 됨-->
+                    <th>나이</th>
+                    <th>전화번호</th>
+                    <th>수정</th>
+                    <th>삭제</th>
+                </tr>
+                <% for (let i = 0; i < persons.length; i++) { %>
+                    <tr>
+                        <td><%= persons[i].name %></td>
+                        <td><%= persons[i].age %></td>
+                        <td><%= persons[i].mobile %></td>
+                        <td><a href="/person/update?id=<%=persons[i].id %>&name=<%=persons[i].name%>&age=<%=persons[i].age%>&mobile=<%=persons[i].mobile%> ">변경</a></td>
+                        <td><a href="/person/delete?id=<%=persons[i].id%>">삭제</a></td>
+                    </tr>
+                <% }%>
+           </table>
+        </div>
+        <div>
+            <a href="/page/insert">값 추가하기</a>
+        </div>
+    </body>
+
+</html>

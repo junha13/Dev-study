@@ -18,7 +18,14 @@
                         <td><%= persons[i].name %></td>
                         <td><%= persons[i].age %></td>
                         <td><%= persons[i].mobile %></td>
-                        <td><button onclick="update('<%= i %>')">값 변경</button></td>
+                        <form action = "/page/plus" method = "get">
+                            <span></span><input type="hidden" name="id" value="<%=i%>"></span>
+                            <span></span><input type="hidden" name="name" value="<%= persons[i].name %>"></span>
+                            <span></span><input type="hidden" name="age" value="<%= persons[i].age %>"></span>
+                            <span></span><input type="hidden" name="mobile" value="<%= persons[i].mobile %>"></span>
+                            <td><button>값 변경</button></td>
+                        </form>
+
                         <!--<td><button onclick="Delete(`${i]`)">값 삭제</button></td>-->
                     </tr>
                 <% }%>
@@ -28,14 +35,13 @@
             <a href="/page/add">값 추가하기</a>
         </div>
         <script>
-            const persons = <%- JSON.stringify(persons) %>;
 
             function update(index) {
                 console.log(`update 메서드 실행`);
 
                 const form = document.createElement(`form`);
-                form.action = "/page/plus"
-                form.method = "get"
+                //form.action = "/page/plus"
+                //form.method = "get"
 
                 const indexx = document.createElement(`input`);
                 indexx.type = "hidden";

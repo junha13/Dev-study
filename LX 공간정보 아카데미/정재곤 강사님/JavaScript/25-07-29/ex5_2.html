@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>연습</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            html, body {
+                width : 100%;
+                height: 100%;
+            }
+        
+            .contatiner {
+                width : 100%;
+                height: 100%;
+            }
+
+            .area {
+                border: 2px solid blue;
+                width: 100%;
+                height :autt;
+                display : "block"
+            }
+
+
+            #page1 {
+                background-color: rgba(255,0, 0, 0.5);
+                display : none;
+            }
+            #page2 {
+                background-color: rgba(0, 255, 0.5);
+                display : none;
+            }
+
+            #page3 {
+                background-color: rgba(0,0, 255, 0.5);
+                display : block;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class = "contatiner">
+            <div class ="area" id="page1"> <!--dd-->
+                <button id="button1">첫번째</button>
+                <img id ="image1" src="images/house2.png">
+                <p>집2</p>
+            </div>
+
+            <div class ="area" id="page2"> <!--dd-->
+                <button id="button2">두번째</button>
+                <img id ="image2" src="images/fish2.png">
+                <p>물고기2</p>
+            </div>
+
+            <div class ="area" id="page3"> <!--dd-->
+                <button id="button3">세번째</button>
+                <img id ="image3" src="images/fish3.png">
+                <p>물3</p>
+            </div>
+
+
+        <script>
+            let page1;
+            let page2;
+            let page3;
+
+        
+            // oncilck이랑 비슷한거
+            // 웹페이지가 화면에 보이기 전에 한번 실행됨
+            window.addEventListener('DOMContentLoaded', () => {
+                console.log(`DOMContentLoaded 이벤트 발생함`)
+
+                // 3개의 div 태그를 찾아서 변수에 넣어둠
+                page1 = document.querySelector('#page1');
+                page2 = document.querySelector('#page2');
+                page3 = document.querySelector('#page3');
+            
+                // 첫번째 버튼을 눌렀을 때 show1 함수 실행함
+                const button1 = document.querySelector('#button1');
+                button1.addEventListener('click', () => {
+                    console.log(`첫번째 버튼의 click이벤트 발생함`)
+                    show2();
+                })
+
+                // 두번째 버튼을 눌렀을때 show2함수 실행함
+                const button2 = document.querySelector('#button2');
+                button2.addEventListener('click', () => {
+                    console.log(`두번째 버튼의 click이벤트 발생함`)
+                    show3();
+                })
+
+                const button3 = document.querySelector('#button3');
+                button3.addEventListener('click', () => {
+                    console.log(`세번째 버튼의 click이벤트 발생함`)
+
+                    show1();
+                })
+
+
+
+
+                // 첫 번째 이미지를 눌럿을 때
+                const image1 = document.querySelector('#image1');
+                image1.addEventListener('click', () => {
+                    console.log(`첫번째 이미지를 눌렀을 때`) 
+                    show1();
+                })
+
+                
+                // 첫 번째 이미지를 눌럿을 때
+                const image2 = document.querySelector('#image2');
+                image2.addEventListener('click', () => {
+                    console.log(`첫번째 이미지를 눌렀을 때`) 
+                    show2()
+                })
+                
+                // 첫 번째 이미지를 눌럿을 때
+                const image3 = document.querySelector('#image3');
+                image3.addEventListener('click', () => {
+                    console.log(`첫번째 이미지를 눌렀을 때`) 
+                    show3()
+                })
+
+            })
+
+            function show1() {
+                console.log(`show1 함수 실행됨`);
+
+                page1.style.display = "block";
+                page2.style.display = "none";
+                page3.style.display = "none";
+
+            }
+            function show2() {
+                console.log(`show2 함수 실행됨`);
+                page1.style.display = "none";
+                page2.style.display = "block";
+                page3.style.display = "none";
+
+            }
+            function show3() {
+                console.log(`show3 함수 실행됨`);
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "block";
+
+            }
+
+        </script>
+    </body>
+</html>

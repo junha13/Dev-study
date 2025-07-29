@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>고객 정보 추가</title>
+    </head>
+    <body>
+
+        <div>
+           <form action ="/page/update" method="get">
+                <input type ="text" name="name" value="">
+                <input type ="text" name="age" value="">
+                <input type ="text" name="mobile" value="">
+                <input type ="hidden" name="index" value=<%=index%>>
+                <button>추가</button>
+           </form>
+        </div>
+
+       
+    </body>
+
+</html>
+
+<!--하나의 웹페이지 안에 모든걸 다때려놓고 싱글페이지 이러면 렉이 안걸림 (실무에서도 많이 쓰임)
+멀티페이지 -->

@@ -7,7 +7,7 @@ const mariadb = require(`mariadb`);
 
 const pool= mariadb.createPool({ //pool로 값 빈환가능
     host : 'localhost',
-    port : 3307,
+    port : 4406,
     user: 'root',
     password: `rootroot`
 })
@@ -133,7 +133,7 @@ router.route(`/page/plus`).get(async(req, res) => {
         name: params.name,
         age: params.age,
         mobile: params.mobile,
-        index: params.index
+        index: params.id
     }
     req.app.render(`plus`, context, (err, html) => {
         if (err) {
