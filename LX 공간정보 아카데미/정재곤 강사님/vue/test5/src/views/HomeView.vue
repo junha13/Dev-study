@@ -5,7 +5,7 @@
   </div>
 
   <div> 
-    <p>고객 목록</p>
+    <p></p>
   </div>
 
   <div>
@@ -85,8 +85,21 @@ function requestUpdateUserIfo(index) {
   })
 }
 
-function requestDeleteUserIfo(index) {
+async function requestDeleteUserIfo(index) {
 
+  try {
+  const response = await axios({
+    method:'get',
+    url:'http://localhost:7003/person/page/delete',
+    data:{},
+    params:{
+      id:persons.value[index].id
+    }
+  })
+  persons.value = response.data.output  // 객체 = 객체
+  } catch (err) { 
+    console.log(`에러남`)
+  }
 }
 
 

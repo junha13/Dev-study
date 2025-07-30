@@ -5,7 +5,7 @@ const cors = require('cors')
 
 const pool = mariadb.createPool({
     host:'localhost',
-    port:4406,
+    port:3307,
     user:'root',
     password:'rootroot',
     supportBigNumbers: true // BigInt로 가면 숫자로 나옴
@@ -39,7 +39,7 @@ router.route('/person/page/list').get(async(req, res) => {
             output:rows
         }
 
-        res.writeHead(200, {'Contend-Type':'text/html;Charset=utf8'})
+        res.writeHead(200, {'Content-Type':'text/html;Charset=utf8'})
         res.end(JSON.stringify(output))
     } catch (err) {
         console.error(`에러 발생 -> err: ${err}`);
@@ -65,7 +65,7 @@ router.route('/person/page/update').get(async(req, res) => {
             output:rows
         }
 
-        res.writeHead(200, {'Contend-Type':'text/html;Charset=utf8'})
+        res.writeHead(200, {'Content-Type':'text/html;Charset=utf8'})
         res.end(JSON.stringify(output))
     } catch (err) {
         console.error(`에러 발생 -> err: ${err}`);
@@ -73,20 +73,52 @@ router.route('/person/page/update').get(async(req, res) => {
         if (conn) conn.end()
     }
 })
-router.route('/person/page/list').get(async(req, res) => {
-    console.log(`list 라우터 접속`)
+router.route('/person/page/insert').get(async(req, res) => {
+    console.log(`insert 라우터 접속`)
+
+    const params = req.query;
 
     let conn;
     try {
         conn =  await pool.getConnection();
-        let sql = `select * from test.person`
+        let sql = `Insert into test.person(name, age, mobile) values ('${params.name}', ${params.age}, '${params.mobile}')`
         let rows =  await conn.query(sql, [])
+
+        sql = `select * from test.person`
+        rows =  await conn.query(sql, [])
 
         const output = {
             output:rows
         }
 
-        res.writeHead(200, {'Contend-Type':'text/html;Charset=utf8'})
+        res.writeHead(200, {'Content-Type':'text/html;Charset=utf8'})
+        res.end(JSON.stringify(output))
+    } catch (err) {
+        console.error(`에러 발생 -> err: ${err}`);
+    } finally {
+        if (conn) conn.end()
+    }
+})
+
+router.route('/person/page/delete').get(async(req, res) => {
+    console.log(`delete 라우터 접속`)
+
+    const params = req.query;
+
+    let conn;
+    try {
+        conn =  await pool.getConnection();
+        let sql = `delete from test.person where id = ${params.id}`
+        let rows =  await conn.query(sql, [])
+
+        sql = `select * from test.person`
+        rows =  await conn.query(sql, [])
+
+        const output = {
+            output:rows
+        }
+
+        res.writeHead(200, {'Content-Type':'text/html;Charset=utf8'})
         res.end(JSON.stringify(output))
     } catch (err) {
         console.error(`에러 발생 -> err: ${err}`);
