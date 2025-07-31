@@ -6,8 +6,8 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
-import 'bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+//import 'bootstrap'
+//import 'bootstrap/dist/css/bootstrap.min.css'
 
 import '/styles.css';
 // 테일윈드 적용 안됨
