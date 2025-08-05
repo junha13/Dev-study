@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>main.html</h1>
+	<a href="hello.jsp">hello.jsp</a>
+	<a href="http://localhost:9000/mymy/hello.jsp">hello.jsp</a>
+		last Name : <input type="text" name="lastname">
+	<form action="hello.jsp">
+		first Name : <input type="text" name="firstname"><br>
+		<input type="submit" value="전송">
+	</form>
+	
+	ff
+</body>
+</html>

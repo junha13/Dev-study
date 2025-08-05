@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+.main {
+  	background-color: #f0f0f0;
+	width: 310px
+}
+
+</style>
+
+
+</head>
+<body>
+<div class="main" align="center">
+	<div>
+		<div>
+			<h1>웹 폼 사례</h1>
+		</div>
+		<form action="lunch.jsp" method="get">
+			<table cellspacing="5" border="1">
+				<tbody>	
+					<tr>
+						<td>사용자이름</td>
+						<td><input type="text" name="Name" placeholder="이름을 입력하세요."></td>	
+					</tr>
+					<tr>
+						<td>이메일</td>
+						<td><input type="text" name="emailAdress" placeholder="메일주소를 입력하세요."></td>	
+					</tr>
+					<tr>
+						<td>검색단어</td>
+						<td><input type="text" name="searchTerm" placeholder="검색어를 입력하세요."></td>	
+					</tr>
+					<tr>
+						<td>취미</td> 
+						<td>
+							<input type="checkbox" name="hobby" value="exercise">운동
+							<input type="checkbox" name="hobby" value="instrument">악기
+							<input type="checkbox" name="hobby" value="travle">여행
+						</td>	
+					</tr>
+					<tr>
+						<td">성별</td>
+						<td>
+							<input type="radio" name="gender" value="male">남성
+							<input type="radio" name="gender" value="female">여성
+						</td>	
+					</tr>
+					<tr>
+						<td>점심메뉴</td>
+						<td>
+							<select name=lunchMenu>
+								<option value="Jajangmyeon">짜장면</option>
+								<option value="Jjamppong">짬뽕</option>
+								<option value="KkanpungShrimp">깐쇼새우</option>
+							</select>
+						</td>	
+					</tr>
+				</tbody>
+			</table>
+			<input type="submit" value="submit">
+		</form>
+	</div>
+</div>
+
+</body>
+</html>
+

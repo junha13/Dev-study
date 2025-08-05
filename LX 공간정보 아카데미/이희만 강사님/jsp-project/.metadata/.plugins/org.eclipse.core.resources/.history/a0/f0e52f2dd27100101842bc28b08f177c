@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+.main {
+  	background-color: #f0f0f0;
+
+}
+.aa {
+	margin-left:20px;
+}
+
+.img {
+	width:500px
+}
+</style>
+
+
+</head>
+<body>
+<div class="main">
+	<div>
+		<div>
+			<h1>웹 폼 사례</h1>
+		</div>
+		<table cellspacing="5" border="3">
+			<tbody>	
+				<tr>
+					<td align="right">사용자이름</td>
+					<td><input type="text" name="fistName"></td>	
+				</tr>
+				<tr>
+					<td>dd</td>
+					<td><input type="text" name="fistName"></td>	
+				</tr>
+				<tr>
+					<td>dd</td>
+					<td><input type="text" name="fistName"></td>	
+				</tr>
+				<tr>
+					<td>dd</td>
+					<td><input type="text" name="fistName"></td>	
+				</tr>
+				<tr>
+					<td>dd</td>
+					<td><input type="text" name="fistName"></td>	
+				</tr>
+				<tr>
+					<td>dd</td>
+					<td><input type="text" name="fistName"></td>	
+				</tr>
+
+			</tbody>
+		</table>
+	
+	</div>
+</div>
+
+</body>
+</html>
+
