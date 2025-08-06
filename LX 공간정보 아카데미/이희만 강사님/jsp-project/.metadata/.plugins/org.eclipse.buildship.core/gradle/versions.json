@@ -1,7 +1,7 @@
 [ {
-  "version" : "9.1.0-20250804182631+0000",
-  "buildTime" : "20250804182631+0000",
-  "commitId" : "fe36812225ed65bbd019212d71fee46b2df3793c",
+  "version" : "9.2.0-20250806002634+0000",
+  "buildTime" : "20250806002634+0000",
+  "commitId" : "6b84547ee285a238d99c06c12f4ca1c6093c088d",
   "current" : false,
   "snapshot" : true,
   "nightly" : true,
@@ -10,9 +10,28 @@
   "rcFor" : "",
   "milestoneFor" : "",
   "broken" : false,
-  "downloadUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.1.0-20250804182631+0000-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.1.0-20250804182631+0000-bin.zip.sha256",
-  "wrapperChecksumUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.1.0-20250804182631+0000-wrapper.jar.sha256"
+  "downloadUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.2.0-20250806002634+0000-bin.zip",
+  "checksumUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.2.0-20250806002634+0000-bin.zip.sha256",
+  "checksum" : "a5ce9f93c8ce944c86ea683a90a8c9d9c09c6a622f00e7e5b30fe628deb4a75e",
+  "wrapperChecksumUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.2.0-20250806002634+0000-wrapper.jar.sha256",
+  "wrapperChecksum" : "76805e32c009c0cf0dd5d206bddc9fb22ea42e84db904b764f3047de095493f3"
+}, {
+  "version" : "9.1.0-20250805104018+0000",
+  "buildTime" : "20250805104018+0000",
+  "commitId" : "a544ab398d5a85dc63093ac24e6df80db08eed3e",
+  "current" : false,
+  "snapshot" : true,
+  "nightly" : false,
+  "releaseNightly" : true,
+  "activeRc" : false,
+  "rcFor" : "",
+  "milestoneFor" : "",
+  "broken" : false,
+  "downloadUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.1.0-20250805104018+0000-bin.zip",
+  "checksumUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.1.0-20250805104018+0000-bin.zip.sha256",
+  "checksum" : "27ac0e0040b22c5c9a70ccbef9a023ada892579619755fa0323780ace6965b5e",
+  "wrapperChecksumUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.1.0-20250805104018+0000-wrapper.jar.sha256",
+  "wrapperChecksum" : "76805e32c009c0cf0dd5d206bddc9fb22ea42e84db904b764f3047de095493f3"
 }, {
   "version" : "9.0.0",
   "buildTime" : "20250731163512+0000",
@@ -27,22 +46,8 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-wrapper.jar.sha256"
-}, {
-  "version" : "9.0.0-20250731015047+0000",
-  "buildTime" : "20250731015047+0000",
-  "commitId" : "2ceedee264b07192cf5318c4fef751193b65e2e2",
-  "current" : false,
-  "snapshot" : true,
-  "nightly" : false,
-  "releaseNightly" : true,
-  "activeRc" : false,
-  "rcFor" : "",
-  "milestoneFor" : "",
-  "broken" : false,
-  "downloadUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.0.0-20250731015047+0000-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.0.0-20250731015047+0000-bin.zip.sha256",
-  "wrapperChecksumUrl" : "https://services.gradle.org/distributions-snapshots/gradle-9.0.0-20250731015047+0000-wrapper.jar.sha256"
 }, {
   "version" : "9.0.0-rc-4",
   "buildTime" : "20250728151002+0000",
@@ -57,6 +62,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "9.0.0-rc-3",
@@ -72,6 +78,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "9.0.0-rc-2",
@@ -87,6 +94,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "9.0.0-milestone-10",
@@ -102,6 +110,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-milestone-10-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-milestone-10-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-milestone-10-wrapper.jar.sha256"
 }, {
   "version" : "8.14.3",
@@ -117,6 +126,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14.3-wrapper.jar.sha256"
 }, {
   "version" : "7.6.6",
@@ -132,6 +142,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6.6-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.6-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.6-wrapper.jar.sha256"
 }, {
   "version" : "9.0.0-rc-1",
@@ -147,6 +158,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.14.2",
@@ -162,6 +174,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14.2-wrapper.jar.sha256"
 }, {
   "version" : "7.6.5",
@@ -177,6 +190,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6.5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.5-wrapper.jar.sha256"
 }, {
   "version" : "9.0.0-milestone-9",
@@ -192,6 +206,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-milestone-9-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-milestone-9-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-milestone-9-wrapper.jar.sha256"
 }, {
   "version" : "8.14.1",
@@ -207,6 +222,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14.1-wrapper.jar.sha256"
 }, {
   "version" : "9.0.0-milestone-8",
@@ -222,6 +238,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-milestone-8-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-milestone-8-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0.0-milestone-8-wrapper.jar.sha256"
 }, {
   "version" : "9.0-milestone-7",
@@ -237,6 +254,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-7-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-7-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-7-wrapper.jar.sha256"
 }, {
   "version" : "9.0-milestone-6",
@@ -252,6 +270,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-6-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-6-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-6-wrapper.jar.sha256"
 }, {
   "version" : "9.0-milestone-5",
@@ -267,6 +286,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-5-wrapper.jar.sha256"
 }, {
   "version" : "9.0-milestone-4",
@@ -282,6 +302,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-4-wrapper.jar.sha256"
 }, {
   "version" : "8.14",
@@ -297,6 +318,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-wrapper.jar.sha256"
 }, {
   "version" : "8.14-rc-3",
@@ -312,6 +334,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "9.0-milestone-3",
@@ -327,6 +350,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-3-wrapper.jar.sha256"
 }, {
   "version" : "8.14-rc-2",
@@ -342,6 +366,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "9.0-milestone-2",
@@ -357,6 +382,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-2-wrapper.jar.sha256"
 }, {
   "version" : "9.0-milestone-1",
@@ -372,6 +398,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-9.0-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "8.14-rc-1",
@@ -387,6 +414,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.14-milestone-8",
@@ -402,6 +430,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-8-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-8-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-8-wrapper.jar.sha256"
 }, {
   "version" : "8.14-milestone-7",
@@ -417,6 +446,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-7-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-7-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-7-wrapper.jar.sha256"
 }, {
   "version" : "8.14-milestone-5",
@@ -432,6 +462,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-5-wrapper.jar.sha256"
 }, {
   "version" : "8.14-milestone-4",
@@ -447,6 +478,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-4-wrapper.jar.sha256"
 }, {
   "version" : "8.13",
@@ -462,6 +494,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.13-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-wrapper.jar.sha256"
 }, {
   "version" : "8.14-milestone-3",
@@ -477,6 +510,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-3-wrapper.jar.sha256"
 }, {
   "version" : "8.13-rc-2",
@@ -492,6 +526,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.13-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.14-milestone-2",
@@ -507,6 +542,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-2-wrapper.jar.sha256"
 }, {
   "version" : "8.14-milestone-1",
@@ -522,6 +558,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.14-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "8.13-rc-1",
@@ -537,6 +574,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.13-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.12.1",
@@ -552,6 +590,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.12.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.12.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.12.1-wrapper.jar.sha256"
 }, {
   "version" : "8.13-milestone-3",
@@ -567,6 +606,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.13-milestone-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-milestone-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-milestone-3-wrapper.jar.sha256"
 }, {
   "version" : "8.12.1-milestone-1",
@@ -582,6 +622,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.12.1-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.12.1-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.12.1-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "8.13-milestone-2",
@@ -597,6 +638,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.13-milestone-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-milestone-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-milestone-2-wrapper.jar.sha256"
 }, {
   "version" : "8.13-milestone-1",
@@ -612,6 +654,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.13-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.13-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "8.12",
@@ -627,6 +670,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.12-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.12-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.12-wrapper.jar.sha256"
 }, {
   "version" : "8.12-rc-2",
@@ -642,6 +686,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.12-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.12-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.12-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.12-rc-1",
@@ -657,6 +702,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.12-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.12-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.12-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.11.1",
@@ -672,6 +718,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.11.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.11.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.11.1-wrapper.jar.sha256"
 }, {
   "version" : "8.11",
@@ -687,6 +734,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.11-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.11-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.11-wrapper.jar.sha256"
 }, {
   "version" : "8.11-rc-3",
@@ -702,6 +750,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.11-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.11-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.11-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "8.11-rc-2",
@@ -717,6 +766,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.11-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.11-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.11-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.11-rc-1",
@@ -732,6 +782,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.11-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.11-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.11-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.11-milestone-1",
@@ -747,6 +798,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.11-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.11-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.11-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "8.10.2",
@@ -762,6 +814,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.10.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.10.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.10.2-wrapper.jar.sha256"
 }, {
   "version" : "8.10.2-milestone-1",
@@ -777,6 +830,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.10.2-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.10.2-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.10.2-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "8.10.1",
@@ -792,6 +846,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.10.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.10.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.10.1-wrapper.jar.sha256"
 }, {
   "version" : "8.10",
@@ -807,6 +862,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.10-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.10-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.10-wrapper.jar.sha256"
 }, {
   "version" : "8.10-rc-1",
@@ -822,6 +878,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.10-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.10-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.10-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.9",
@@ -837,6 +894,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.9-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.9-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.9-wrapper.jar.sha256"
 }, {
   "version" : "8.9-rc-2",
@@ -852,6 +910,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.9-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.9-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.9-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.9-rc-1",
@@ -867,6 +926,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.9-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.9-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.9-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.8",
@@ -882,6 +942,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.8-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.8-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.8-wrapper.jar.sha256"
 }, {
   "version" : "8.8-rc-2",
@@ -897,6 +958,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.8-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.8-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.8-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.8-rc-1",
@@ -912,6 +974,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.8-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.8-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.8-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.7",
@@ -927,6 +990,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.7-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.7-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.7-wrapper.jar.sha256"
 }, {
   "version" : "8.7-rc-4",
@@ -942,6 +1006,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "8.7-rc-3",
@@ -957,6 +1022,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "8.7-rc-2",
@@ -972,6 +1038,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.7-rc-1",
@@ -987,6 +1054,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.7-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "7.6.4",
@@ -1002,6 +1070,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6.4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.4-wrapper.jar.sha256"
 }, {
   "version" : "8.6",
@@ -1017,6 +1086,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.6-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-wrapper.jar.sha256"
 }, {
   "version" : "8.6-rc-4",
@@ -1032,6 +1102,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "8.6-rc-3",
@@ -1047,6 +1118,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "8.6-rc-2",
@@ -1062,6 +1134,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.6-rc-1",
@@ -1077,6 +1150,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.6-milestone-1",
@@ -1092,6 +1166,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.6-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.6-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "8.5",
@@ -1107,6 +1182,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.5-wrapper.jar.sha256"
 }, {
   "version" : "8.5-rc-4",
@@ -1122,6 +1198,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "8.5-rc-3",
@@ -1137,6 +1214,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "8.5-rc-2",
@@ -1152,6 +1230,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.5-rc-1",
@@ -1167,6 +1246,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.5-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.4",
@@ -1182,6 +1262,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.4-wrapper.jar.sha256"
 }, {
   "version" : "7.6.3",
@@ -1197,6 +1278,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.3-wrapper.jar.sha256"
 }, {
   "version" : "8.4-rc-3",
@@ -1212,6 +1294,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.4-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.4-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.4-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "8.4-rc-2",
@@ -1227,6 +1310,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.4-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.4-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.4-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.4-rc-1",
@@ -1242,6 +1326,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.4-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.4-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.4-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.3",
@@ -1257,6 +1342,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.3-wrapper.jar.sha256"
 }, {
   "version" : "8.3-rc-4",
@@ -1272,6 +1358,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "8.3-rc-3",
@@ -1287,6 +1374,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "8.3-rc-2",
@@ -1302,6 +1390,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.3-rc-1",
@@ -1317,6 +1406,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.3-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.2.1",
@@ -1332,6 +1422,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.2.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.2.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.2.1-wrapper.jar.sha256"
 }, {
   "version" : "8.2",
@@ -1347,6 +1438,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.2-wrapper.jar.sha256"
 }, {
   "version" : "7.6.2",
@@ -1362,6 +1454,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.2-wrapper.jar.sha256"
 }, {
   "version" : "8.2-rc-3",
@@ -1377,6 +1470,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.2-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.2-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.2-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "8.2-rc-2",
@@ -1392,6 +1486,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.2-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.2-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.2-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.2-rc-1",
@@ -1407,6 +1502,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.2-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.2-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.2-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.2-milestone-1",
@@ -1422,6 +1518,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.2-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.2-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.2-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "8.1.1",
@@ -1437,6 +1534,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.1.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.1.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.1.1-wrapper.jar.sha256"
 }, {
   "version" : "8.1",
@@ -1452,6 +1550,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.1-wrapper.jar.sha256"
 }, {
   "version" : "8.1-rc-4",
@@ -1467,6 +1566,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "8.1-rc-3",
@@ -1482,6 +1582,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "8.1-rc-2",
@@ -1497,6 +1598,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.1-rc-1",
@@ -1512,6 +1614,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.1-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.0.2",
@@ -1527,6 +1630,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0.2-wrapper.jar.sha256"
 }, {
   "version" : "7.6.1",
@@ -1542,6 +1646,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6.1-wrapper.jar.sha256"
 }, {
   "version" : "6.9.4",
@@ -1557,6 +1662,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.9.4-wrapper.jar.sha256"
 }, {
   "version" : "8.0.1",
@@ -1572,6 +1678,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0.1-wrapper.jar.sha256"
 }, {
   "version" : "8.0",
@@ -1587,6 +1694,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-wrapper.jar.sha256"
 }, {
   "version" : "8.0-rc-5",
@@ -1602,6 +1710,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-5-wrapper.jar.sha256"
 }, {
   "version" : "8.0-rc-4",
@@ -1617,6 +1726,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "8.0-rc-3",
@@ -1632,6 +1742,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "8.0-rc-2",
@@ -1647,6 +1758,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.0-rc-1",
@@ -1662,6 +1774,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "8.0-milestone-6",
@@ -1677,6 +1790,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-6-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-6-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-6-wrapper.jar.sha256"
 }, {
   "version" : "8.0-milestone-5",
@@ -1692,6 +1806,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-5-wrapper.jar.sha256"
 }, {
   "version" : "8.0-milestone-4",
@@ -1707,6 +1822,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-4-wrapper.jar.sha256"
 }, {
   "version" : "7.6",
@@ -1722,6 +1838,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-wrapper.jar.sha256"
 }, {
   "version" : "7.6-rc-4",
@@ -1737,6 +1854,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "7.6-rc-3",
@@ -1752,6 +1870,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "7.6-rc-2",
@@ -1767,6 +1886,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "8.0-milestone-3",
@@ -1782,6 +1902,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-3-wrapper.jar.sha256"
 }, {
   "version" : "7.6-rc-1",
@@ -1797,6 +1918,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "6.9.3",
@@ -1812,6 +1934,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.9.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.9.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.9.3-wrapper.jar.sha256"
 }, {
   "version" : "8.0-milestone-2",
@@ -1827,6 +1950,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-2-wrapper.jar.sha256"
 }, {
   "version" : "8.0-milestone-1",
@@ -1842,6 +1966,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-8.0-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "7.6-milestone-1",
@@ -1857,6 +1982,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.6-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.6-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "7.5.1",
@@ -1872,6 +1998,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.5.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.5.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.5.1-wrapper.jar.sha256"
 }, {
   "version" : "7.5",
@@ -1887,6 +2014,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-wrapper.jar.sha256"
 }, {
   "version" : "7.5-rc-5",
@@ -1902,6 +2030,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-5-wrapper.jar.sha256"
 }, {
   "version" : "7.5-rc-4",
@@ -1917,6 +2046,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "7.5-rc-3",
@@ -1932,6 +2062,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "7.5-rc-2",
@@ -1947,6 +2078,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "7.5-rc-1",
@@ -1962,6 +2094,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.5-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "7.4.2",
@@ -1977,6 +2110,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.4.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.4.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.4.2-wrapper.jar.sha256"
 }, {
   "version" : "7.4.1",
@@ -1992,6 +2126,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.4.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.4.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.4.1-wrapper.jar.sha256"
 }, {
   "version" : "7.4",
@@ -2007,6 +2142,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.4-wrapper.jar.sha256"
 }, {
   "version" : "7.4-rc-2",
@@ -2022,6 +2158,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.4-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "7.4-rc-1",
@@ -2037,6 +2174,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.4-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.4-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.4-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "7.3.3",
@@ -2052,6 +2190,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.3.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.3.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.3.3-wrapper.jar.sha256"
 }, {
   "version" : "7.3.3-rc-1",
@@ -2067,6 +2206,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.3.3-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.3.3-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.3.3-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "6.9.2",
@@ -2082,6 +2222,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.9.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.9.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.9.2-wrapper.jar.sha256"
 }, {
   "version" : "7.3.2",
@@ -2097,6 +2238,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.3.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.3.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.3.2-wrapper.jar.sha256"
 }, {
   "version" : "7.3.1",
@@ -2112,6 +2254,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.3.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.3.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.3.1-wrapper.jar.sha256"
 }, {
   "version" : "7.3",
@@ -2127,6 +2270,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-wrapper.jar.sha256"
 }, {
   "version" : "7.3-rc-5",
@@ -2142,6 +2286,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-5-wrapper.jar.sha256"
 }, {
   "version" : "7.3-rc-4",
@@ -2157,6 +2302,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "7.3-rc-3",
@@ -2172,6 +2318,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "7.3-rc-2",
@@ -2187,6 +2334,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "7.3-rc-1",
@@ -2202,6 +2350,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.3-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "6.9.1",
@@ -2217,6 +2366,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.9.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.9.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.9.1-wrapper.jar.sha256"
 }, {
   "version" : "7.2",
@@ -2232,6 +2382,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.2-wrapper.jar.sha256"
 }, {
   "version" : "7.2-rc-3",
@@ -2247,6 +2398,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.2-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.2-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.2-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "7.2-rc-2",
@@ -2262,6 +2414,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.2-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.2-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.2-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "7.2-rc-1",
@@ -2277,6 +2430,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.2-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.2-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.2-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "7.1.1",
@@ -2292,6 +2446,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.1.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.1.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.1.1-wrapper.jar.sha256"
 }, {
   "version" : "7.1",
@@ -2307,6 +2462,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.1-wrapper.jar.sha256"
 }, {
   "version" : "7.1-rc-2",
@@ -2322,6 +2478,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.1-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.1-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.1-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "7.1-rc-1",
@@ -2337,6 +2494,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.1-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.1-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.1-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "7.0.2",
@@ -2352,6 +2510,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.0.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.0.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.0.2-wrapper.jar.sha256"
 }, {
   "version" : "7.0.1",
@@ -2367,6 +2526,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.0.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.0.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.0.1-wrapper.jar.sha256"
 }, {
   "version" : "6.9",
@@ -2382,6 +2542,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.9-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.9-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.9-wrapper.jar.sha256"
 }, {
   "version" : "6.9-rc-2",
@@ -2397,6 +2558,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.9-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.9-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.9-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "6.9-rc-1",
@@ -2412,6 +2574,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.9-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.9-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.9-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "7.0",
@@ -2427,6 +2590,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.0-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-wrapper.jar.sha256"
 }, {
   "version" : "7.0-rc-2",
@@ -2442,6 +2606,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.0-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "7.0-rc-1",
@@ -2457,6 +2622,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.0-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "7.0-milestone-3",
@@ -2472,6 +2638,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.0-milestone-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-milestone-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-milestone-3-wrapper.jar.sha256"
 }, {
   "version" : "7.0-milestone-2",
@@ -2487,6 +2654,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.0-milestone-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-milestone-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-milestone-2-wrapper.jar.sha256"
 }, {
   "version" : "6.8.3",
@@ -2502,6 +2670,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.8.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.8.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.8.3-wrapper.jar.sha256"
 }, {
   "version" : "6.8.2",
@@ -2517,6 +2686,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.8.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.8.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.8.2-wrapper.jar.sha256"
 }, {
   "version" : "7.0-milestone-1",
@@ -2532,6 +2702,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-7.0-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-7.0-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "6.8.1",
@@ -2547,6 +2718,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.8.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.8.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.8.1-wrapper.jar.sha256"
 }, {
   "version" : "6.8",
@@ -2562,6 +2734,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.8-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-wrapper.jar.sha256"
 }, {
   "version" : "6.8-rc-5",
@@ -2577,6 +2750,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-5-wrapper.jar.sha256"
 }, {
   "version" : "6.8-rc-4",
@@ -2592,6 +2766,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "6.8-rc-3",
@@ -2607,6 +2782,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "6.8-rc-1",
@@ -2622,6 +2798,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "6.7.1",
@@ -2637,6 +2814,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.7.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.7.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.7.1-wrapper.jar.sha256"
 }, {
   "version" : "6.8-milestone-3",
@@ -2652,6 +2830,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.8-milestone-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-milestone-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-milestone-3-wrapper.jar.sha256"
 }, {
   "version" : "6.8-milestone-2",
@@ -2667,6 +2846,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.8-milestone-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-milestone-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-milestone-2-wrapper.jar.sha256"
 }, {
   "version" : "6.7",
@@ -2682,6 +2862,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.7-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-wrapper.jar.sha256"
 }, {
   "version" : "6.8-milestone-1",
@@ -2697,6 +2878,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.8-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.8-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "6.7-rc-5",
@@ -2712,6 +2894,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-5-wrapper.jar.sha256"
 }, {
   "version" : "6.7-rc-4",
@@ -2727,6 +2910,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "6.7-rc-3",
@@ -2742,6 +2926,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "6.7-rc-2",
@@ -2757,6 +2942,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "6.7-rc-1",
@@ -2772,6 +2958,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.7-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "6.6.1",
@@ -2787,6 +2974,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.6.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.6.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.6.1-wrapper.jar.sha256"
 }, {
   "version" : "6.6",
@@ -2802,6 +2990,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.6-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-wrapper.jar.sha256"
 }, {
   "version" : "6.6-rc-6",
@@ -2817,6 +3006,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-6-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-6-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-6-wrapper.jar.sha256"
 }, {
   "version" : "6.6-rc-5",
@@ -2832,6 +3022,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-5-wrapper.jar.sha256"
 }, {
   "version" : "6.6-rc-4",
@@ -2847,6 +3038,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "6.6-rc-3",
@@ -2862,6 +3054,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "6.6-rc-2",
@@ -2877,6 +3070,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "6.6-rc-1",
@@ -2892,6 +3086,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "6.6-milestone-3",
@@ -2907,6 +3102,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.6-milestone-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-milestone-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-milestone-3-wrapper.jar.sha256"
 }, {
   "version" : "6.5.1",
@@ -2922,6 +3118,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.5.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.5.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.5.1-wrapper.jar.sha256"
 }, {
   "version" : "6.6-milestone-2",
@@ -2937,6 +3134,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.6-milestone-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-milestone-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-milestone-2-wrapper.jar.sha256"
 }, {
   "version" : "6.6-milestone-1",
@@ -2952,6 +3150,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.6-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.6-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "6.5",
@@ -2967,6 +3166,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.5-wrapper.jar.sha256"
 }, {
   "version" : "6.5-rc-1",
@@ -2982,6 +3182,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.5-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.5-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.5-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "6.4.1",
@@ -2997,6 +3198,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.4.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.4.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.4.1-wrapper.jar.sha256"
 }, {
   "version" : "6.5-milestone-2",
@@ -3012,6 +3214,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.5-milestone-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.5-milestone-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.5-milestone-2-wrapper.jar.sha256"
 }, {
   "version" : "6.5-milestone-1",
@@ -3027,6 +3230,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.5-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.5-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.5-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "6.4",
@@ -3042,6 +3246,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.4-wrapper.jar.sha256"
 }, {
   "version" : "6.4-rc-4",
@@ -3057,6 +3262,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "6.4-rc-3",
@@ -3072,6 +3278,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "6.4-rc-2",
@@ -3087,6 +3294,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "6.4-rc-1",
@@ -3102,6 +3310,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.4-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "6.3",
@@ -3117,6 +3326,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.3-wrapper.jar.sha256"
 }, {
   "version" : "6.3-rc-4",
@@ -3132,6 +3342,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "6.3-rc-3",
@@ -3147,6 +3358,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "6.3-rc-2",
@@ -3162,6 +3374,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "6.3-rc-1",
@@ -3177,6 +3390,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.3-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "6.2.2",
@@ -3192,6 +3406,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.2.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.2.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.2.2-wrapper.jar.sha256"
 }, {
   "version" : "6.2.1",
@@ -3207,6 +3422,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.2.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.2.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.2.1-wrapper.jar.sha256"
 }, {
   "version" : "6.2",
@@ -3222,6 +3438,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.2-wrapper.jar.sha256"
 }, {
   "version" : "6.2-rc-3",
@@ -3237,6 +3454,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.2-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.2-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.2-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "6.2-rc-2",
@@ -3252,6 +3470,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.2-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.2-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.2-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "6.2-rc-1",
@@ -3267,6 +3486,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.2-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.2-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.2-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "6.1.1",
@@ -3282,6 +3502,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.1.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.1.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.1.1-wrapper.jar.sha256"
 }, {
   "version" : "6.1",
@@ -3297,6 +3518,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-wrapper.jar.sha256"
 }, {
   "version" : "6.1-rc-3",
@@ -3312,6 +3534,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.1-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "6.1-rc-2",
@@ -3327,6 +3550,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.1-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "6.1-rc-1",
@@ -3342,6 +3566,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.1-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "6.1-milestone-3",
@@ -3357,6 +3582,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.1-milestone-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-milestone-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-milestone-3-wrapper.jar.sha256"
 }, {
   "version" : "6.1-milestone-2",
@@ -3372,6 +3598,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.1-milestone-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-milestone-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-milestone-2-wrapper.jar.sha256"
 }, {
   "version" : "6.1-milestone-1",
@@ -3387,6 +3614,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.1-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.1-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "6.0.1",
@@ -3402,6 +3630,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.0.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.0.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.0.1-wrapper.jar.sha256"
 }, {
   "version" : "6.0",
@@ -3417,6 +3646,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.0-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.0-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.0-wrapper.jar.sha256"
 }, {
   "version" : "6.0-rc-3",
@@ -3432,6 +3662,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.0-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.0-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.0-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "5.6.4",
@@ -3447,6 +3678,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.6.4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.6.4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.6.4-wrapper.jar.sha256"
 }, {
   "version" : "6.0-rc-2",
@@ -3462,6 +3694,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.0-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.0-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.0-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "6.0-rc-1",
@@ -3477,6 +3710,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-6.0-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-6.0-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-6.0-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "5.6.3",
@@ -3492,6 +3726,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.6.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.6.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.6.3-wrapper.jar.sha256"
 }, {
   "version" : "5.6.2",
@@ -3507,6 +3742,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.6.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.6.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.6.2-wrapper.jar.sha256"
 }, {
   "version" : "5.6.1",
@@ -3522,6 +3758,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.6.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.6.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.6.1-wrapper.jar.sha256"
 }, {
   "version" : "5.6",
@@ -3537,6 +3774,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.6-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.6-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.6-wrapper.jar.sha256"
 }, {
   "version" : "5.6-rc-2",
@@ -3552,6 +3790,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.6-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.6-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.6-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "5.6-rc-1",
@@ -3567,6 +3806,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.6-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.6-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.6-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "5.5.1",
@@ -3582,6 +3822,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.5.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.5.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.5.1-wrapper.jar.sha256"
 }, {
   "version" : "5.5",
@@ -3597,6 +3838,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.5-wrapper.jar.sha256"
 }, {
   "version" : "5.5-rc-4",
@@ -3612,6 +3854,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-4-wrapper.jar.sha256"
 }, {
   "version" : "5.5-rc-3",
@@ -3627,6 +3870,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "5.5-rc-2",
@@ -3642,6 +3886,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "5.5-rc-1",
@@ -3657,6 +3902,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.5-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "5.4.1",
@@ -3672,6 +3918,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.4.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.4.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.4.1-wrapper.jar.sha256"
 }, {
   "version" : "5.4",
@@ -3687,6 +3934,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.4-wrapper.jar.sha256"
 }, {
   "version" : "5.4-rc-1",
@@ -3702,6 +3950,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.4-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.4-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.4-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "5.3.1",
@@ -3717,6 +3966,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.3.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.3.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.3.1-wrapper.jar.sha256"
 }, {
   "version" : "5.3",
@@ -3732,6 +3982,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.3-wrapper.jar.sha256"
 }, {
   "version" : "5.3-rc-3",
@@ -3747,6 +3998,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.3-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.3-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.3-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "5.3-rc-2",
@@ -3762,6 +4014,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.3-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.3-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.3-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "5.3-rc-1",
@@ -3777,6 +4030,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.3-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.3-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.3-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "5.2.1",
@@ -3792,6 +4046,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.2.1-wrapper.jar.sha256"
 }, {
   "version" : "5.2",
@@ -3807,6 +4062,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.2-wrapper.jar.sha256"
 }, {
   "version" : "5.2-rc-1",
@@ -3822,6 +4078,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.2-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.2-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.2-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "5.1.1",
@@ -3837,6 +4094,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.1.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.1.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.1.1-wrapper.jar.sha256"
 }, {
   "version" : "5.1",
@@ -3852,6 +4110,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.1-wrapper.jar.sha256"
 }, {
   "version" : "5.1-rc-3",
@@ -3867,6 +4126,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.1-rc-3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.1-rc-3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.1-rc-3-wrapper.jar.sha256"
 }, {
   "version" : "5.1-rc-2",
@@ -3882,6 +4142,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.1-rc-2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.1-rc-2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.1-rc-2-wrapper.jar.sha256"
 }, {
   "version" : "5.1-rc-1",
@@ -3897,6 +4158,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.1-rc-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.1-rc-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.1-rc-1-wrapper.jar.sha256"
 }, {
   "version" : "4.10.3",
@@ -3912,6 +4174,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.10.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.10.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.10.3-wrapper.jar.sha256"
 }, {
   "version" : "5.1-milestone-1",
@@ -3927,6 +4190,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.1-milestone-1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.1-milestone-1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.1-milestone-1-wrapper.jar.sha256"
 }, {
   "version" : "5.0",
@@ -3942,6 +4206,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.0-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-wrapper.jar.sha256"
 }, {
   "version" : "5.0-rc-5",
@@ -3956,7 +4221,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-5-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-5-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-5-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "5.0-rc-4",
   "buildTime" : "20181120092642+0000",
@@ -3970,7 +4236,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-4-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-4-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-4-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "5.0-rc-3",
   "buildTime" : "20181114160147+0000",
@@ -3984,7 +4251,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "5.0-rc-2",
   "buildTime" : "20181112080541+0000",
@@ -3998,7 +4266,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "5.0-rc-1",
   "buildTime" : "20181030135922+0000",
@@ -4012,7 +4281,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "5.0-milestone-1",
   "buildTime" : "20181002224615+0000",
@@ -4026,7 +4296,8 @@
   "milestoneFor" : "5.0",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-5.0-milestone-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-milestone-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-5.0-milestone-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.10.2",
   "buildTime" : "20180919181015+0000",
@@ -4041,6 +4312,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.10.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.10.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.10.2-wrapper.jar.sha256"
 }, {
   "version" : "4.10.1",
@@ -4056,6 +4328,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.10.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.10.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.10.1-wrapper.jar.sha256"
 }, {
   "version" : "4.10",
@@ -4071,6 +4344,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.10-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.10-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.10-wrapper.jar.sha256"
 }, {
   "version" : "4.10-rc-3",
@@ -4085,7 +4359,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.10-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.10-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.10-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.10-rc-2",
   "buildTime" : "20180814180001+0000",
@@ -4099,7 +4374,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.10-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.10-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.10-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.10-rc-1",
   "buildTime" : "20180809061937+0000",
@@ -4113,7 +4389,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.10-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.10-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.10-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.9",
   "buildTime" : "20180716081403+0000",
@@ -4128,6 +4405,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.9-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.9-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.9-wrapper.jar.sha256"
 }, {
   "version" : "4.9-rc-2",
@@ -4142,7 +4420,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.9-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.9-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.9-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.9-rc-1",
   "buildTime" : "20180703131446+0000",
@@ -4156,7 +4435,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.9-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.9-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.9-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.8.1",
   "buildTime" : "20180621075306+0000",
@@ -4171,6 +4451,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.8.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.8.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.8.1-wrapper.jar.sha256"
 }, {
   "version" : "4.8",
@@ -4186,6 +4467,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.8-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.8-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.8-wrapper.jar.sha256"
 }, {
   "version" : "4.8-rc-3",
@@ -4200,7 +4482,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.8-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.8-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.8-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.8-rc-2",
   "buildTime" : "20180524092821+0000",
@@ -4214,7 +4497,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.8-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.8-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.8-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.8-rc-1",
   "buildTime" : "20180515173233+0000",
@@ -4228,7 +4512,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.8-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.8-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.8-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.7",
   "buildTime" : "20180418090912+0000",
@@ -4243,6 +4528,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.7-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.7-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.7-wrapper.jar.sha256"
 }, {
   "version" : "4.7-rc-2",
@@ -4257,7 +4543,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.7-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.7-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.7-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.7-rc-1",
   "buildTime" : "20180403113602+0000",
@@ -4271,7 +4558,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.7-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.7-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.7-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.6",
   "buildTime" : "20180228133636+0000",
@@ -4286,6 +4574,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.6-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.6-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.6-wrapper.jar.sha256"
 }, {
   "version" : "4.6-rc-2",
@@ -4300,7 +4589,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.6-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.6-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.6-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.6-rc-1",
   "buildTime" : "20180216162807+0000",
@@ -4314,7 +4604,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.6-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.6-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.6-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.5.1",
   "buildTime" : "20180205132249+0000",
@@ -4329,6 +4620,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.5.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.5.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.5.1-wrapper.jar.sha256"
 }, {
   "version" : "4.5",
@@ -4344,6 +4636,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.5-wrapper.jar.sha256"
 }, {
   "version" : "4.5-rc-2",
@@ -4358,7 +4651,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.5-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.5-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.5-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.5-rc-1",
   "buildTime" : "20180109010527+0000",
@@ -4372,7 +4666,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.5-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.5-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.5-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.4.1",
   "buildTime" : "20171220154523+0000",
@@ -4387,6 +4682,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.4.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.4.1-wrapper.jar.sha256"
 }, {
   "version" : "4.4",
@@ -4402,6 +4698,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-wrapper.jar.sha256"
 }, {
   "version" : "4.4-rc-6",
@@ -4416,7 +4713,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-6-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-6-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-6-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.4-rc-5",
   "buildTime" : "20171130152137+0000",
@@ -4430,7 +4728,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-5-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-5-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-5-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.4-rc-4",
   "buildTime" : "20171128123659+0000",
@@ -4444,7 +4743,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-4-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-4-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-4-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.4-rc-3",
   "buildTime" : "20171127103138+0000",
@@ -4458,7 +4758,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.4-rc-2",
   "buildTime" : "20171124103528+0000",
@@ -4472,7 +4773,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.4-rc-1",
   "buildTime" : "20171121153105+0000",
@@ -4486,7 +4788,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.4-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.3.1",
   "buildTime" : "20171108085945+0000",
@@ -4501,6 +4804,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.3.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.3.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.3.1-wrapper.jar.sha256"
 }, {
   "version" : "4.3",
@@ -4516,6 +4820,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.3-wrapper.jar.sha256"
 }, {
   "version" : "4.3-rc-4",
@@ -4530,7 +4835,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-4-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-4-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-4-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.3-rc-3",
   "buildTime" : "20171024142633+0000",
@@ -4544,7 +4850,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.3-rc-2",
   "buildTime" : "20171018073714+0000",
@@ -4558,7 +4865,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.3-rc-1",
   "buildTime" : "20171012161416+0000",
@@ -4572,7 +4880,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.3-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.2.1",
   "buildTime" : "20171002153621+0000",
@@ -4587,6 +4896,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.2.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.2.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.2.1-wrapper.jar.sha256"
 }, {
   "version" : "4.2",
@@ -4602,6 +4912,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.2-wrapper.jar.sha256"
 }, {
   "version" : "4.2-rc-2",
@@ -4616,7 +4927,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.2-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.2-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.2-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.2-rc-1",
   "buildTime" : "20170907081216+0000",
@@ -4630,7 +4942,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.2-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.2-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.2-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.1",
   "buildTime" : "20170807143848+0000",
@@ -4645,6 +4958,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-4.1-wrapper.jar.sha256"
 }, {
   "version" : "4.1-rc-2",
@@ -4659,7 +4973,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.1-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.1-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.1-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.0.2",
   "buildTime" : "20170726161918+0000",
@@ -4673,7 +4988,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.0.2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0.2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0.2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.1-rc-1",
   "buildTime" : "20170720152215+0000",
@@ -4687,7 +5003,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.1-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.1-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.1-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.0.1",
   "buildTime" : "20170707140241+0000",
@@ -4701,7 +5018,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.0.1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0.1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0.1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.1-milestone-1",
   "buildTime" : "20170620170546+0000",
@@ -4715,7 +5033,8 @@
   "milestoneFor" : "4.1",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.1-milestone-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.1-milestone-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.1-milestone-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.5.1",
   "buildTime" : "20170616143627+0000",
@@ -4729,7 +5048,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.5.1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.5.1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.5.1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.0",
   "buildTime" : "20170614151108+0000",
@@ -4743,7 +5063,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.0-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.0-rc-3",
   "buildTime" : "20170612150444+0000",
@@ -4757,7 +5078,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.0-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.0-rc-2",
   "buildTime" : "20170607152236+0000",
@@ -4771,7 +5093,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.0-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.0-rc-1",
   "buildTime" : "20170530162617+0000",
@@ -4785,7 +5108,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.0-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.0-milestone-2",
   "buildTime" : "20170517143324+0000",
@@ -4799,7 +5123,8 @@
   "milestoneFor" : "4.0",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.0-milestone-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-milestone-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-milestone-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "4.0-milestone-1",
   "buildTime" : "20170428074509+0000",
@@ -4813,7 +5138,8 @@
   "milestoneFor" : "4.0",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-4.0-milestone-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-milestone-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-4.0-milestone-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.5",
   "buildTime" : "20170410133725+0000",
@@ -4827,7 +5153,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.5-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.5-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.5-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.5-rc-3",
   "buildTime" : "20170404150413+0000",
@@ -4841,7 +5168,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.5-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.5-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.5-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.5-rc-2",
   "buildTime" : "20170327155623+0000",
@@ -4855,7 +5183,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.5-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.5-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.5-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.5-rc-1",
   "buildTime" : "20170322151607+0000",
@@ -4869,7 +5198,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.5-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.5-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.5-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.4.1",
   "buildTime" : "20170303194541+0000",
@@ -4883,7 +5213,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.4.1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.4.1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.4.1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.4",
   "buildTime" : "20170220144926+0000",
@@ -4897,7 +5228,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.4-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.4-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.4-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.4-rc-3",
   "buildTime" : "20170213145527+0000",
@@ -4911,7 +5243,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.4-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.4-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.4-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.4-rc-2",
   "buildTime" : "20170206211728+0000",
@@ -4925,7 +5258,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.4-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.4-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.4-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.4-rc-1",
   "buildTime" : "20170126154849+0000",
@@ -4939,7 +5273,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.4-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.4-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.4-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.3",
   "buildTime" : "20170103153104+0000",
@@ -4953,7 +5288,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.3-rc-1",
   "buildTime" : "20161219160724+0000",
@@ -4967,7 +5303,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.3-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.3-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.3-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.2.1",
   "buildTime" : "20161122151954+0000",
@@ -4982,6 +5319,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.2.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.2.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-3.2.1-wrapper.jar.sha256"
 }, {
   "version" : "3.2",
@@ -4997,6 +5335,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-3.2-wrapper.jar.sha256"
 }, {
   "version" : "3.2-rc-3",
@@ -5011,7 +5350,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.2-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.2-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.2-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.2-rc-2",
   "buildTime" : "20161031160822+0000",
@@ -5025,7 +5365,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.2-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.2-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.2-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.2-rc-1",
   "buildTime" : "20161024194725+0000",
@@ -5039,7 +5380,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.2-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.2-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.2-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.1",
   "buildTime" : "20160919105353+0000",
@@ -5054,6 +5396,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-3.1-wrapper.jar.sha256"
 }, {
   "version" : "3.1-rc-1",
@@ -5068,7 +5411,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.1-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.1-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.1-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.0",
   "buildTime" : "20160815131501+0000",
@@ -5083,6 +5427,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.0-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.0-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-3.0-wrapper.jar.sha256"
 }, {
   "version" : "3.0-rc-2",
@@ -5097,7 +5442,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.0-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.0-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.0-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.0-rc-1",
   "buildTime" : "20160802061335+0000",
@@ -5111,7 +5457,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.0-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.0-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.0-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.14.1",
   "buildTime" : "20160718063837+0000",
@@ -5126,6 +5473,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.14.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.14.1-wrapper.jar.sha256"
 }, {
   "version" : "2.14.1-rc-2",
@@ -5140,7 +5488,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.14.1-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14.1-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14.1-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.14.1-rc-1",
   "buildTime" : "20160629051303+0000",
@@ -5154,7 +5503,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.14.1-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14.1-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14.1-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.0-milestone-2",
   "buildTime" : "20160621224128+0000",
@@ -5168,7 +5518,8 @@
   "milestoneFor" : "3.0",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.0-milestone-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.0-milestone-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.0-milestone-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.14",
   "buildTime" : "20160614071637+0000",
@@ -5183,6 +5534,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.14-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-wrapper.jar.sha256"
 }, {
   "version" : "2.14-rc-6",
@@ -5197,7 +5549,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-6-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-6-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-6-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "3.0-milestone-1",
   "buildTime" : "20160608013148+0000",
@@ -5211,7 +5564,8 @@
   "milestoneFor" : "3.0",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-3.0-milestone-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.0-milestone-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-3.0-milestone-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.14-rc-5",
   "buildTime" : "20160607135817+0000",
@@ -5225,7 +5579,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-5-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-5-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-5-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.14-rc-4",
   "buildTime" : "20160603110827+0000",
@@ -5239,7 +5594,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-4-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-4-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-4-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.14-rc-3",
   "buildTime" : "20160530112111+0000",
@@ -5253,7 +5609,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.14-rc-2",
   "buildTime" : "20160527175624+0000",
@@ -5267,7 +5624,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.14-rc-1",
   "buildTime" : "20160518093824+0000",
@@ -5281,7 +5639,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.14-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.13",
   "buildTime" : "20160425041010+0000",
@@ -5296,6 +5655,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.13-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.13-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.13-wrapper.jar.sha256"
 }, {
   "version" : "2.13-rc-2",
@@ -5310,7 +5670,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.13-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.13-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.13-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.13-rc-1",
   "buildTime" : "20160406110211+0000",
@@ -5324,7 +5685,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.13-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.13-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.13-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.12",
   "buildTime" : "20160314083203+0000",
@@ -5339,6 +5701,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.12-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.12-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.12-wrapper.jar.sha256"
 }, {
   "version" : "2.12-rc-1",
@@ -5353,7 +5716,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.12-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.12-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.12-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.11",
   "buildTime" : "20160208075916+0000",
@@ -5368,6 +5732,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.11-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.11-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.11-wrapper.jar.sha256"
 }, {
   "version" : "2.11-rc-3",
@@ -5382,7 +5747,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.11-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.11-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.11-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.11-rc-2",
   "buildTime" : "20160202162431+0000",
@@ -5396,7 +5762,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.11-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.11-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.11-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.11-rc-1",
   "buildTime" : "20160120084154+0000",
@@ -5410,7 +5777,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.11-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.11-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.11-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.10",
   "buildTime" : "20151221211504+0000",
@@ -5425,6 +5793,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.10-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.10-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.10-wrapper.jar.sha256"
 }, {
   "version" : "2.10-rc-2",
@@ -5439,7 +5808,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.10-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.10-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.10-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.10-rc-1",
   "buildTime" : "20151208224811+0000",
@@ -5453,7 +5823,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.10-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.10-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.10-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.9",
   "buildTime" : "20151117070217+0000",
@@ -5468,6 +5839,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.9-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.9-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.9-wrapper.jar.sha256"
 }, {
   "version" : "2.9-rc-1",
@@ -5482,7 +5854,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.9-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.9-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.9-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.8",
   "buildTime" : "20151020034636+0000",
@@ -5497,6 +5870,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.8-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.8-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.8-wrapper.jar.sha256"
 }, {
   "version" : "2.8-rc-2",
@@ -5511,7 +5885,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.8-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.8-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.8-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.8-rc-1",
   "buildTime" : "20150930171102+0000",
@@ -5525,7 +5900,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.8-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.8-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.8-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.7",
   "buildTime" : "20150914072616+0000",
@@ -5540,6 +5916,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.7-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.7-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.7-wrapper.jar.sha256"
 }, {
   "version" : "2.7-rc-2",
@@ -5554,7 +5931,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.7-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.7-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.7-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.7-rc-1",
   "buildTime" : "20150828140928+0000",
@@ -5568,7 +5946,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.7-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.7-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.7-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.6",
   "buildTime" : "20150810131506+0000",
@@ -5583,6 +5962,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.6-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.6-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.6-wrapper.jar.sha256"
 }, {
   "version" : "2.6-rc-2",
@@ -5597,7 +5977,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.6-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.6-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.6-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.6-rc-1",
   "buildTime" : "20150728171643+0000",
@@ -5611,7 +5992,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.6-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.6-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.6-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.5",
   "buildTime" : "20150708073837+0000",
@@ -5626,6 +6008,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.5-wrapper.jar.sha256"
 }, {
   "version" : "2.5-rc-2",
@@ -5640,7 +6023,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.5-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.5-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.5-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.5-rc-1",
   "buildTime" : "20150623180452+0000",
@@ -5654,7 +6038,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.5-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.5-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.5-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.4",
   "buildTime" : "20150505080924+0000",
@@ -5669,6 +6054,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.4-wrapper.jar.sha256"
 }, {
   "version" : "2.4-rc-2",
@@ -5683,7 +6069,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.4-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.4-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.4-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.4-rc-1",
   "buildTime" : "20150423031523+0000",
@@ -5697,7 +6084,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.4-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.4-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.4-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.3",
   "buildTime" : "20150216050933+0000",
@@ -5712,6 +6100,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.3-wrapper.jar.sha256"
 }, {
   "version" : "2.3-rc-4",
@@ -5726,7 +6115,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-4-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-4-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-4-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.3-rc-3",
   "buildTime" : "20150208183759+0000",
@@ -5740,7 +6130,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.3-rc-2",
   "buildTime" : "20150204105413+0000",
@@ -5754,7 +6145,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.3-rc-1",
   "buildTime" : "20150127140232+0000",
@@ -5768,7 +6160,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.3-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.2.1",
   "buildTime" : "20141124094535+0000",
@@ -5783,6 +6176,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.2.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.2.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.2.1-wrapper.jar.sha256"
 }, {
   "version" : "2.2.1-rc-1",
@@ -5797,7 +6191,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.2.1-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.2.1-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.2.1-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.2",
   "buildTime" : "20141110133144+0000",
@@ -5812,6 +6207,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.2-wrapper.jar.sha256"
 }, {
   "version" : "2.2-rc-2",
@@ -5826,7 +6222,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.2-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.2-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.2-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.2-rc-1",
   "buildTime" : "20141020163257+0000",
@@ -5840,7 +6237,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.2-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.2-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.2-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.1",
   "buildTime" : "20140908104039+0000",
@@ -5855,6 +6253,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.1-wrapper.jar.sha256"
 }, {
   "version" : "2.1-rc-4",
@@ -5869,7 +6268,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-4-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-4-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-4-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.1-rc-3",
   "buildTime" : "20140901103549+0000",
@@ -5883,7 +6283,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.1-rc-2",
   "buildTime" : "20140828023229+0000",
@@ -5897,7 +6298,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.1-rc-1",
   "buildTime" : "20140819194409+0000",
@@ -5911,7 +6313,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.1-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.0",
   "buildTime" : "20140701074534+0000",
@@ -5926,6 +6329,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.0-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.0-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-2.0-wrapper.jar.sha256"
 }, {
   "version" : "2.0-rc-2",
@@ -5940,7 +6344,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.0-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.0-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.0-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "2.0-rc-1",
   "buildTime" : "20140606070241+0000",
@@ -5954,7 +6359,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-2.0-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.0-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-2.0-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.12",
   "buildTime" : "20140429092431+0000",
@@ -5969,6 +6375,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.12-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.12-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.12-wrapper.jar.sha256"
 }, {
   "version" : "1.12-rc-2",
@@ -5983,7 +6390,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.12-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.12-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.12-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.12-rc-1",
   "buildTime" : "20140416084626+0000",
@@ -5997,7 +6405,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.12-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.12-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.12-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.11",
   "buildTime" : "20140211113439+0000",
@@ -6012,6 +6421,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.11-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.11-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.11-wrapper.jar.sha256"
 }, {
   "version" : "1.11-rc-1",
@@ -6026,7 +6436,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.11-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.11-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.11-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.10",
   "buildTime" : "20131217092815+0000",
@@ -6041,6 +6452,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.10-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.10-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.10-wrapper.jar.sha256"
 }, {
   "version" : "1.10-rc-2",
@@ -6055,7 +6467,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.10-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.10-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.10-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.10-rc-1",
   "buildTime" : "20131204154128+0000",
@@ -6069,7 +6482,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.10-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.10-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.10-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.9",
   "buildTime" : "20131119082002+0000",
@@ -6084,6 +6498,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.9-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.9-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.9-wrapper.jar.sha256"
 }, {
   "version" : "1.9-rc-4",
@@ -6098,7 +6513,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-4-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-4-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-4-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.9-rc-3",
   "buildTime" : "20131107122642+0000",
@@ -6112,7 +6528,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.9-rc-2",
   "buildTime" : "20131028093320+0000",
@@ -6126,7 +6543,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.9-rc-1",
   "buildTime" : "20131023094618+0000",
@@ -6140,7 +6558,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.9-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.8",
   "buildTime" : "20130924073233+0000",
@@ -6155,6 +6574,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.8-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.8-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.8-wrapper.jar.sha256"
 }, {
   "version" : "1.8-rc-2",
@@ -6169,7 +6589,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.8-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.8-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.8-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.8-rc-1",
   "buildTime" : "20130910130452+0000",
@@ -6183,7 +6604,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.8-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.8-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.8-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.7",
   "buildTime" : "20130806111956+0000",
@@ -6198,6 +6620,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.7-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.7-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.7-wrapper.jar.sha256"
 }, {
   "version" : "1.7-rc-2",
@@ -6212,7 +6635,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.7-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.7-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.7-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.7-rc-1",
   "buildTime" : "20130702145630+0000",
@@ -6226,7 +6650,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.7-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.7-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.7-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.6",
   "buildTime" : "20130507091214+0000",
@@ -6241,6 +6666,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.6-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.6-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.6-wrapper.jar.sha256"
 }, {
   "version" : "1.6-rc-1",
@@ -6255,7 +6681,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.6-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.6-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.6-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.5",
   "buildTime" : "20130327140935+0000",
@@ -6270,6 +6697,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.5-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.5-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.5-wrapper.jar.sha256"
 }, {
   "version" : "1.5-rc-3",
@@ -6284,7 +6712,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.5-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.5-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.5-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.5-rc-2",
   "buildTime" : "20130317011516+0000",
@@ -6298,7 +6727,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.5-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.5-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.5-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.5-rc-1",
   "buildTime" : "20130311120320+0000",
@@ -6312,7 +6742,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.5-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.5-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.5-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.4",
   "buildTime" : "20130128034246+0000",
@@ -6327,6 +6758,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.4-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.4-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.4-wrapper.jar.sha256"
 }, {
   "version" : "1.4-rc-3",
@@ -6341,7 +6773,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.4-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.4-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.4-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.4-rc-2",
   "buildTime" : "20130122030632+0000",
@@ -6355,7 +6788,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.4-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.4-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.4-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.4-rc-1",
   "buildTime" : "20130117001257+0000",
@@ -6369,7 +6803,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.4-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.4-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.4-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.3",
   "buildTime" : "20121120113738+0000",
@@ -6384,6 +6819,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.3-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.3-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.3-wrapper.jar.sha256"
 }, {
   "version" : "1.3-rc-2",
@@ -6398,7 +6834,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.3-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.3-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.3-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.3-rc-1",
   "buildTime" : "20121112135252+0000",
@@ -6412,7 +6849,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.3-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.3-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.3-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.2",
   "buildTime" : "20120912104602+0000",
@@ -6427,6 +6865,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.2-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.2-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.2-wrapper.jar.sha256"
 }, {
   "version" : "1.2-rc-1",
@@ -6441,7 +6880,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.2-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.2-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.2-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.1",
   "buildTime" : "20120731132432+0000",
@@ -6456,6 +6896,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.1-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.1-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.1-wrapper.jar.sha256"
 }, {
   "version" : "1.1-rc-2",
@@ -6470,7 +6911,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.1-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.1-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.1-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.1-rc-1",
   "buildTime" : "20120724134404+0000",
@@ -6484,7 +6926,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.1-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.1-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.1-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0",
   "buildTime" : "20120612025621+0200",
@@ -6499,6 +6942,7 @@
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-bin.zip",
   "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-bin.zip.sha256",
+  "checksum" : "",
   "wrapperChecksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-wrapper.jar.sha256"
 }, {
   "version" : "1.0-rc-3",
@@ -6513,7 +6957,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-rc-2",
   "buildTime" : "20120425015237+0200",
@@ -6527,7 +6972,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-rc-1",
   "buildTime" : "20120411121324+0100",
@@ -6541,7 +6987,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-milestone-9",
   "buildTime" : "20120313171009+0100",
@@ -6555,7 +7002,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-9-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-9-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-9-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-milestone-8a",
   "buildTime" : "20120220185357+0100",
@@ -6569,7 +7017,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-8a-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-8a-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-8a-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-milestone-8",
   "buildTime" : "20120214022451+0100",
@@ -6583,7 +7032,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-8-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-8-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-8-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-milestone-7",
   "buildTime" : "20120105102443+0000",
@@ -6597,7 +7047,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-7-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-7-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-7-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-milestone-6",
   "buildTime" : "20111117065412+0100",
@@ -6611,7 +7062,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-6-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-6-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-6-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-milestone-5",
   "buildTime" : "20111025055608+0200",
@@ -6625,7 +7077,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-5-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-5-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-5-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-milestone-4",
   "buildTime" : "20110728103822+0200",
@@ -6639,7 +7092,8 @@
   "milestoneFor" : "",
   "broken" : true,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-4-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-4-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-4-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-milestone-3",
   "buildTime" : "20110425174011+1000",
@@ -6653,7 +7107,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-milestone-2",
   "buildTime" : "20110407163255+1000",
@@ -6667,7 +7122,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "1.0-milestone-1",
   "buildTime" : "20110227141320+1100",
@@ -6681,7 +7137,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-1.0-milestone-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "0.9.2",
   "buildTime" : "20110123133421+1100",
@@ -6695,7 +7152,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-0.9.2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9.2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9.2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "0.9.1",
   "buildTime" : "20110102114057+1100",
@@ -6709,7 +7167,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-0.9.1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9.1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9.1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "0.9",
   "buildTime" : "20101219125006+1100",
@@ -6723,7 +7182,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-0.9-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "0.9-rc-3",
   "buildTime" : "20101120131750+1100",
@@ -6737,7 +7197,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-0.9-rc-3-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9-rc-3-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9-rc-3-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "0.9-rc-2",
   "buildTime" : "20101027082405+1100",
@@ -6751,7 +7212,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-0.9-rc-2-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9-rc-2-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9-rc-2-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "0.9-rc-1",
   "buildTime" : "20100804080433+1100",
@@ -6765,7 +7227,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-0.9-rc-1-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9-rc-1-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.9-rc-1-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "0.8",
   "buildTime" : "20090928140159+0200",
@@ -6779,7 +7242,8 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-0.8-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.8-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.8-bin.zip.sha256",
+  "checksum" : ""
 }, {
   "version" : "0.7",
   "buildTime" : "20090720085013+0200",
@@ -6793,5 +7257,6 @@
   "milestoneFor" : "",
   "broken" : false,
   "downloadUrl" : "https://services.gradle.org/distributions/gradle-0.7-bin.zip",
-  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.7-bin.zip.sha256"
+  "checksumUrl" : "https://services.gradle.org/distributions/gradle-0.7-bin.zip.sha256",
+  "checksum" : ""
 } ]
