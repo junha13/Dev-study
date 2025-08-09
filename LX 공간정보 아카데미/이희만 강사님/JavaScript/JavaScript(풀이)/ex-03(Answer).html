@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+</head>
+<body>
+    this is ex-03! 
+    로또번호를 출력하는 프로그램입니다.
+    <div>  <!--span은 닫기-->
+        <span id="num1"></span>
+        <span id="num2"></span>
+        <span id="num3"></span>
+        <span id="num4"></span>
+        <span id="num5"></span>
+        <span id="num6"></span>
+    </div>
+    <div>
+        <button id="randomButton">랜덤돌리기</button>
+    </div>
+<script>
+    let list = makeList();
+    printList(list);
+
+
+    // element.addEventListener("이벤트", () ) 안에있는 함수를 실행하기 전에 그 안에 부터 하래, 비동기적 요소 
+    let button1 = document.querySelector("#randomButton")
+    button1.addEventListener("click", () => {
+        let list = makeList();
+        printList(list)
+    });
+
+    function makeList(){
+        ////1 ~ 45사이의 숫자 6개를 생성하여 리턴합니다.
+        let ranNums = []
+        let num;
+        for (let i=0; ranNums.length < 6; i++) {        
+            num = Math.floor(Math.random() * 45 + 1)
+            if (!ranNums.includes(num)) {
+                ranNums.push(num)
+            }
+        }
+
+        return ranNums
+    }
+    function printList(param){
+        ////전달받은 배열을 콘솔창에 출력합니다. (화면)
+        ////for loop
+        ////console.log()로 출력합니다.
+        let num1 = document.querySelector("#num1");
+        let num2 = document.querySelector("#num2");
+        let num3 = document.querySelector("#num3");
+        let num4 = document.querySelector("#num4");
+        let num5 = document.querySelector("#num5");
+        let num6 = document.querySelector("#num6");
+        
+        let nums = [num1, num2, num3, num4, num5, num6]
+
+        for (let i = 0; i<6; i++) {
+            nums[i].innerHTML = param[i]
+        }
+
+    }
+</script>
+</body>
+</html>

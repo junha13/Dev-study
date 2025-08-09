@@ -1,0 +1,23 @@
+<HTML>
+  <HEAD>
+    <TITLE> Date 객체 </TITLE>
+  </HEAD>
+  <BODY>
+   <SCRIPT LANGUAGE="JavaScript">
+   var today = new Date()
+   document.write(today)
+   var str = "현재 : "
+   str += today.getYear() +"년 "
+   str += (today.getMonth()+1) + "월 "
+   str += today.getDate() + "일 "
+   str += today.getHours() + "시 "
+   str += today.getMinutes() + "분 "
+   str += today.getSeconds() + "초입니다."
+   document.write("<h3>"+ str +"</h3>")
+   today.setDate(today.getDate()+1)
+   document.write(today, "<P>")
+   document.write(today.toGMTString())
+
+   </SCRIPT>
+  </BODY>
+</HTML>
