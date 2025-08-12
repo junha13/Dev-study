@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	table, h3, btton, div{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	tr:nth-child(odd) { 
+		background-color: violet;
+	}
+</style>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+// 왜 위에 넣는 거야라고하면 dom객체가 생성되는시간이걸리니까
+</script>
+</head>
+<body>
+<div>
+	<h3>웹 폼 사례</h3>
+	<table border="1">
+		<tr>
+			<th>사용자이름</th>
+			<td><input type="text" name="userName" id="userName" placeholder="이름을 입력하세요."></td>
+		</tr>
+		<tr>
+			<th>이메일</th>
+			<td><input type="email" name="email" id="email" placeholder="메일주소를 입력하세요."></td>
+		</tr>
+		<tr>
+			<th>검색단어</th>
+			<td><input type="text" name="searchWord" id="searchWord" placeholder="갬석어를 입력하세요."></td>
+		</tr>
+		<tr>
+			<th>취미</th>
+			<td>
+				<input type="checkbox" id="hobby" name="hobby" value="sports">운동
+				<input type="checkbox" id="hobby" name="hobby" value="instrument">악기
+				<input type="checkbox" id="hobby" name="hobby" value="travel">여행
+			</td>
+		</tr>
+		<tr>
+			<th>성별</th>
+			<td>
+				<input type="radio" name="gender" value="male">남자
+				<input type="radio" name="gender" value="female">여자
+			</td>
+		</tr>
+		<tr>
+			<th>점심메뉴</th>
+			<td>
+				<select name="lunch">
+					<option value="jja">짜장면</option>
+					<option value="jjam">짬뽕</option>
+					<option value="bbok">볶음밥</option>
+				</select>
+			</td>
+		</tr>
+	</table>
+	<button type="submit" id="btnSubmit">Submit</button>
+</div>
+<script>
+/*
+	$('#btnSubmit').on("click", () => {
+		const hobby = $('input[value="sports"]')
+
+		if(hobby.is(":checked")) { // getter
+			alert('운동을 좋아하시나봐요');
+		}
+	});
+*/ 
+
+	$('#btnSubmit').on("click", () => {
+		const hobby = $('input[name="hobby"]:checked') // 선택된 것만 가져옴
+
+		if(hobby.val()==="sports" && hobby.is(":checked")) {
+			alert('운동을 좋아하시나봐요');
+		}
+		if(hobby.val()==="instrument" && hobby.is(":checked")) { 
+			alert('악기를 좋아하시나봐요');
+		}
+		if(hobby.val()==="travel" && hobby.is(":checked")) {
+			alert('여행을 좋아하시나봐요');
+		}
+	});
+
+	// select를 이용해서 런치메뉴가 변경되었을때를 잡을 수 있나
+	$('select').on("change", (e) => {
+		// alert('change');
+		
+		alert($('select').val())
+		let value = $('select').val();
+
+	});
+
+
+	// this를 사용할거면 화살표함수로 사용하면 안됨
+	$('tr').on("click", function(e){
+		// 클릭한 tr에서 가장 가까운 th태그의 html text를 참조하고 싶다.
+		let text = $(this).find('th').text();
+		alert('th text=' + text);
+	});
+</script>
+</body>
+</html>

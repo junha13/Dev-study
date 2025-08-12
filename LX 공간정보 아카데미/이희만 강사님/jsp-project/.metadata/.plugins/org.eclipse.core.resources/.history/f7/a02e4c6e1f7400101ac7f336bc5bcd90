@@ -1,0 +1,1291 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" errorPage="error.jsp"%>
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>주소록:작성화면</title>
+<link rel="stylesheet" href="addrbook.css" type="text/css" media="screen" />
+</head>
+<body>
+<body id="tt-body-index" aria-hidden="false" style=""><a href="https://www.cursors-4u.com/cursor/2009/01/30/cute-running-puppy.html" target="_blank" title="Cute Running Puppy"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Cute Running Puppy" style="position:absolute; top: 0px; right: 0px;"></a>
+    <!-- 마우스 커서 캐릭터 코드 끝-->
+
+
+		<!-- 마우스 커서 이펙트 코드 시작-->
+		<script type="text/javascript">
+				// <![CDATA[
+				var colours=new Array("#a6f", "#60f", "#60f", "#a6f", "#ccc"); // colours for top, right, bottom and left borders and background of bubbles
+				var bubbles=66; // maximum number of bubbles on screen
+				var over_or_under="over"; // set to "over" for bubbles to always be on top, or "under" to allow them to float behind other objects
+
+				/****************************
+				* JavaScript Bubble Cursor  *
+				*(c)2010-13 mf2fm web-design*
+				*  http://www.mf2fm.com/rv  *
+				* DON'T EDIT BELOW THIS BOX *
+				****************************/
+				var x=ox=400;
+				var y=oy=300;
+				var swide=800;
+				var shigh=600;
+				var sleft=sdown=0;
+				var bubb=new Array();
+				var bubbx=new Array();
+				var bubby=new Array();
+				var bubbs=new Array();
+				var sploosh=false;
+
+				function addLoadEvent(funky) {
+					var oldonload=window.onload;
+					if (typeof(oldonload)!='function') window.onload=funky;
+					else window.onload=function() {
+						if (oldonload) oldonload();
+						funky();
+					}
+				}
+
+				addLoadEvent(buble);
+
+				function buble() { if (document.getElementById) {
+					var i, rats, div;
+					for (i=0; i<bubbles; i++) {
+						rats=createDiv("3px", "3px");
+						rats.style.visibility="hidden";
+					rats.style.zIndex=(over_or_under=="over")?"1001":"0";
+
+						div=createDiv("auto", "auto");
+						rats.appendChild(div);
+						div=div.style;
+						div.top="1px";
+						div.left="0px";
+						div.bottom="1px";
+						div.right="0px";
+						div.borderLeft="1px solid "+colours[3];
+						div.borderRight="1px solid "+colours[1];
+
+						div=createDiv("auto", "auto");
+						rats.appendChild(div);
+						div=div.style;
+						div.top="0px";
+						div.left="1px";
+						div.right="1px";
+						div.bottom="0px"
+						div.borderTop="1px solid "+colours[0];
+						div.borderBottom="1px solid "+colours[2];
+
+						div=createDiv("auto", "auto");
+						rats.appendChild(div);
+						div=div.style;
+						div.left="1px";
+						div.right="1px";
+						div.bottom="1px";
+						div.top="1px";
+						div.backgroundColor=colours[4];
+						if (navigator.appName=="Microsoft Internet Explorer") div.filter="alpha(opacity=50)";
+						else div.opacity=0.5;
+						document.body.appendChild(rats);
+						bubb[i]=rats.style;
+					}
+					set_scroll();
+					set_width();
+					bubble();
+				}}
+
+				function bubble() {
+					var c;
+					if (Math.abs(x-ox)>1 || Math.abs(y-oy)>1) {
+						ox=x;
+						oy=y;
+						for (c=0; c<bubbles; c++) if (!bubby[c]) {
+							bubb[c].left=(bubbx[c]=x)+"px";
+							bubb[c].top=(bubby[c]=y-3)+"px";
+							bubb[c].width="3px";
+							bubb[c].height="3px"
+							bubb[c].visibility="visible";
+							bubbs[c]=3;
+							break;
+						}
+					}
+					for (c=0; c<bubbles; c++) if (bubby[c]) update_bubb(c);
+					setTimeout("bubble()", 20);
+				}
+
+				document.onmousedown=splash;
+				document.onmouseup=function(){clearTimeout(sploosh);};
+
+				function splash() {
+					ox=-1;
+					oy=-1;
+					sploosh=setTimeout('splash()', 100);
+				}
+
+				function update_bubb(i) {
+					if (bubby[i]) {
+						bubby[i]-=bubbs[i]/2+i%2;
+						bubbx[i]+=(i%5-2)/5;
+						if (bubby[i]>sdown && bubbx[i]>sleft && bubbx[i]<sleft+swide+bubbs[i]) {
+						if (Math.random()<bubbs[i]/shigh*2 && bubbs[i]++<8) {
+						bubb[i].width=bubbs[i]+"px";
+						bubb[i].height=bubbs[i]+"px";
+						}
+							bubb[i].top=bubby[i]+"px";
+							bubb[i].left=bubbx[i]+"px";
+						}
+						else {
+							bubb[i].visibility="hidden";
+							bubby[i]=0;
+							return;
+						}
+					}
+				}
+
+				document.onmousemove=mouse;
+				function mouse(e) {
+					if (e) {
+						y=e.pageY;
+						x=e.pageX;
+					}
+					else {
+						set_scroll();
+						y=event.y+sdown;
+						x=event.x+sleft;
+					}
+				}
+
+				window.onresize=set_width;
+				function set_width() {
+					var sw_min=999999;
+					var sh_min=999999;
+					if (document.documentElement && document.documentElement.clientWidth) {
+						if (document.documentElement.clientWidth>0) sw_min=document.documentElement.clientWidth;
+						if (document.documentElement.clientHeight>0) sh_min=document.documentElement.clientHeight;
+					}
+					if (typeof(self.innerWidth)=='number' && self.innerWidth) {
+						if (self.innerWidth>0 && self.innerWidth<sw_min) sw_min=self.innerWidth;
+						if (self.innerHeight>0 && self.innerHeight<sh_min) sh_min=self.innerHeight;
+					}
+					if (document.body.clientWidth) {
+						if (document.body.clientWidth>0 && document.body.clientWidth<sw_min) sw_min=document.body.clientWidth;
+						if (document.body.clientHeight>0 && document.body.clientHeight<sh_min) sh_min=document.body.clientHeight;
+					}
+					if (sw_min==999999 || sh_min==999999) {
+						sw_min=800;
+						sh_min=600;
+					}
+					swide=sw_min;
+					shigh=sh_min;
+				}
+
+				window.onscroll=set_scroll;
+				function set_scroll() {
+					if (typeof(self.pageYOffset)=='number') {
+						sdown=self.pageYOffset;
+						sleft=self.pageXOffset;
+					}
+					else if (document.body && (document.body.scrollTop || document.body.scrollLeft)) {
+						sdown=document.body.scrollTop;
+						sleft=document.body.scrollLeft;
+					}
+					else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
+						sleft=document.documentElement.scrollLeft;
+						sdown=document.documentElement.scrollTop;
+					}
+					else {
+						sdown=0;
+						sleft=0;
+					}
+				}
+
+				function createDiv(height, width) {
+					var div=document.createElement("div");
+					div.style.position="absolute";
+					div.style.height=height;
+					div.style.width=width;
+					div.style.overflow="hidden";
+					div.style.backgroundColor="transparent";
+					return (div);
+				}
+				// ]]>
+				</script>
+		<!-- 마우스 커서 이펙트 코드 끝-->
+	<title>[꼼꼼한 개발자] 꼼코더</title>
+	<link rel="alternate" type="application/rss+xml" title="[꼼꼼한 개발자] 꼼코더" href="https://ccomccomhan.tistory.com/rss">
+	<link rel="stylesheet" href="https://tistory1.daumcdn.net/tistory/5593667/skin/style.css?_version_=1706279558">
+	<link rel="stylesheet" href="https://tistory1.daumcdn.net/tistory/5593667/skin/images/font.css?_version_=1706279558">
+	<style>
+		
+		.wrap_sub {
+			background-image: url('https://tistory3.daumcdn.net/tistory/5593667/skinSetting/47f8a12aa3db4a34bd3bdf3434a690fb');
+		}
+		
+	</style>
+
+	<!--[if lt IE 9]>
+	<script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+	<script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<!--<![endif]-->
+
+                
+                
+                <style type="text/css">.another_category {
+    border: 1px solid #E5E5E5;
+    padding: 10px 10px 5px;
+    margin: 10px 0;
+    clear: both;
+}
+
+.another_category h4 {
+    font-size: 12px !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #E5E5E5 !important;
+    padding: 2px 0 6px !important;
+}
+
+.another_category h4 a {
+    font-weight: bold !important;
+}
+
+.another_category table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+* html .another_category table {
+    width: auto !important;
+}
+
+*:first-child + html .another_category table {
+    width: auto !important;
+}
+
+.another_category th, .another_category td {
+    padding: 0 0 4px !important;
+}
+
+.another_category th {
+    text-align: left;
+    font-size: 12px !important;
+    font-weight: normal;
+    word-break: break-all;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+.another_category td {
+    text-align: right;
+    width: 80px;
+    font-size: 11px;
+}
+
+.another_category th a {
+    font-weight: normal;
+    text-decoration: none;
+    border: none !important;
+}
+
+.another_category th a.current {
+    font-weight: bold;
+    text-decoration: none !important;
+    border-bottom: 1px solid !important;
+}
+
+.another_category th span {
+    font-weight: normal;
+    text-decoration: none;
+    font: 10px Tahoma, Sans-serif;
+    border: none !important;
+}
+
+.another_category_color_gray, .another_category_color_gray h4 {
+    border-color: #E5E5E5 !important;
+}
+
+.another_category_color_gray * {
+    color: #909090 !important;
+}
+
+.another_category_color_gray th a.current {
+    border-color: #909090 !important;
+}
+
+.another_category_color_gray h4, .another_category_color_gray h4 a {
+    color: #737373 !important;
+}
+
+.another_category_color_red, .another_category_color_red h4 {
+    border-color: #F6D4D3 !important;
+}
+
+.another_category_color_red * {
+    color: #E86869 !important;
+}
+
+.another_category_color_red th a.current {
+    border-color: #E86869 !important;
+}
+
+.another_category_color_red h4, .another_category_color_red h4 a {
+    color: #ED0908 !important;
+}
+
+.another_category_color_green, .another_category_color_green h4 {
+    border-color: #CCE7C8 !important;
+}
+
+.another_category_color_green * {
+    color: #64C05B !important;
+}
+
+.another_category_color_green th a.current {
+    border-color: #64C05B !important;
+}
+
+.another_category_color_green h4, .another_category_color_green h4 a {
+    color: #3EA731 !important;
+}
+
+.another_category_color_blue, .another_category_color_blue h4 {
+    border-color: #C8DAF2 !important;
+}
+
+.another_category_color_blue * {
+    color: #477FD6 !important;
+}
+
+.another_category_color_blue th a.current {
+    border-color: #477FD6 !important;
+}
+
+.another_category_color_blue h4, .another_category_color_blue h4 a {
+    color: #1960CA !important;
+}
+
+.another_category_color_violet, .another_category_color_violet h4 {
+    border-color: #E1CEEC !important;
+}
+
+.another_category_color_violet * {
+    color: #9D64C5 !important;
+}
+
+.another_category_color_violet th a.current {
+    border-color: #9D64C5 !important;
+}
+
+.another_category_color_violet h4, .another_category_color_violet h4 a {
+    color: #7E2CB5 !important;
+}
+</style>
+
+                
+                <link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-39ee03342e373848ba7c0bb12e153b29db04aa6b/static/style/revenue.css">
+<link rel="canonical" href="https://ccomccomhan.tistory.com">
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"WebSite","url":"/","potentialAction":{"@type":"SearchAction","target":"/search/{search_term_string}","query-input":"required name=search_term_string"}}
+</script>
+<!-- END STRUCTURED_DATA -->
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-39ee03342e373848ba7c0bb12e153b29db04aa6b/static/style/dialog.css">
+<link rel="stylesheet" type="text/css" href="//t1.daumcdn.net/tistory_admin/www/style/top/font.css">
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-39ee03342e373848ba7c0bb12e153b29db04aa6b/static/style/postBtn.css"><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9910939065024756&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;abgtt=9&amp;lmt=1754616057&amp;plat=1%3A16777216%2C2%3A16777216%2C3%3A16%2C4%3A16%2C9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fccomccomhan.tistory.com%2F%3Fname%3Did&amp;host=ca-host-pub-9691043933427338&amp;pra=5&amp;wgl=1&amp;aihb=0&amp;aiudt=1&amp;asro=0&amp;aifxl=29_18~30_19&amp;itsi=6&amp;aiapm=0.1542&amp;aiapmd=0.25178&amp;aiapmi=0.16&amp;aiapmid=1&amp;aiact=0.5423&amp;aiactd=0.7&amp;aicct=0.7&amp;aicctd=0.5799&amp;ailct=0.5849&amp;ailctd=0.65&amp;aimart=4&amp;aimartd=4&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTM5LjAuNzI1OC42NiIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q7QT1CcmFuZCIsIjk5LjAuMC4wIl0sWyJHb29nbGUgQ2hyb21lIiwiMTM5LjAuNzI1OC42NiJdLFsiQ2hyb21pdW0iLCIxMzkuMC43MjU4LjY2Il1dLDBd&amp;dt=1754616057379&amp;bpp=3&amp;bdt=21&amp;idt=18&amp;shv=r20250805&amp;mjsv=m202508050101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D46b37723b86a077d%3AT%3D1753354002%3ART%3D1754616051%3AS%3DALNI_MZLxqep8qNV0bKs0mRBWLYPsoN2VA&amp;gpic=UID%3D0000116d37539426%3AT%3D1753354002%3ART%3D1754616051%3AS%3DALNI_MbOdo_0BQn-TdO5rVbrJ36ZCforsg&amp;eo_id_str=ID%3D029101c45935c17b%3AT%3D1753354002%3ART%3D1754616051%3AS%3DAA-AfjbH3uIEQYzAofVringLR6mY&amp;nras=1&amp;correlator=3992945602502&amp;frm=20&amp;pv=2&amp;u_tz=540&amp;u_his=5&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1294&amp;bih=877&amp;scr_x=0&amp;scr_y=0&amp;eid=42532524%2C95362655%2C95367554%2C95368510%2C95359266%2C31092547&amp;oid=2&amp;pvsid=3918326615228152&amp;tmod=1530841012&amp;uas=0&amp;nvt=3&amp;fsapi=1&amp;fc=1920&amp;brdim=-1338%2C84%2C-1338%2C84%2C1920%2C13%2C1325%2C972%2C1309%2C877&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;bz=1.01&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDFd&amp;nt=1&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=30" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins>
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-39ee03342e373848ba7c0bb12e153b29db04aa6b/static/style/tistory.css">
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-39ee03342e373848ba7c0bb12e153b29db04aa6b/static/script/common.js"></script>
+
+                
+                
+
+
+
+                                                
+                
+                
+                
+
+
+	<div id="dkIndex">
+		<!--웹접근성용 바로가기 링크 모음-->
+		<a href="#dkBody">본문 바로가기</a>
+	</div>
+	<div id="dkWrap" class="wrap_skin">
+		<!-- 카테고리버튼 클릭시 'navi_on' 클래스 부여 -->
+		<div id="dkHead" role="banner" class="area_head">
+			<h1 class="screen_out">[꼼꼼한 개발자] 꼼코더</h1>
+			<button type="button" class="btn_cate">
+				<span class="ico_skin ico_cate">카테고리</span>
+			</button>
+			<div class="area_search ">
+				<button type="button" class="btn_search">
+					<span class="ico_skin ico_search">검색하기</span>
+				</button>
+				
+					<form action="#" method="get" class="frm_search box_search" onsubmit="try {
+    window.location.href = '/search' + '/' + looseURIEncode(document.getElementsByName('search')[0].value);
+    document.getElementsByName('search')[0].value = '';
+    return false;
+} catch (e) {}">
+						<fieldset>
+							<legend class="screen_out">검색하기</legend>
+							<label for="search" class="lab_search screen_out">블로그 내 검색</label>
+							<input type="text" name="search" id="search" class="tf_search" placeholder="Search" value="" data-value="">
+							<span class="ico_skin ico_search"></span>
+						</fieldset>
+					</form>
+				
+			</div>
+			<div class="area_profile">
+				<div class="tit_post">
+					<a href="/" class="link_post">[꼼꼼한 개발자] 꼼코더</a>
+				</div>
+				<span class="thumb_profile">
+                <img src="https://tistory1.daumcdn.net/tistory/5593667/attach/3adf4b4417bd46e683ca89f5d7f60324" class="img_profile" alt="프로필사진">
+            </span>
+				<span class="txt_profile">꼼코더</span>
+			</div>
+		</div>
+		<hr class="hide">
+		<div id="dkContent" class="cont_skin" role="main" style="height: auto !important;">
+			<div id="cMain" style="height: auto !important;">
+				<div id="mFeature" class="wrap_sub">
+					<div class="cont_sub">
+						<div class="inner_sub">
+							<div class="area_sub">
+								<div role="navigation" class="area_navi">
+									<ul class="tt_category"><li class=""><a href="/category" class="link_tit"> 분류 전체보기 <span class="c_cnt">(293)</span> </a>
+  <ul class="category_list"><li class=""><a href="/category/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80" class="link_item"> 개발일지 <span class="c_cnt">(13)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="/category/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B3%B5%EB%B6%80%20%EC%8B%9C%EC%9E%91" class="link_sub_item"> 공부 시작 <span class="c_cnt">(11)</span> </a></li>
+<li class=""><a href="/category/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EB%AC%B4%EC%82%B0%EB%90%9C%20%EC%B2%AB%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" class="link_sub_item"> 무산된 첫 프로젝트 <span class="c_cnt">(4)</span> </a></li>
+<li class=""><a href="/category/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EC%B9%B4%EB%A9%94%EB%9D%BC%20%EB%B0%A9%EB%AA%85%EB%A1%9D%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" class="link_sub_item"> 카메라 방명록 프로젝트 <span class="c_cnt">(7)</span> </a></li>
+<li class=""><a href="/category/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%ED%94%BC%ED%8C%8C%20%EC%98%A8%EB%9D%BC%EC%9D%B8%204%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" class="link_sub_item"> 피파 온라인 4 프로젝트 <span class="c_cnt">(15)</span> </a></li>
+<li class=""><a href="/category/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EC%87%BC%ED%95%91%EB%AA%B0%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" class="link_sub_item"> 쇼핑몰 프로젝트 <span class="c_cnt">(4)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="/category/HTTP" class="link_item"> HTTP <span class="c_cnt">(28)</span> </a></li>
+<li class=""><a href="/category/ANKI" class="link_item"> ANKI <span class="c_cnt">(40)</span> </a></li>
+<li class=""><a href="/category/%EB%B0%9C%ED%91%9C%20%EC%8A%A4%ED%84%B0%EB%94%94" class="link_item"> 발표 스터디 <span class="c_cnt">(3)</span> </a></li>
+<li class=""><a href="/category/Spring" class="link_item"> Spring <span class="c_cnt">(68)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="/category/Spring/Spring%20%EC%9E%85%EB%AC%B8" class="link_sub_item"> Spring 입문 <span class="c_cnt">(7)</span> </a></li>
+<li class=""><a href="/category/Spring/%EC%BD%94%EB%93%9C%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9B%B9%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" class="link_sub_item"> 코드로 배우는 스프링 웹 프로젝트 <span class="c_cnt">(45)</span> </a></li>
+<li class=""><a href="/category/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%9E%90%EB%B0%94%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%EC%9D%98%20%EC%9B%90%EB%A6%AC%EC%99%80%20%EC%9D%B4%ED%95%B4" class="link_sub_item"> 스프링 입문을 위한 자바 객체 지향의 원리와 이해 <span class="c_cnt">(15)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="/category/React" class="link_item"> React <span class="c_cnt">(21)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="/category/React/%EC%B2%98%EC%9D%8C%20%EB%A7%8C%EB%82%9C%20%EB%A6%AC%EC%95%A1%ED%8A%B8" class="link_sub_item"> 처음 만난 리액트 <span class="c_cnt">(19)</span> </a></li>
+<li class=""><a href="/category/React/React-Native" class="link_sub_item"> React-Native <span class="c_cnt">(0)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="/category/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B3%A0%20%EC%89%BD%EA%B2%8C" class="link_item"> 간단하고 쉽게 <span class="c_cnt">(49)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="/category/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B3%A0%20%EC%89%BD%EA%B2%8C/JAVA" class="link_sub_item"> JAVA <span class="c_cnt">(21)</span> </a></li>
+<li class=""><a href="/category/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B3%A0%20%EC%89%BD%EA%B2%8C/WEB" class="link_sub_item"> WEB <span class="c_cnt">(10)</span> </a></li>
+<li class=""><a href="/category/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B3%A0%20%EC%89%BD%EA%B2%8C/Spring%2C%20Spring%20Boot" class="link_sub_item"> Spring, Spring Boot <span class="c_cnt">(4)</span> </a></li>
+<li class=""><a href="/category/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B3%A0%20%EC%89%BD%EA%B2%8C/JavaScript" class="link_sub_item"> JavaScript <span class="c_cnt">(5)</span> </a></li>
+<li class=""><a href="/category/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B3%A0%20%EC%89%BD%EA%B2%8C/DB" class="link_sub_item"> DB <span class="c_cnt">(1)</span> </a></li>
+<li class=""><a href="/category/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B3%A0%20%EC%89%BD%EA%B2%8C/Git" class="link_sub_item"> Git <span class="c_cnt">(2)</span> </a></li>
+<li class=""><a href="/category/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B3%A0%20%EC%89%BD%EA%B2%8C/JS" class="link_sub_item"> JS <span class="c_cnt">(2)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="/category/TypeSctript%28TS%29" class="link_item"> TypeSctript(TS) <span class="c_cnt">(3)</span> </a></li>
+<li class=""><a href="/category/React%20Native" class="link_item"> React Native <span class="c_cnt">(2)</span> </a></li>
+<li class=""><a href="/category/Servlet%2C%20JSP" class="link_item"> Servlet, JSP <span class="c_cnt">(7)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="/category/Servlet%2C%20JSP/%EA%B0%9C%EB%85%90%20%ED%95%A5%EA%B8%B0" class="link_sub_item"> 개념 핥기 <span class="c_cnt">(5)</span> </a></li>
+<li class=""><a href="/category/Servlet%2C%20JSP/%EC%9E%90%EB%B0%94%20%EC%9B%B9%EC%9D%84%20%EB%8B%A4%EB%A3%A8%EB%8A%94%20%EA%B8%B0%EC%88%A0" class="link_sub_item"> 자바 웹을 다루는 기술 <span class="c_cnt">(2)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="/category/ERROR" class="link_item"> ERROR <span class="c_cnt">(8)</span> </a></li>
+<li class=""><a href="/category/AWS" class="link_item"> AWS <span class="c_cnt">(0)</span> </a></li>
+<li class=""><a href="/category/%EA%B0%9C%EB%B0%9C%20%EA%B4%80%EB%A0%A8%20%EB%8F%84%EC%9B%80" class="link_item"> 개발 관련 도움 <span class="c_cnt">(9)</span> </a></li>
+<li class=""><a href="/category/%EA%B8%B0%ED%83%80" class="link_item"> 기타 <span class="c_cnt">(1)</span> </a></li>
+</ul>
+</li>
+</ul>
+
+									<a href="https://ccomccomhan.tistory.com/guestbook" class="link_guestbook">Guestbook</a>
+								</div>
+								<div class="wrap_etc">
+									<div class="col_aside left_side">
+										
+									</div>
+
+
+									<div class="col_aside right_side">
+										
+												<!-- 달력 -->
+												<div class="box_aside box_calendar">
+													<table class="tt-calendar" cellpadding="0" cellspacing="1" style="width: 100%; table-layout: fixed">
+  <caption class="cal_month"><a href="/archive/202507" title="1개월 앞의 달력을 보여줍니다.">«</a> &nbsp; <a href="/archive/202508" title="현재 달의 달력을 보여줍니다.">2025/08</a> &nbsp; <a href="/archive/202509" title="1개월 뒤의 달력을 보여줍니다.">»</a></caption>
+  <thead>
+    <tr>
+      <th class="cal_week2">일</th>
+      <th class="cal_week1">월</th>
+      <th class="cal_week1">화</th>
+      <th class="cal_week1">수</th>
+      <th class="cal_week1">목</th>
+      <th class="cal_week1">금</th>
+      <th class="cal_week1">토</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="cal_week cal_current_week">
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day cal_day3">1</td>
+      <td class="cal_day cal_day3">2</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">3</td>
+      <td class="cal_day cal_day3">4</td>
+      <td class="cal_day cal_day3">5</td>
+      <td class="cal_day cal_day3">6</td>
+      <td class="cal_day cal_day3">7</td>
+      <td class="cal_day cal_day4">8</td>
+      <td class="cal_day cal_day3">9</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">10</td>
+      <td class="cal_day cal_day3">11</td>
+      <td class="cal_day cal_day3">12</td>
+      <td class="cal_day cal_day3">13</td>
+      <td class="cal_day cal_day3">14</td>
+      <td class="cal_day cal_day3">15</td>
+      <td class="cal_day cal_day3">16</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">17</td>
+      <td class="cal_day cal_day3">18</td>
+      <td class="cal_day cal_day3">19</td>
+      <td class="cal_day cal_day3">20</td>
+      <td class="cal_day cal_day3">21</td>
+      <td class="cal_day cal_day3">22</td>
+      <td class="cal_day cal_day3">23</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">24</td>
+      <td class="cal_day cal_day3">25</td>
+      <td class="cal_day cal_day3">26</td>
+      <td class="cal_day cal_day3">27</td>
+      <td class="cal_day cal_day3">28</td>
+      <td class="cal_day cal_day3">29</td>
+      <td class="cal_day cal_day3">30</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">31</td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+    </tr>
+  </tbody>
+</table>
+												</div>
+											
+												<!-- 방문자수 -->
+												<div class="box_aside box_visitor">
+													<dl class="list_visitor">
+														<dt>Today</dt>
+														<dd>9</dd>
+													</dl>
+													<dl class="list_total">
+														<dt>Total</dt>
+														<dd>244,119</dd>
+													</dl>
+												</div>
+											
+									</div>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="ico_skin btn_close">닫기</button>
+
+						<strong class="screen_out">관리 메뉴</strong>
+						<ul class="list_control">
+							<li><a href="https://ccomccomhan.tistory.com/manage/entry/post" class="ico_skin link_write" title="글쓰기">글쓰기</a></li>
+							<li><a href="https://ccomccomhan.tistory.com/guestbook" class="ico_skin link_memo" title="방명록">방명록</a></li>
+							<li><a href="https://ccomccomhan.tistory.com/rss" class="ico_skin link_rss" title="RSS">RSS</a></li>
+							<li><a href="https://ccomccomhan.tistory.com/manage" class="ico_skin link_manage" title="관리">관리</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="mArticle" class="article_skin" style="height: auto !important; min-height: 0px !important;">
+
+					
+						<div class="list_title" style="height: auto !important;">
+							<h2 id="dkBody" class="tit_skin" style="height: auto !important;">
+							<div class="revenue_unit_wrap position_list">
+  <div class="revenue_unit_item adsense responsive">
+    <div class="revenue_unit_info">반응형</div>
+    <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async="async"></script>
+    <ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-host="ca-host-pub-9691043933427338" data-ad-client="ca-pub-9910939065024756" data-ad-format="auto" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_1_host" style="border: none; height: 280px; width: 800px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:800px;height:280px;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="800" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9910939065024756&amp;output=html&amp;h=280&amp;adk=3050485622&amp;adf=2462605545&amp;w=800&amp;abgtt=9&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1754616057&amp;rafmt=1&amp;format=800x280&amp;url=https%3A%2F%2Fccomccomhan.tistory.com%2F%3Fname%3Did&amp;host=ca-host-pub-9691043933427338&amp;fwr=0&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTM5LjAuNzI1OC42NiIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q7QT1CcmFuZCIsIjk5LjAuMC4wIl0sWyJHb29nbGUgQ2hyb21lIiwiMTM5LjAuNzI1OC42NiJdLFsiQ2hyb21pdW0iLCIxMzkuMC43MjU4LjY2Il1dLDBd&amp;dt=1754616057386&amp;bpp=2&amp;bdt=28&amp;idt=46&amp;shv=r20250805&amp;mjsv=m202508050101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D46b37723b86a077d%3AT%3D1753354002%3ART%3D1754616051%3AS%3DALNI_MZLxqep8qNV0bKs0mRBWLYPsoN2VA&amp;gpic=UID%3D0000116d37539426%3AT%3D1753354002%3ART%3D1754616051%3AS%3DALNI_MbOdo_0BQn-TdO5rVbrJ36ZCforsg&amp;eo_id_str=ID%3D029101c45935c17b%3AT%3D1753354002%3ART%3D1754616051%3AS%3DAA-AfjbH3uIEQYzAofVringLR6mY&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=3992945602502&amp;frm=20&amp;pv=1&amp;u_tz=540&amp;u_his=5&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=396&amp;ady=90&amp;biw=1294&amp;bih=877&amp;scr_x=0&amp;scr_y=0&amp;eid=42532524%2C95362655%2C95367554%2C95368510%2C95359266%2C31092547&amp;oid=2&amp;pvsid=3918326615228152&amp;tmod=1530841012&amp;uas=0&amp;nvt=3&amp;fc=1920&amp;brdim=-1338%2C84%2C-1338%2C84%2C1920%2C13%2C1325%2C972%2C1309%2C877&amp;vis=1&amp;rsz=%7Co%7CpeoE%7C&amp;abl=NS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1.01&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDFd&amp;nt=1&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=50" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true" data-google-query-id="COuG3ZaG-o4DFVqJ6QUdN_IorA"></iframe></div></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+</div>
+							<span class="screen_out">목록</span>
+							<span class="txt_title">전체 글 (293)</span></h2>
+						 
+						</div>
+					
+
+					<div class="index_title">
+						<h2 class="tit_skin"><span class="txt_title">[꼼꼼한 개발자] 꼼코더</span></h2>
+					</div>
+
+					           
+               
+	
+		<div class="list_content">
+			
+				<a href="/299" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C150x150/?fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FluFVo%2FbtsPBoSljXc%2FAAAAAAAAAAAAAAAAAAAAAHuAa-DgVF4pVJF79f5bE5XAWqqU1_mbqAJaztVCzJdp%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3DF86gmJek%252FniT55EZ2v9XZqQ4e9s%253D"></a>
+			
+			<a href="/299" class="link_post">
+				<strong class="tit_post ">[개발 관련 도움] - 코드 스니핏(Code Snippet)이란? - 간단하고 쉽게 알아보기(나만의 코드 스니핏 만들기, VS code 코드 스니핏 만들기)</strong>
+				<p class="txt_post">👀 코드 스니핏이란?프로그래밍에서 자주 사용되는 코드의 작은 조각을 의미한다.자주 사용되는 함수 또는 메서드 미리 정의하여 반복적으로 작성해야 하는 불편함을 줄여준다.또한 팀 간 코드 스타일 및 사용 패턴을 통일하기 위해서도 사용하기도 한다. 🤦🏻‍♂️ 개발자 A : “함수 선언시'const, function, () ⇒ {}'들을 매번 입력하기 귀찮아! 이 모든걸 쉽게 딸깍하면 짜잔하고 나타났으면 좋겠어!!” ⇒ 그걸 해결해 주기 위한 것이 ‘코드 스니핏’이다. 🏄🏻 사용흐름 간단 설명코드의 스니핏 ‘단축어’를 정의 =&gt; 정의한 단축어를 입력 =&gt; 자주 사용하는 작은 코드가 즉시 작성’예시 1) 딸깍 ⇒ useEffect 기본 작성 틀 자동완성(의존성 배열, 콜백 함수 등..)예시 2) 딸깍 ..</p>
+			</a>
+			<div class="detail_info">
+				<a href="/category/%EA%B0%9C%EB%B0%9C%20%EA%B4%80%EB%A0%A8%20%EB%8F%84%EC%9B%80" class="link_cate">개발 관련 도움</a>
+				<span class="txt_bar"></span>
+				<span class="txt_date">2025. 7. 30. 11:07</span>
+			</div>
+		</div>
+	
+
+
+	
+
+		<!-- 구글애드센스 리스트 중간 인피드 광고 시작 -->
+		<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			if (chInfeedAdSenseShow == 0) {
+				if ((chInfeed++) % chInfeedAdSenseInsert == 0) {
+					if(window.innerWidth > 800) {
+						document.write(chInfeedAdSense_PC);
+					}
+					else {
+						document.write(chinfeedAdSense_Mobile);
+					}
+					(adsbygoogle = window.adsbygoogle || []).push( {
+						});
+				}
+			}
+			</script><ins class="adsbygoogle" style="display: block; height: 219px;" data-ad-format="fluid" data-ad-layout="image-side" data-ad-layout-key="-ee+5+7e-w5+ys" data-ad-client="ca-pub-9910939065024756" data-ad-slot="7093039920" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_2_host" style="border: none; height: 219px; width: 800px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_2" name="aswift_2" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:800px;height:219px;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="800" height="219" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9910939065024756&amp;output=html&amp;h=219&amp;slotname=7093039920&amp;adk=2584822455&amp;adf=3205320330&amp;pi=t.ma~as.7093039920&amp;w=800&amp;abgtt=9&amp;lmt=1754616057&amp;rafmt=11&amp;format=800x219&amp;url=https%3A%2F%2Fccomccomhan.tistory.com%2F%3Fname%3Did&amp;host=ca-host-pub-9691043933427338&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTM5LjAuNzI1OC42NiIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q7QT1CcmFuZCIsIjk5LjAuMC4wIl0sWyJHb29nbGUgQ2hyb21lIiwiMTM5LjAuNzI1OC42NiJdLFsiQ2hyb21pdW0iLCIxMzkuMC43MjU4LjY2Il1dLDBd&amp;dt=1754616057388&amp;bpp=1&amp;bdt=30&amp;idt=61&amp;shv=r20250805&amp;mjsv=m202508050101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D46b37723b86a077d%3AT%3D1753354002%3ART%3D1754616051%3AS%3DALNI_MZLxqep8qNV0bKs0mRBWLYPsoN2VA&amp;gpic=UID%3D0000116d37539426%3AT%3D1753354002%3ART%3D1754616051%3AS%3DALNI_MbOdo_0BQn-TdO5rVbrJ36ZCforsg&amp;eo_id_str=ID%3D029101c45935c17b%3AT%3D1753354002%3ART%3D1754616051%3AS%3DAA-AfjbH3uIEQYzAofVringLR6mY&amp;prev_fmts=0x0%2C800x280&amp;nras=1&amp;correlator=3992945602502&amp;frm=20&amp;pv=1&amp;rplot=2&amp;u_tz=540&amp;u_his=5&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=396&amp;ady=712&amp;biw=1294&amp;bih=877&amp;scr_x=0&amp;scr_y=0&amp;eid=42532524%2C95362655%2C95367554%2C95368510%2C95359266%2C31092547&amp;oid=2&amp;pvsid=3918326615228152&amp;tmod=1530841012&amp;uas=0&amp;nvt=3&amp;fc=1920&amp;brdim=-1338%2C84%2C-1338%2C84%2C1920%2C13%2C1325%2C972%2C1309%2C877&amp;vis=1&amp;rsz=%7C%7CpeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1.01&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDFd&amp;nt=1&amp;pgls=CAk.&amp;ifi=3&amp;uci=a!3&amp;fsb=1&amp;dtd=66" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CK7F3paG-o4DFTWf6QUdJy4yDg" data-load-complete="true"></iframe></div></ins>
+		<!-- 구글애드센스 리스트 중간 인피드 광고 끝 -->
+
+               
+           
+               
+	
+		<div class="list_content">
+			
+				<a href="/298" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C150x150/?fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FofiqY%2FbtsJhEZixKE%2FAAAAAAAAAAAAAAAAAAAAABpQ2Wr8TLa8AyR9JZ2gkYXeWjwrrHjat6xPXcH-BWfC%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3DeAq%252FNqStakZ9d6y4Tr4VEw0a7Ak%253D"></a>
+			
+			<a href="/298" class="link_post">
+				<strong class="tit_post ">[ERROR] - This key is not known by any other names해결 (GitLab SSH 연결 오류 해결방법, SSH 접속, SSH Key gen)</strong>
+				<p class="txt_post">🚨&nbsp;Error 발생(GitLab SSH 연결 오류)GitLab에서 프로젝트 clone 도중 This key is not known by any other names.가 확인되었다.번역하면 ‘이 키는 다른 이름으로 알려져 있지 않습니다.’&nbsp;쉽게 말해, 연결할 GitLab에서 사용하는 SSH 키가 사용자 쪽에 연결되어 있지 않음을 확인하는 메시지"Are you sure you want to continue connecting (yes/no/[fingerprint])?"→ 당신은 이 서버가 신뢰할 수 있는 서버라 믿고 연결을 계속할 건가? / yes를 눌렀지만 오류가 나왔다…👀&nbsp;"yes"를 입력하면 어떻게 되는가'yes'를 입력하면 해당 서버의 SSH 키가 로컬 머신에 저장이후부터 동일한 GitLab 서버..</p>
+			</a>
+			<div class="detail_info">
+				<a href="/category/ERROR" class="link_cate">ERROR</a>
+				<span class="txt_bar"></span>
+				<span class="txt_date">2024. 8. 26. 23:26</span>
+			</div>
+		</div>
+	
+
+
+	
+
+		<!-- 구글애드센스 리스트 중간 인피드 광고 시작 -->
+		<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			if (chInfeedAdSenseShow == 0) {
+				if ((chInfeed++) % chInfeedAdSenseInsert == 0) {
+					if(window.innerWidth > 800) {
+						document.write(chInfeedAdSense_PC);
+					}
+					else {
+						document.write(chinfeedAdSense_Mobile);
+					}
+					(adsbygoogle = window.adsbygoogle || []).push( {
+						});
+				}
+			}
+			</script>
+		<!-- 구글애드센스 리스트 중간 인피드 광고 끝 -->
+
+               
+           
+               
+	
+		<div class="list_content">
+			
+				<a href="/297" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C150x150/?fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FLGV7h%2FbtsIJ0J4ZgP%2FAAAAAAAAAAAAAAAAAAAAAAg-_pJ3-q2AYvmkupPu9SHZ1nZHDjuDKydKu0_3thVe%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3DGr7Hrs77yGaNOXLUWuNYGk8fxnM%253D"></a>
+			
+			<a href="/297" class="link_post">
+				<strong class="tit_post ">[CI/CD] - CI/CD란? - 간단하고 쉽게 이해하기(CI란?, CD란?, 지속적인 배포, 지속적인 제공 차이점)</strong>
+				<p class="txt_post">🧹간단 정리CI는 지속적인 통합(Continuous Integration)이라는 의미로 작업한 코드를 주기적으로 빌드 -&gt; 테스트 -&gt; 병합하는 과정CD는 지속적인 제공(Continuous Delivery)과 지속적인 배포(Continuous Deployment)라는 2개의 뜻으로 불림지속적인 제공은 '수동 배포'지속적인 배포는 '자동 배포'결론은 CI를 거쳐 CD가 진행되기에 CI와 CD를 따로 말하지 않고 CI/CD라고 불린다.&nbsp;(아래에서 계속 👀 엄청 쉽게 설명)&nbsp;🔁 CI/CD란?CI/CD는 애플리케이션 개발부터 배포까지 모든 단계를 자동화하여 효율적이고 빠르게 사용자에게 빈번히 배포할 수 있도록 하는 개념.이는 DevOps 엔지니어의 핵심 업무이기도 하다.👨🏻‍💻 CI(Continuou..</p>
+			</a>
+			<div class="detail_info">
+				<a href="/category/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B3%A0%20%EC%89%BD%EA%B2%8C" class="link_cate">간단하고 쉽게</a>
+				<span class="txt_bar"></span>
+				<span class="txt_date">2024. 7. 24. 01:57</span>
+			</div>
+		</div>
+	
+
+
+	
+
+		<!-- 구글애드센스 리스트 중간 인피드 광고 시작 -->
+		<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			if (chInfeedAdSenseShow == 0) {
+				if ((chInfeed++) % chInfeedAdSenseInsert == 0) {
+					if(window.innerWidth > 800) {
+						document.write(chInfeedAdSense_PC);
+					}
+					else {
+						document.write(chinfeedAdSense_Mobile);
+					}
+					(adsbygoogle = window.adsbygoogle || []).push( {
+						});
+				}
+			}
+			</script>
+		<!-- 구글애드센스 리스트 중간 인피드 광고 끝 -->
+
+               
+           
+               
+	
+		<div class="list_content">
+			
+				<a href="/296" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C150x150/?fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FK1skm%2FbtsIIn6ngrv%2FAAAAAAAAAAAAAAAAAAAAAH7d8CHRpo2VCK6IQyouVRuVbUg-usWy3-M5A-99u938%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3DioBYZjswzpyiYhT4E5CXdYlwogo%253D"></a>
+			
+			<a href="/296" class="link_post">
+				<strong class="tit_post ">54. [개발일지] - 개발자 취업 성공 후기(취업과정, 직종 변경, 기술 스택, 생존신고)</strong>
+				<p class="txt_post">💬&nbsp; 인사말 (생존신고)오랜만에 [개발일지]를 작성해 본다. 마지막 일지를 확인해 보니... 헉... 벌써 1년 하고도 1개월이 지났다.(아래 링크참고)물론 '개발일지'만 1년 1개월간 작성하지 않았고 다른 글들은 작성하고 있었다.&nbsp;&nbsp;제목을 보면 알겠지만..그렇다.. 드디어 취업에 성공했다 🥹 (오늘부로 약 10개월 차가 되어간다)(회사 내용을 pulbic한 공간에 자세하게 적고 싶지는 않으니 이해를 부탁한다!!)&nbsp;53. [개발일지] - 깊은 학습이 필요하다, 스터디의 시(겉핥기는 그만, 기본기의 중요성)🏄🏻 평온한? 일상 어느 날 수업을 듣던 도중 교수님께서 나에게 질문을 하셨다. 상황 1 👨🏻‍🏫 교수님 : "Equals와 '=='의 차이점은 무엇인가요? 👨🏻‍🎓 나(본인) : "그..</p>
+			</a>
+			<div class="detail_info">
+				<a href="/category/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80" class="link_cate">개발일지</a>
+				<span class="txt_bar"></span>
+				<span class="txt_date">2024. 7. 22. 23:39</span>
+			</div>
+		</div>
+	
+
+
+	
+
+		<!-- 구글애드센스 리스트 중간 인피드 광고 시작 -->
+		<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			if (chInfeedAdSenseShow == 0) {
+				if ((chInfeed++) % chInfeedAdSenseInsert == 0) {
+					if(window.innerWidth > 800) {
+						document.write(chInfeedAdSense_PC);
+					}
+					else {
+						document.write(chinfeedAdSense_Mobile);
+					}
+					(adsbygoogle = window.adsbygoogle || []).push( {
+						});
+				}
+			}
+			</script><ins class="adsbygoogle" style="display: block; height: 0px;" data-ad-format="fluid" data-ad-layout="image-side" data-ad-layout-key="-ee+5+7e-w5+ys" data-ad-client="ca-pub-9910939065024756" data-ad-slot="7093039920" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_3_host" style="border: none; height: 0px; width: 800px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_3" name="aswift_3" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 800px; height: 0px; min-height: auto; max-height: none; min-width: auto; max-width: none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="800" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9910939065024756&amp;output=html&amp;h=219&amp;slotname=7093039920&amp;adk=2584822455&amp;adf=1039080319&amp;pi=t.ma~as.7093039920&amp;w=800&amp;abgtt=9&amp;lmt=1754616057&amp;rafmt=11&amp;format=800x219&amp;url=https%3A%2F%2Fccomccomhan.tistory.com%2F%3Fname%3Did&amp;host=ca-host-pub-9691043933427338&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTM5LjAuNzI1OC42NiIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q7QT1CcmFuZCIsIjk5LjAuMC4wIl0sWyJHb29nbGUgQ2hyb21lIiwiMTM5LjAuNzI1OC42NiJdLFsiQ2hyb21pdW0iLCIxMzkuMC43MjU4LjY2Il1dLDBd&amp;dt=1754616057389&amp;bpp=2&amp;bdt=31&amp;idt=71&amp;shv=r20250805&amp;mjsv=m202508050101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D46b37723b86a077d%3AT%3D1753354002%3ART%3D1754616051%3AS%3DALNI_MZLxqep8qNV0bKs0mRBWLYPsoN2VA&amp;gpic=UID%3D0000116d37539426%3AT%3D1753354002%3ART%3D1754616051%3AS%3DALNI_MbOdo_0BQn-TdO5rVbrJ36ZCforsg&amp;eo_id_str=ID%3D029101c45935c17b%3AT%3D1753354002%3ART%3D1754616051%3AS%3DAA-AfjbH3uIEQYzAofVringLR6mY&amp;prev_fmts=0x0%2C800x280%2C800x219&amp;nras=1&amp;correlator=3992945602502&amp;frm=20&amp;pv=1&amp;rplot=2&amp;u_tz=540&amp;u_his=5&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=396&amp;ady=1667&amp;biw=1294&amp;bih=877&amp;scr_x=0&amp;scr_y=0&amp;eid=42532524%2C95362655%2C95367554%2C95368510%2C95359266%2C31092547&amp;oid=2&amp;pvsid=3918326615228152&amp;tmod=1530841012&amp;uas=0&amp;nvt=3&amp;fc=1920&amp;brdim=-1338%2C84%2C-1338%2C84%2C1920%2C13%2C1325%2C972%2C1309%2C877&amp;vis=1&amp;rsz=%7C%7CpeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1.01&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDFd&amp;nt=1&amp;pgls=CAk.&amp;ifi=4&amp;uci=a!4&amp;btvi=1&amp;fsb=1&amp;dtd=74" data-google-container-id="a!4" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true" data-google-query-id="CKDq3paG-o4DFetFwgUdMLQatw"></iframe></div></ins>
+		<!-- 구글애드센스 리스트 중간 인피드 광고 끝 -->
+
+               
+           
+               
+	
+		<div class="list_content">
+			
+				<a href="/295" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C150x150/?fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbwYDCe%2FbtsHqkCtQce%2FAAAAAAAAAAAAAAAAAAAAAEUYJcNLtGNSHjwTalQI2XdkiqbECJZRf7H53E737ZFq%2Fimg.webp%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3DOKwAfjlGcrvHHjnu2d2zzC7%252B6eI%253D"></a>
+			
+			<a href="/295" class="link_post">
+				<strong class="tit_post ">[git] - git stash란? - 간단하고 쉽게 이해하기(예제코드, Git Stash의 모든것, Git Stash 명령어 종류, git 협업 방법, 코드 임시저장)</strong>
+				<p class="txt_post">🧹 간단 설명git stash 명령어는 ‘임시저장’을 의미(자세한 내용은 아래 참고 👀)&nbsp;🤔 Git Stash란 무엇인가?git stash 명령어는 Git에서 작업 중인 변경사항들을 임시로 저장할 수 있는 명령어이를 통해 작업 중인 코드를 잃지 않고 다른 브랜치로 안전하게 이동하거나 급한 작업을 처리할 수 있다.✍🏻 Git Stash 사용 예시 - 언제 사용해야 할까?&nbsp;[상황 1] : 'feature/add'라는 브랜치에서 'add 기능 유지보수' 작업 중 새로운 기능을 급하게 추가해야 할 때.&nbsp;👨🏻‍🔧 요청자: "마이너스 기능 추가를 해야 해. 무조건 지금, 너무 급해!"🧑🏻‍💻 개발자: "음... 지금 'add' 기능 수정 중인데... 하긴 기능 추가가 급하긴 하지. 근데 지금까지 ..</p>
+			</a>
+			<div class="detail_info">
+				<a href="/category/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B3%A0%20%EC%89%BD%EA%B2%8C/Git" class="link_cate">간단하고 쉽게/Git</a>
+				<span class="txt_bar"></span>
+				<span class="txt_date">2024. 5. 15. 01:02</span>
+			</div>
+		</div>
+	
+
+
+	
+
+		<!-- 구글애드센스 리스트 중간 인피드 광고 시작 -->
+		<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			if (chInfeedAdSenseShow == 0) {
+				if ((chInfeed++) % chInfeedAdSenseInsert == 0) {
+					if(window.innerWidth > 800) {
+						document.write(chInfeedAdSense_PC);
+					}
+					else {
+						document.write(chinfeedAdSense_Mobile);
+					}
+					(adsbygoogle = window.adsbygoogle || []).push( {
+						});
+				}
+			}
+			</script>
+		<!-- 구글애드센스 리스트 중간 인피드 광고 끝 -->
+
+               
+           
+               
+	
+		<div class="list_content">
+			
+				<a href="/294" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C150x150/?fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdeymyL%2FbtsFYmh1pXZ%2FAAAAAAAAAAAAAAAAAAAAABUfYveFPzOJyNFC-HzyE-7zblobZ5cyNTB9RRlJuIlf%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3DyW38DE8LqEo04wHV64UxTz0LAvY%253D"></a>
+			
+			<a href="/294" class="link_post">
+				<strong class="tit_post ">[JS] - 증감연산자를('++'와 '--') 사용하면 안되는 이유(EsLint no-plusplus) - 간단하고 쉽게 이해하기</strong>
+				<p class="txt_post">🧹 간단 정리JS에서는 ++, -- 말고 '+= 1'을 사용하자.&nbsp;(자세한 내용은 아래에.. 짧으니 읽어보길 추천한다! 도움이 된다 👀)😤 서론 (자바스크립트에서 ++와 -- 사용을 피해야 하는 이유)필자는 평소처럼 ++와 -- 연산자를 사용하던&nbsp;어느 날 ESLint의 no-plusplus 규칙을 마주했다.&nbsp;🤷🏻‍♂️🤷🏻‍♂?? 왜 왜 사용하면 안 되는데? 너 뭔데 도대체 왜? 정말 미추어 버리겠네!?!.. 진짜 너무 궁금하니 바로 알아보자...&nbsp;👀 공식 페이지 확인위 링크를 클릭하면 공식 홈페이지에 친절히 나와있다(https://eslint.org/docs/latest/rules/no-plusplus)공식 페이지를 토대로 이야기하자면 아래와 같은 이유로 인하여 사용을 지양한다.&nbsp;&nbsp; &nbsp;&nbsp;✍..</p>
+			</a>
+			<div class="detail_info">
+				<a href="/category/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B3%A0%20%EC%89%BD%EA%B2%8C/JS" class="link_cate">간단하고 쉽게/JS</a>
+				<span class="txt_bar"></span>
+				<span class="txt_date">2024. 4. 18. 20:56</span>
+			</div>
+		</div>
+	
+
+
+	
+
+		<!-- 구글애드센스 리스트 중간 인피드 광고 시작 -->
+		<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			if (chInfeedAdSenseShow == 0) {
+				if ((chInfeed++) % chInfeedAdSenseInsert == 0) {
+					if(window.innerWidth > 800) {
+						document.write(chInfeedAdSense_PC);
+					}
+					else {
+						document.write(chinfeedAdSense_Mobile);
+					}
+					(adsbygoogle = window.adsbygoogle || []).push( {
+						});
+				}
+			}
+			</script>
+		<!-- 구글애드센스 리스트 중간 인피드 광고 끝 -->
+
+               
+           
+               
+	
+		<div class="list_content">
+			
+				<a href="/293" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C150x150/?fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FrHMOA%2FbtsGE5sqrHa%2FAAAAAAAAAAAAAAAAAAAAACF-_mvlowI8VvGCwsDr6bB2j-3B0BaplimPFZZ-Oceg%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3DXaiMxY4EoQhJm0%252BqTO49jkpy9Nc%253D"></a>
+			
+			<a href="/293" class="link_post">
+				<strong class="tit_post ">[개발 관련 도움] - deprecated이란? 간단하고 쉽게 이해하기(vs code 미사용 코드 설정, 사용하지 않는 코드 설정, 함수 가로줄, 컴포넌트 가로줄)</strong>
+				<p class="txt_post">🧹 간단 정리 deprecated 어노테이션을 사용하면 미사용 코드라는 것을 안내할 수 있다. 삭제 시 사용 중인 코드에 영향이 가는 것을 방지할 수 있다. 함수 및 컴포넌트 사용 시 가로줄을 표시하기도 한다. deprecated의 원어 뜻은 '사용하지 않음'이다. (자세한 내용은 아래에 👀) 🙂 서사 개발을 하다 보면 가끔씩 '자동완성' 된 함수나 컴포넌트를 사용했지만 가로줄로 표기된 화면을 경험한 적이 있을 것이다. (아래 사진 참고) Next.js로 (협업) 개발을 하던 와중 내가 만들었던 컴포넌트가 이제 사용하지 않는 경우가 생겼다. 즉 이제 사용하지 않는 코드가 생긴 것이다. 뭔가 나중에 또 쓰일 거 같고.. 삭제하자니 마음이 아파오고.. (사실 개발의 유명한 말 중에 하나는 '작성한 코드의 삭..</p>
+			</a>
+			<div class="detail_info">
+				<a href="/category/%EA%B0%9C%EB%B0%9C%20%EA%B4%80%EB%A0%A8%20%EB%8F%84%EC%9B%80" class="link_cate">개발 관련 도움</a>
+				<span class="txt_bar"></span>
+				<span class="txt_date">2024. 4. 15. 23:25</span>
+			</div>
+		</div>
+	
+
+
+	
+
+		<!-- 구글애드센스 리스트 중간 인피드 광고 시작 -->
+		<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			if (chInfeedAdSenseShow == 0) {
+				if ((chInfeed++) % chInfeedAdSenseInsert == 0) {
+					if(window.innerWidth > 800) {
+						document.write(chInfeedAdSense_PC);
+					}
+					else {
+						document.write(chinfeedAdSense_Mobile);
+					}
+					(adsbygoogle = window.adsbygoogle || []).push( {
+						});
+				}
+			}
+			</script><ins class="adsbygoogle" style="display: block; height: 0px;" data-ad-format="fluid" data-ad-layout="image-side" data-ad-layout-key="-ee+5+7e-w5+ys" data-ad-client="ca-pub-9910939065024756" data-ad-slot="7093039920" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_4_host" style="border: none; height: 0px; width: 800px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_4" name="aswift_4" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 800px; height: 0px; min-height: auto; max-height: none; min-width: auto; max-width: none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="800" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9910939065024756&amp;output=html&amp;h=219&amp;slotname=7093039920&amp;adk=2584822455&amp;adf=709404089&amp;pi=t.ma~as.7093039920&amp;w=800&amp;abgtt=9&amp;lmt=1754616057&amp;rafmt=11&amp;format=800x219&amp;url=https%3A%2F%2Fccomccomhan.tistory.com%2F%3Fname%3Did&amp;host=ca-host-pub-9691043933427338&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTM5LjAuNzI1OC42NiIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q7QT1CcmFuZCIsIjk5LjAuMC4wIl0sWyJHb29nbGUgQ2hyb21lIiwiMTM5LjAuNzI1OC42NiJdLFsiQ2hyb21pdW0iLCIxMzkuMC43MjU4LjY2Il1dLDBd&amp;dt=1754616057392&amp;bpp=1&amp;bdt=33&amp;idt=74&amp;shv=r20250805&amp;mjsv=m202508050101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D46b37723b86a077d%3AT%3D1753354002%3ART%3D1754616051%3AS%3DALNI_MZLxqep8qNV0bKs0mRBWLYPsoN2VA&amp;gpic=UID%3D0000116d37539426%3AT%3D1753354002%3ART%3D1754616051%3AS%3DALNI_MbOdo_0BQn-TdO5rVbrJ36ZCforsg&amp;eo_id_str=ID%3D029101c45935c17b%3AT%3D1753354002%3ART%3D1754616051%3AS%3DAA-AfjbH3uIEQYzAofVringLR6mY&amp;prev_fmts=0x0%2C800x280%2C800x219%2C800x219&amp;nras=1&amp;correlator=3992945602502&amp;frm=20&amp;pv=1&amp;rplot=2&amp;u_tz=540&amp;u_his=5&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=396&amp;ady=2691&amp;biw=1294&amp;bih=877&amp;scr_x=0&amp;scr_y=0&amp;eid=42532524%2C95362655%2C95367554%2C95368510%2C95359266%2C31092547&amp;oid=2&amp;pvsid=3918326615228152&amp;tmod=1530841012&amp;uas=0&amp;nvt=3&amp;fc=1920&amp;brdim=-1338%2C84%2C-1338%2C84%2C1920%2C13%2C1325%2C972%2C1309%2C877&amp;vis=1&amp;rsz=%7C%7CpeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1.01&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDFd&amp;nt=1&amp;pgls=CAk.&amp;ifi=5&amp;uci=a!5&amp;btvi=2&amp;fsb=1&amp;dtd=77" data-google-container-id="a!5" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true" data-google-query-id="CKzE35aG-o4DFbSI6QUdOA88zg"></iframe></div></ins>
+		<!-- 구글애드센스 리스트 중간 인피드 광고 끝 -->
+
+               
+           
+               
+	
+		<div class="list_content">
+			
+				<a href="/292" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C150x150/?fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FeMlsAY%2FbtsDY613o0M%2FAAAAAAAAAAAAAAAAAAAAAKWatEt1gXEol1PmVpUhxYDKeM_TGunIkufrYCP37yRr%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3DyB5NyWnReuXGYB7K%252BspGNQSuLUE%253D"></a>
+			
+			<a href="/292" class="link_post">
+				<strong class="tit_post ">[개발 관련 도움] - Node 버전 변경하기(맥에서 node 설치, NVM 버전 변경하기, NVM 사용법)</strong>
+				<p class="txt_post">🕵🏻‍♀️ 서사Node.js 버전을 변경해야 할 일이 생겼다.따라서 NVM으로 변경하기로 했다.&nbsp;node 버전 변경 내용은 위치 중간 부터 진행 (1번 : nvm 설치 확인, 2번 : node 버전 확인)&nbsp;💡&nbsp; nvm = node 버전 관리 해주는 친구(라고 이해하자 ^^)&nbsp; &nbsp;👀 nvm 설치 확인1. 터미널 프로그램 열기 (본인은 iterm2를 열었다)2. nvm이 있는지 명령어로 확인 nvm ls&nbsp;&nbsp;&nbsp;3. 없다면 설치 명령어 입력(brew도 없다면 우측 링크로 확인해서 후딱 다운로드 하고 오자 https://ccomccomhan.tistory.com/279 )&nbsp;brew install nvm4. 설치 도중 'Please&nbsp;note&nbsp;that&nbsp;upstream&nbsp;has&nbsp;asked&nbsp;us&nbsp;to&nbsp;make&nbsp;ex..</p>
+			</a>
+			<div class="detail_info">
+				<a href="/category/%EA%B0%9C%EB%B0%9C%20%EA%B4%80%EB%A0%A8%20%EB%8F%84%EC%9B%80" class="link_cate">개발 관련 도움</a>
+				<span class="txt_bar"></span>
+				<span class="txt_date">2024. 1. 25. 22:28</span>
+			</div>
+		</div>
+	
+
+
+	
+
+		<!-- 구글애드센스 리스트 중간 인피드 광고 시작 -->
+		<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			if (chInfeedAdSenseShow == 0) {
+				if ((chInfeed++) % chInfeedAdSenseInsert == 0) {
+					if(window.innerWidth > 800) {
+						document.write(chInfeedAdSense_PC);
+					}
+					else {
+						document.write(chinfeedAdSense_Mobile);
+					}
+					(adsbygoogle = window.adsbygoogle || []).push( {
+						});
+				}
+			}
+			</script>
+		<!-- 구글애드센스 리스트 중간 인피드 광고 끝 -->
+
+               
+           
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+						<div class="area_paging">
+    					<span class="inner_paging">
+                <a class="btn_prev no-more-prev">
+									<span class="ico_skin ico_prev">
+										<span class="screen_out">
+                      이전
+                    </span>
+									</span>
+									Prev
+								</a>
+    						
+    							<a href="/?page=1" class="link_page"><span class="selected">1</span></a>
+    						
+    							<a href="/?page=2" class="link_page"><span class="">2</span></a>
+    						
+    							<a href="/?page=3" class="link_page"><span class="">3</span></a>
+    						
+    							<a href="/?page=4" class="link_page"><span class="">4</span></a>
+    						
+    							<a class="link_page"><span class="">···</span></a>
+    						
+    							<a href="/?page=37" class="link_page"><span class="">37</span></a>
+    						
+                <a href="/?page=2" class="btn_next ">
+									Next
+									<span class="ico_skin ico_next">
+										<span class="screen_out">
+                      다음
+                    </span>
+									</span>
+								</a>
+    					</span>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+		<hr class="hide">
+		<div id="dkFoot" role="contentinfo" class="area_foot">
+			<small class="info_copyright">
+				Blog is powered by
+				<a href="http://www.kakaocorp.com" class="emph_t" target="_blank">kakao</a> / Designed by
+				<a href="http://www.tistory.com" class="emph_t" target="_blank">Tistory</a>
+			</small>
+		</div>
+	</div>
+
+
+
+<script src="https://tistory1.daumcdn.net/tistory/5593667/skin/images/script.js?_version_=1706279558"></script>
+
+<!-- 맥북 디자인 코드블럭 스크립트 적용 -->
+<script defer="" src="https://tistory1.daumcdn.net/tistory/5593667/skin/images/codeblock.js?_version_=1706279558"></script>
+<div class="#menubar menu_toolbar ">
+  <h2 class="screen_out">티스토리툴바</h2>
+<div class="btn_tool btn_tool_type1" id="menubar_wrapper" data-tistory-react-app="Menubar"><button class="btn_menu_toolbar btn_menu_type2"><span class="img_common_tistory ico_tistory_sign">관리메뉴열기</span></button><div class="header_layer layer_tool" style="display: none;"><div class="inner_header_layer"><h2 class="screen_out">개인정보</h2><ul class="list_toolbar"><li><a class="link_list" href="https://www.tistory.com">티스토리 홈</a></li><li><a class="link_list" href="https://www.tistory.com/forum">포럼</a></li><li><a class="link_list" href="#">로그인</a></li></ul></div></div></div><div class="btn_tool"><button class="btn_menu_toolbar btn_subscription #subscribe" data-blog-id="5593667" data-url="https://ccomccomhan.tistory.com" data-device="web_pc" data-tiara-copy="구독하기"><strong class="txt_tool_id">[꼼꼼한 개발자] 꼼코더</strong><em class="txt_state">구독하기</em><span class="img_common_tistory ico_check_type1"></span></button></div></div>
+<div class="layer_tooltip">
+  <div class="inner_layer_tooltip">
+    <p class="desc_g"></p>
+  </div>
+</div>
+<div id="editEntry" style="position:absolute;width:1px;height:1px;left:-100px;top:-100px"></div>
+
+
+                        <!-- CallBack - START -->
+        <script>                    (function () { 
+                        var blogTitle = '[꼼꼼한 개발자] 꼼코더';
+                        
+                        (function () {
+    function isShortContents () {
+        return window.getSelection().toString().length < 30;
+    }
+    function isCommentLink (elementID) {
+        return elementID === 'commentLinkClipboardInput'
+    }
+
+    function copyWithSource (event) {
+        if (isShortContents() || isCommentLink(event.target.id)) {
+            return;
+        }
+        var range = window.getSelection().getRangeAt(0);
+        var contents = range.cloneContents();
+        var temp = document.createElement('div');
+
+        temp.appendChild(contents);
+
+        var url = document.location.href;
+        var decodedUrl = decodeURI(url);
+        var postfix = ' [' + blogTitle + ':티스토리]';
+
+        event.clipboardData.setData('text/plain', temp.innerText + '\n출처: ' + decodedUrl + postfix);
+        event.clipboardData.setData('text/html', '<pre data-ke-type="codeblock">' + temp.innerHTML + '</pre>' + '출처: <a href="' + url + '">' + decodedUrl + '</a>' + postfix);
+        event.preventDefault();
+    }
+
+    document.addEventListener('copy', copyWithSource);
+})()
+
+                    })()</script>
+
+        <!-- CallBack - END -->
+
+<!-- DragSearchHandler - START -->
+<script src="//search1.daumcdn.net/search/statics/common/js/g/search_dragselection.min.js"></script>
+
+<!-- DragSearchHandler - END -->
+
+        <!-- SyntaxHighlight - START -->
+        <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/styles/atom-one-dark-reasonable.min.css" rel="stylesheet"><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/delphi.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/php.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/python.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/r.min.js" defer=""></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/ruby.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/scala.min.js" defer=""></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/shell.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/sql.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/swift.min.js" defer=""></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/typescript.min.js" defer=""></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/vbnet.min.js" defer=""></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+        <!-- SyntaxHighlight - END -->
+
+                
+                <div style="margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0"></div>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-39ee03342e373848ba7c0bb12e153b29db04aa6b/static/script/common.js"></script>
+<script type="text/javascript">window.roosevelt_params_queue = window.roosevelt_params_queue || [{channel_id: 'dk', channel_label: '{tistory}'}]</script>
+<script type="text/javascript" src="//t1.daumcdn.net/midas/rt/dk_bt/roosevelt_dk_bt.js" async="async"></script>
+
+                
+                <script>window.tiara = {"svcDomain":"user.tistory.com","section":"블로그","trackPage":"블로그홈_보기","page":"블로그홈","key":"5593667","customProps":{"userId":"0","blogId":"5593667","entryId":"null","role":"guest","trackPage":"블로그홈_보기","filterTarget":false},"entry":null,"kakaoAppKey":"3e6ddd834b023f24221217e370daed18","appUserId":"null"}</script>
+<script type="module" src="https://t1.daumcdn.net/tistory_admin/frontend/tiara/v1.0.5/index.js"></script>
+<script src="https://t1.daumcdn.net/tistory_admin/frontend/tiara/v1.0.5/polyfills-legacy.js" nomodule="true" defer="true"></script>
+<script src="https://t1.daumcdn.net/tistory_admin/frontend/tiara/v1.0.5/index-legacy.js" nomodule="true" defer="true"></script>
+
+                
+
+
+<div id="__phocus__" class="__phocus__" tabindex="-1"></div><div id="shortcutLayer" class="doc_help" style="display: none;"><button class="btn_doc_close">닫기</button>
+  <h2 class="title">단축키</h2>
+  <div class="content pc_platform">
+    <div class="container">
+      <h3 class="item_title">내 블로그</h3>
+      <table class="item">
+        <tbody>
+        
+    <tr>
+      <th>내 블로그 - 관리자 홈 전환</th>
+      <td>
+        <div class="pc">
+          <kbd>Q</kbd>
+        </div>
+        <div class="mac">
+          <kbd>Q</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>새 글 쓰기</th>
+      <td>
+        <div class="pc">
+          <kbd>W</kbd>
+        </div>
+        <div class="mac">
+          <kbd>W</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        </tbody>
+      </table>
+      <h3 class="item_title">블로그 게시글</h3>
+      <table class="item">
+        <tbody>
+        
+    <tr>
+      <th>글 수정 (권한 있는 경우)</th>
+      <td>
+        <div class="pc">
+          <kbd>E</kbd>
+        </div>
+        <div class="mac">
+          <kbd>E</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>댓글 영역으로 이동</th>
+      <td>
+        <div class="pc">
+          <kbd>C</kbd>
+        </div>
+        <div class="mac">
+          <kbd>C</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <h3 class="item_title">모든 영역</h3>
+      <table class="item">
+        <tbody>
+        
+    <tr>
+      <th>이 페이지의 URL 복사</th>
+      <td>
+        <div class="pc">
+          <kbd>S</kbd>
+        </div>
+        <div class="mac">
+          <kbd>S</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>맨 위로 이동</th>
+      <td>
+        <div class="pc">
+          <kbd>T</kbd>
+        </div>
+        <div class="mac">
+          <kbd>T</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>티스토리 홈 이동</th>
+      <td>
+        <div class="pc">
+          <kbd>H</kbd>
+        </div>
+        <div class="mac">
+          <kbd>H</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>단축키 안내</th>
+      <td>
+        <div class="pc">
+          <kbd>Shift</kbd> + <kbd>/</kbd>
+        </div>
+        <div class="mac">
+          <kbd>⇧</kbd> + <kbd>/</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <p class="info">* 단축키는 한글/영문 대소문자로 이용 가능하며, 티스토리 기본 도메인에서만 동작합니다.</p>
+  </div><div style="position: absolute; height: 5px; width: 5px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 603.4px; top: 1px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 585.4px; top: 1px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 6px; width: 6px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 603px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 6px; width: 6px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 627.6px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 674px; top: 118.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 557.4px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 8px; width: 8px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 582.6px; top: 4px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 6px; width: 6px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 627px; top: 2.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 5px; width: 5px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 675.8px; top: 132px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 6px; width: 6px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 676.8px; top: 223.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 555.6px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 636px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 660px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 673.8px; top: 123.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 674px; top: 208px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 5px; width: 5px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 523.2px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 5px; width: 5px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 486.4px; top: 2.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 6px; width: 6px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 465px; top: 3.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 5px; width: 5px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 455.2px; top: 2.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 6px; width: 6px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 414.4px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 7px; width: 7px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 258.8px; top: 1px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 285.8px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 6px; width: 6px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 302px; top: 1px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 324.4px; top: 1px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 368.6px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 279.6px; top: 2.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 323.2px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 385px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 464.4px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 5px; width: 5px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 503.4px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 476px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 525px; top: 2.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 549px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 565.8px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 592.6px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 536.2px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 540px; top: 1px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 534px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 511.8px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 477.4px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 360.2px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 358.6px; top: 2.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 355px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 363.8px; top: 1px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 428.4px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 326.8px; top: 2.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 6px; width: 6px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 394.4px; top: 3px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 492px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 5px; width: 5px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 600.6px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 669.6px; top: 2.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 680px; top: 201px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 7px; width: 7px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 749.4px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 378px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 4px; width: 4px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 802.4px; top: 1px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 6px; width: 6px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 550.6px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 5px; width: 5px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 977px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 733.4px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 979px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 6px; width: 6px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 538.2px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 5px; width: 5px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 1191px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 735.6px; top: 1.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 7px; width: 7px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 809px; top: 0.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 5px; width: 5px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 144px; top: 2.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 6px; width: 6px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 1147px; top: 2.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 8px; width: 8px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 917.4px; top: 2.5px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><div style="position: absolute; height: 3px; width: 3px; overflow: hidden; background-color: transparent; visibility: hidden; z-index: 1001; left: 1209.4px; top: 2px;"><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 1px 0px; border-left: 1px solid rgb(170, 102, 255); border-right: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: transparent; inset: 0px 1px; border-top: 1px solid rgb(170, 102, 255); border-bottom: 1px solid rgb(102, 0, 255);"></div><div style="position: absolute; height: auto; width: auto; overflow: hidden; background-color: rgb(204, 204, 204); inset: 1px; opacity: 0.5;"></div></div><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body>
+<div align="center">
+<H2>주소록:작성화면 </H2>
+<HR>
+[<a href=addrbook_control.jsp?action=list>주소록 목록으로</a>] <P>
+<form name=form1 method=post action=addrbook_control.jsp>
+<input type=hidden name="action" value="insert">
+<table border="1">
+  <tr>
+    <th>이 름</th>	
+    <td><input type="text" name="abName" maxlength="15"></td>
+  </tr>
+  <tr>
+    <th>email</th>
+    <td><input type="email" name="abEmail" maxlength="50"></td>
+  </tr>
+  <tr>
+    <th>전화번호</th>
+    <td><input type="text" name="abTel" maxlength="20"></td>
+  </tr>
+  <tr>
+    <th>생 일</th>
+    <td><input type="date" name="abBirth"></td>
+  </tr>  
+  <tr>
+    <th>회 사</th>
+    <td><input type="text" name="abComdept" maxlength="20"></td>
+  </tr>
+  <tr>
+    <th>메 모</th>
+    <td><input type="text" name="abMemo"></td>
+  </tr>
+  <tr>
+    <td colspan=2 align=center><input type=submit value="저장"><input type=reset value="취소"></td>
+</tr>
+</table>
+</form>
+
+</div>
+</body>
+</html>

@@ -3,4 +3,15 @@
     <fullyQualifiedTypeName name="jdk.internal.org.jline.reader.PrintAboveWriter"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
+    <fullyQualifiedTypeName name="addrbook.AddrBookDAO"/>
+    <fullyQualifiedTypeName name="addrbook.AddrBookVO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.servlet.jsp.PageContext"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,25 @@
+package myaddrbook;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class MainController
+ */
+@WebServlet("*.htm") // 이건 모든 요청에서 .htm으로 넘어오면 이걸로 처리한다는거임
+
+public class MainController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String uri = req.getRequestURI();
+		System.out.println("uri=" + uri);
+	}
+	// 무조건 이렇게 해야하는건아님
+
+}

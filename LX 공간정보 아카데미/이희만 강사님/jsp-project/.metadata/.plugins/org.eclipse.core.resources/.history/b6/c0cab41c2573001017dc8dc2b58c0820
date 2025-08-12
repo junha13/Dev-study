@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	// job_id_list를 출력한다.
+	// 하지만 job_id는 DB에 있고 이를 가져오려면 DB연결이 필요함  (그리고 그런 DB연결은 별도의 클래스로 분리되는게 매우매우 적절하다)
+	
+
+
+%>
+</body>
+</html>

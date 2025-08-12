@@ -1,0 +1,9 @@
+package userIfo;
+
+public class EmpUtil {
+	public String[] getJobList() throws Exception {
+		String[] result = null;
+		return result;
+		
+	}
+}

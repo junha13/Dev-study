@@ -1,0 +1,27 @@
+package myaddrbook;
+
+import java.io.IOException;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class MainSerblet
+ */
+@WebServlet("/MainSerblet")
+public class MainSerblet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+	@Override
+	public void init(ServletConfig config) throws ServletException {
+		// TODO Auto-generated method stub
+		System.out.println("init()");
+		super.init(config);
+		
+		// 허용되지 않는 메서드가 뜨는데, 
+	}
+}

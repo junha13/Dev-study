@@ -1,0 +1,23 @@
+package userIfo;
+
+public class Emp {
+	int employee_id;
+	String first_name;
+	String last_name;
+	String email;
+	String mobile;
+	String hire_date;
+	int jobid;
+	double salary;
+	double commission_pd;
+	int manager_id;
+	int department_id;
+	@Override
+	public String toString() {
+		return "Emp [employee_id=" + employee_id + ", first_name=" + first_name + ", last_name=" + last_name
+				+ ", email=" + email + ", mobile=" + mobile + ", hire_date=" + hire_date + ", jobid=" + jobid
+				+ ", salary=" + salary + ", commission_pd=" + commission_pd + ", manager_id=" + manager_id
+				+ ", department_id=" + department_id + "]";
+	}
+	
+}

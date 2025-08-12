@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	session.setAttribute("id", null); // 세션에 붙어있는 id값을 null로 변경
+	// session.invealidate(); 이것도 삭제 되긴하는데 계속해서 세션을 만들어야되기에 붙어있느 id값을 null로 만들어버림
+	
+	%>
+	
+	<jsp:forward page="/25-08-09/login.jsp"></jsp:forward>
+</body>
+</html>

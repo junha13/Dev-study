@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<style type="text/css">
+	header,section,footer,aside,nav,article,figure,figcaption,hgroup{
+  		display: block;
+  		text-align: center;
+  	}
+	table{
+		border: 1px solid;
+		width: 960px;
+	}
+	td{
+		width: 200px;
+	}
+	header{
+		height: 80px;
+		margin: 5px;
+		padding: 10px;
+		background: #cccccc;
+		text-align: center;
+	}
+
+</style>
+
+</head>
+<body>
+	<header>
+		<h1>jQuery Ajax Exercise</h1>
+	</header>
+	<section>
+		<form action="">
+			<table>
+				<tr><td>
+					<select id="type">
+						<option value="koreanfood">한식</option>
+						<option value="saladbar">셀러드바</option>
+					</select>
+					</td>
+					<td>
+					<select id="detail">
+						<option value="sodam">소담애</option>
+						<option value="babnbool">밥앤불고기</option>
+					</select>
+					</td>
+				</tr>
+				<tr><td></td><td></td></tr>
+			</table>
+		</form>
+	</section>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	List<String> searchConditions = new ArrayList<String>();
+	searchConditions.add("emplyess_id");
+	searchConditions.add("first_name");
+	searchConditions.add("department_id");
+	List<Emp> Emplist = new ArrayList<Emp>();
+%>
+	<div>
+		<h1>Employee 검색</h1>
+	</div>
+	<div>
+		<select id="searchSelect">
+<%			for (String searchCondition : searchConditions) {%>
+			<option> <%=searchCondition %>
+<%			}%>			
+		</select>
+			<input id="searchInput">
+			<button id="searchButton">search</button>
+	</div>
+	<div>
+		<table>
+			<tbody>
+				<tr>
+					<td>Emp.</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<script>
+	let searchSelect = document.querySelector("#searchSelect");
+	let searchInput = document.querySelector("#searchInput");
+	let searchButton = document.querySelector("#searchButton");
+	searchButton.addEventListener("click", listView);
+	function listView() {
+		if (!searchInput.value) {
+			alert("공백입력 금지")
+		} else {
+			 = EmpUtil.getEmpListByEmpCondition(searchSelect.value, searchInput.value);
+		}
+
+	}
+	
+	
+	</script>
+</body>
+</html>

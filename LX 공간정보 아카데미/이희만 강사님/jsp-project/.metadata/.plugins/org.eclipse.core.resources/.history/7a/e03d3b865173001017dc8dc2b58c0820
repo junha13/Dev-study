@@ -1,0 +1,39 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	List<String> searchConditions = new ArrayList<String>();
+	searchConditions.add("emplyess_id");
+	searchConditions.add("first_name");
+	searchConditions.add("salary");
+	searchConditions.add("department_id");
+%>
+	<div>
+		<h1>Employee 검색</h1>
+	</div>
+	<div>
+		<select id="searchID">
+<%			for (String searchCondition : searchConditions) {%>
+			<option> <%=searchCondition %>
+<%			}%>			
+		</select>
+			<input>
+			<button>search</button>
+	</div>
+	
+	<script>
+	let searchId = document.querySelector("#serchId");
+	searchId.addEventListner("change", )
+	
+	
+	</script>
+</body>
+</html>

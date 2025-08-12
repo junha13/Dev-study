@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+.table {
+	width:250px;
+}
+
+</style>
+</head>
+<body>
+	<div>
+		<form>
+			<table class="table" border="1">
+				<thead>
+					<tr>
+						<td align="center">과일 목록</td>
+						<td align="center">가격</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input type="checkbox">체리</td>
+						<td id="ch">25000</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox">오렌지</td>
+						<td>23000</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox">사과</td>
+						<td>16000</td>
+					</tr>
+					<tr>
+						<input type="submit" name="구입">
+					</tr>
+				</tbody>
+
+
+			</table>
+
+
+		</form>
+
+	</div>
+</body>
+</html>

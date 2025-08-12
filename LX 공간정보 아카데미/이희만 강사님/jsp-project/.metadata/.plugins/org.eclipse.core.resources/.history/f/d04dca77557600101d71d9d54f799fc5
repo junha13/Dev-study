@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	String ch = request.getParameter("ch");
+	String or = request.getParameter("ro");
+	String ap = request.getParameter("ap");
+
+	if (session.getAttribute("sum") != null) {
+		session.setAttribute("sum", Integer.parseInt(ch) + Integer.parseInt(or) + Integer.parseInt(ap));
+	} else {
+		session.setAttribute("sum", Integer.parseInt((String) session.getAttribute("sum")) + Integer.parseInt(ch)
+		+ Integer.parseInt(or) + Integer.parseInt(ap));
+	}
+	
+	
+	%>
+	
+	총합계 = <%=session.getAttribute("sum") %>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	List<String> seachConditions = new ArrayList<String>();
+	seachConditions.add("emplyess_id");
+	seachConditions.add("first_name");
+	seachConditions.add("salary");
+	seachConditions.add("department_id");
+%>
+	<div>
+		<h1>Employee 검색</h1>
+	</div>
+	<div>
+		<select>
+<%			for (String seachCondition : seachConditions) {%>
+			<option> <%=seachCondition %>
+<%			}%>			
+		</select>
+			<input>
+			<button>search</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+package ab;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.jsp.PageContext;
+
+
+/**
+ * Servlet implementation class AddrbookServlet
+ */
+@WebServlet("*.do")  // 이걸 이렇게 addrbook.do로 넣으면 form이나 url에 넣어야 됨
+// 그럼 모든 경로를 여기로 통하게 한 다음에 if절을 넣으면 되는거구나 아하~
+public class AddrbookServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+		// request 더블클릭 후 refactor - rename   ( 컨트롤 시프트 5 누르면 import)
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+		// 여기서 addrbook_control.jsp가 하는 일을 수행한다.
+		req.setCharacterEncoding("utf-8");
+		
+		String uri = req.getRequestURI();
+		
+		String forwardPage = "addrbook_list.jsp"; // 경로 앞에는 슬래쉬(/)붙혀야됨
+		AddrBookDAO dao = new AddrBookDAO();
+		
+		try {
+		if(uri.endsWith("/insert.do")) {
+			// insert 처리 - DAO의 insertDB호출 DAO.insert();
+			AddrBookVO ab = makeAddrBookFromReq(req);
+			dao.insertDB(ab);
+			// List<AddrBookVO> list = dao.getDBList();
+			// request.setAttribute("data:, list")
+			
+			List<AddrBookVO> list = dao.getDBList();
+			req.setAttribute("data",list);
+			// 목록이 출력될 수 있도록 한다.
+			// forwardPage를 설정한다.
+		} else if(uri.endsWith("/action.do")) {
+			// 1. 클라이언트가 전송한 데이터 중에서 방명록 id를 추출한다.
+			String abIdStr = req.getParameter("ab_id");
+			// 2. DB에서 해당 방명록 정보를 조회한다. (해당 방명록 화면만 보여주는 거임)
+			AddrBookVO vo = dao.getDB(Integer.parseInt(abIdStr));
+			// 3. 방명록 정보를 리퀘스트에 넣드다. 
+			
+			forwardPage = "/25-08-08/addrbook_edit_form.jsp";
+			req.setAttribute("ab", vo);
+			
+			// PageContext.forward(forwardPage);
+		} else if(uri.endsWith("/list.do")) {
+			//scope request에 data라는 이름으로 리스트를 넣어두어야 한다.
+			List<AddrBookVO> list = dao.getDBList();
+			req.setAttribute("data",list);
+			// PageContext.forward(forwardPage);
+			//jsp에 꺼내서 출력한다.
+		} else if (uri.endsWith("/delete.do")) {
+			String abIdStrr = req.getParameter("ab_id");
+			System.out.println(abIdStrr);
+			// dao.deleteDB(Integer.parseInt(abIdStrr));
+			res.sendRedirect("/25-08-08/addrbook_control.jsp?action=list");
+		} else {
+			// res.sendRedirect("addrbook_control.jsp?action=list");
+		}
+		} catch (Exception e) {
+			
+		}
+		
+		// 서버 내부에서 다른 리소스로 포워드( 또는 인클루드)하기 위해 디스패치를 얻는 코드임
+		RequestDispatcher rd = getServletContext().getRequestDispatcher(forwardPage);
+		// 이 메서드(getServletContext())가 현재 클래스의 상위 클래스(genericServlet)에 있다. ★★★★★
+		// getServletContext()가 ServletContext를 리턴하니까 getRequestDispatcher 메서드를 실행할 수 있고 RequestDispatcher를 리턴하는거임
+		
+		// 이게 뭐임 대체
+		
+		// 위 코드로 jsp로 제어가 넘어가게 된다?
+		rd.forward(req, res);
+		
+	}
+
+	private AddrBookVO makeAddrBookFromReq(HttpServletRequest req) {
+		AddrBookVO vo = new AddrBookVO();
+		vo.setAbName(req.getParameter("abName"));
+		vo.setAbTel(req.getParameter("abTel"));
+		vo.setAbComdept(req.getParameter("abComdept"));
+		vo.setAbMemo(req.getParameter("abMemo"));
+		vo.setAbEmail(req.getParameter("abEmail"));
+		vo.setAbBirth(req.getParameter("abBirth"));
+		
+		return vo;
+	}
+	
+	
+	
+}

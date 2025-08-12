@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	table, h3, btton, div{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	tr:nth-child(odd) { 
+		background-color: violet;
+	}
+</style>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+// 왜 위에 넣는 거야라고하면 dom객체가 생성되는시간이걸리니까
+</script>
+</head>
+<body>
+<div>
+	<h3>웹 폼 사례</h3>
+	<table border="1">
+		<tr>
+			<th>사용자이름</th>
+			<td><input type="text" name="userName" id="userName" placeholder="이름을 입력하세요."></td>
+		</tr>
+		<tr>
+			<th>이메일</th>
+			<td><input type="email" name="email" id="email" placeholder="메일주소를 입력하세요."></td>
+		</tr>
+		<tr>
+			<th>검색단어</th>
+			<td><input type="text" name="searchWord" id="searchWord" placeholder="갬석어를 입력하세요."></td>
+		</tr>
+		<tr>
+			<th>취미</th>
+			<td>
+				<input type="checkbox" id="hobby" name="hobby" value="sports">운동
+				<input type="checkbox" id="hobby" name="hobby" value="instrument">악기
+				<input type="checkbox" id="hobby" name="hobby" value="travel">여행
+			</td>
+		</tr>
+		<tr>
+			<th>성별</th>
+			<td>
+				<input type="radio" name="gender" value="male">남자
+				<input type="radio" name="gender" value="female">여자
+			</td>
+		</tr>
+		<tr>
+			<th>점심메뉴</th>
+			<td>
+				<select name="lunch">
+					<option value="jja">짜장면</option>
+					<option value="jjam">짬뽕</option>
+					<option value="bbok">볶음밥</option>
+				</select>
+			</td>
+		</tr>
+	</table>
+	<button type="submit" id="btnSubmit">Submit</button>
+</div>
+<script>
+	/*
+	// 이건 js이고 이걸 jquery로 변경이 가능하다
+	// querySelector로 CSS선택자를 넣어서 처리도 가능하다
+	document.getElementById("btnSubmit").addEventListener("click", (e) => {
+		const userName = document.getElementById("userName");
+		if(!userName.Value) {
+			alert('사용자이름을 입력해야 합니다');
+			userName.focus(); // 입력 상태로 만드는거 커서 깜빡깜빡 // 레전드네
+		}
+	})
+
+	document.getElementById("btnSubmit").addEventListener("click", handleBtn);
+	function handleBtn() {
+		const userName = document.getElementById("userName");
+		if(!userName.Value) {
+			alert('사용자이름을 입력해야 합니다');
+			userName.focus(); // 입력 상태로 만드는거 커서 깜빡깜빡 // 레전드네
+		}
+	}
+	*/
+	$("#btnSubmit").on("click", handleBtn);  //document.getElementById 이 $(CSS선택자), (querySeletor로 들어가는 느낌임), addEventListener이 on으로 줄었음 ㄷㄷ
+	function handleBtn() {
+		const userName = $("#userName");  // $라는 함수를 호출한거임 ㄷㄷ () 가지고 있으니까 어쨋든 메서드임 ㄷㄷ
+		if(userName.val() == false) { // getter
+			alert('사용자이름을 입력해야 합니다');
+			userName.val('hahaha'); // setter
+			userName.focus(); 
+		}
+	}	
+
+</script>
+</body>
+</html>

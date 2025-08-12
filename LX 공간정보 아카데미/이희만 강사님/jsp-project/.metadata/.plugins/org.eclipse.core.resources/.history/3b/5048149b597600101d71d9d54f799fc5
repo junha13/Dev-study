@@ -1,0 +1,64 @@
+<%@page import="java.util.List"%>
+<%@page import="java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	String ch = request.getParameter("ch").split(" ")[1];
+	String or = request.getParameter("ro").split(" ")[1];
+	String ap = request.getParameter("ap").split(" ")[1];
+	List<String> fList = new ArrayList<String>();
+	if (ch == null) {
+		ch = "0";
+		fList.add(request.getParameter("ch").split(" ")[0]);
+	} 
+	if (or == null) {
+		or = "0";
+		fList.add(request.getParameter("or").split(" ")[0]);
+	} 
+	if (ap == null) {
+		ap = "0";
+		fList.add(request.getParameter("ap").split(" ")[0]);
+	}
+	
+	int sum = Integer.parseInt(ch) + Integer.parseInt(or) + Integer.parseInt(ap);
+	
+	if (session.getAttribute("sum") == null) {
+		session.setAttribute("sum", sum);
+	} else {
+		int originSum = (int) session.getAttribute("sum");
+		session.setAttribute("sum", originSum + sum);
+	}
+	
+	%>
+
+	<div>
+		<table>
+			<thead>
+				<tr>
+					<td>구입한 과일</td>
+					<% for (String f : fList) { %>
+					<td><%=f %></td>
+					<% } %>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>합계</td>
+					<td><%=session.getAttribute("sum")%></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<a href="first.jsp">과일구입화면</a>
+
+
+</body>
+
+</html>

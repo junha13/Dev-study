@@ -1,0 +1,42 @@
+package myaddrbook;
+
+import java.io.IOException;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class MainSerblet
+ */
+@WebServlet("/MainServlet")  // 어노테이션
+public class MainServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+	@Override
+	public void init(ServletConfig config) throws ServletException { 
+		// TODO Auto-generated method stub
+		System.out.println("init()");
+		super.init(config);
+		
+		// 처음 요청을 하면 init이 요청되고, 그 다음으로 요청하면 service, doget이 요청됨) ★★★★★★★★★★★★★★
+
+		// 서블릿이란게 그렇게 어려운건 아닌데 서버가 실행되면 서블릿 속 메서드들이 적절하게 실행되는 구조임
+		// 근데 왜 서버만 호출됐는데 메서드가 다 실행이 되나ㅣ
+		
+	}
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		System.out.println("service()");
+		// TODO Auto-generated method stub
+		super.service(req, resp);
+	}
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		System.out.println("doGet()");
+	}
+}

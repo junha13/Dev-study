@@ -1,0 +1,33 @@
+<%@page import="addrbook.AddrBookDAO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <jsp:useBean id="ab" class="addrbook.AddrBookVO"></jsp:useBean>
+	<jsp:setProperty property="*" name="ab">
+<%--  // 모든 property를 이름이 ab인걸로 생성됨--%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	request.setCharacterEncoding("utf-8");
+	// client의 요구(action 참조)에 다라 처리한다.
+	// insert, update, delete, list
+	String action = request.getParameter("action");  // 이건 이름으로 값 가져오는거
+	String forwardPage = "addrbook_list.jsp";
+	if("insert".equals(action)) {
+		// insert 처리 - DAO의 insertDB호출 DAO.insert();
+		AddrBookDAO dao = new AddrBookDAO();
+		dao.insertDB(ab);
+		// 목록이 출력될 수 있도록 한다.
+		// forwardPage를 설정한다.
+		System.out.println("ab=" + ab );
+	} else if("edit".equals(action)) {
+		forwardPage = "addrbook_edit_form.jsp";
+	}
+%>	
+<jsp:forward page="<%=forwardPage %>"></jsp:forward>
+</body>
+</html>

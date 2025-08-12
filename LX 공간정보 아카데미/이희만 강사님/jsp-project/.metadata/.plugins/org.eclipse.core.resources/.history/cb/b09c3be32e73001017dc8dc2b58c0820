@@ -1,0 +1,15 @@
+package userIfo;
+
+public class Emp {
+	int employee_id;
+	String first_name;
+	String last_name;
+	String email;
+	String mobile;
+	String hire_date;
+	int jobid;
+	double salary;
+	double commission_pd;
+	int manager_id;
+	int department_id;
+}

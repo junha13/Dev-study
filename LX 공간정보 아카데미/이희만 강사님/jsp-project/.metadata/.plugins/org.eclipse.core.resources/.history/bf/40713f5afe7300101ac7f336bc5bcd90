@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	// client의 요구(action 참조)에 다라 처리한다.
+	// insert, update, delete, list
+	String action = request.getParameter("action");  // 이건 이름으로 값 가져오는거
+
+
+
+
+%>
+</body>
+</html>

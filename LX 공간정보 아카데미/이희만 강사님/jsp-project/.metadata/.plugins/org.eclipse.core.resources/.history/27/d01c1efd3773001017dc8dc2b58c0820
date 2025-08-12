@@ -1,0 +1,29 @@
+<%@page import="java.util.List"%>
+<%@page import="userIfo.EmpUtil"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	List<String> jobList = EmpUtil.getJobList();  
+%>
+
+job list size : <%= jobList.size() %>
+
+<form action="emp_list.jsp" method="get">
+	<select name="jobId">
+		<% for(String JobId :jobList) { %>
+		<option value="<%=JobId%>"><%=JobId%></option>
+		<%} %>
+	</select>
+	<input type="submit" value="부서원보기">  
+
+</form>
+
+</body>
+</html>

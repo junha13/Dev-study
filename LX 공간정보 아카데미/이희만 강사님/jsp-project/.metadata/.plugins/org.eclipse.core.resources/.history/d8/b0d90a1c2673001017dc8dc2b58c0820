@@ -1,0 +1,9 @@
+package userIfo;
+
+public class EmpUtil {
+	public static String[] getJobList() throws Exception { // static을 사용하는 것에 거부감을 안느껴도 될듯 그냥 객체생성없이 한다 느낌으로
+		String[] result = null;
+		return result;
+		
+	}
+}

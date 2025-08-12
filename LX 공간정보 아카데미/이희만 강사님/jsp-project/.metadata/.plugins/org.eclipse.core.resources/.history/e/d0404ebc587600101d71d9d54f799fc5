@@ -1,0 +1,61 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	String ch = request.getParameter("ch").split("")[1];
+	String or = request.getParameter("ro");
+	String ap = request.getParameter("ap");
+
+	if (ch == null) {
+		ch = "0";
+	} 
+	if (or == null) {
+		or = "0";
+	} 
+	if (ap == null) {
+		ap = "0";
+	}
+	
+	int sum = Integer.parseInt(ch) + Integer.parseInt(or) + Integer.parseInt(ap);
+	
+	if (session.getAttribute("sum") == null) {
+		session.setAttribute("sum", sum);
+	} else {
+		int originSum = (int) session.getAttribute("sum");
+		session.setAttribute("sum", originSum + sum);
+	}
+	
+	%>
+	
+	<div>
+	<table>
+	<thead>
+	<tr>
+	<td>구입한 과일</td>
+	<td></td>
+	
+	
+	
+	</tr>
+	
+	</thead>
+	
+	
+	
+	
+	</table>
+	
+	</div>
+	총합계 = <%=session.getAttribute("sum") %>
+	<a href="first.jsp">과일구입화면</a>
+
+
+</body>
+
+</html>
