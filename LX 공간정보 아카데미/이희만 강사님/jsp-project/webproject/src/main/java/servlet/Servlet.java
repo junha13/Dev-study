@@ -22,8 +22,6 @@ public class Servlet extends HttpServlet {
 		case "login.do" : {
 			
 		}
-		default:
-			throw new IllegalArgumentException("Unexpected value: " + key);
 		}
 	}
 
