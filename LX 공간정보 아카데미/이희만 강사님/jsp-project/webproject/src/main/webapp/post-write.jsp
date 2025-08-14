@@ -70,7 +70,7 @@ input {
 	
 	$('post input').val()
 	// 그 뭐야 이미지가 올려지면 그 위치에 올라가는? 
-	
+	 
 	</script>
 </body>
 </html>
