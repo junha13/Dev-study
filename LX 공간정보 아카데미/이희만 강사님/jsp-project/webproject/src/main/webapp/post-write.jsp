@@ -63,8 +63,8 @@ input {
 		$('#text').empty();
 		console.log('text')
 		let innerText = <span>text</span>
-		$('#text').val);
-	})
+		$('#text').val();
+	});
 	
 	
 	
