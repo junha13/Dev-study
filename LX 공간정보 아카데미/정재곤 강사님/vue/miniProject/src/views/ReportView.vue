@@ -6,11 +6,11 @@
         </div>
     </div>
 
-    <div class="d-flex flex-row justify-content-between">
+    <div class="d-flex flex-row justify-content-between mt-7">
         <div class="w-50 h-200px">  <!-- 왠지는 모르겠는데 이러니까 4:4:2로 나눠가지네-->
             <div class="d-flex flex-column justify-content-between h-200px ms-1">
                 <div class="h-50 p-2">
-                    <div class="border border-3 rounded-3 h-100 ">
+                    <div class="border border-3 rounded-3 border-dark-subtle h-100 shadow-sm">
                         <div class="d-flex flex-column align-items-center justify-content-center h-100"> <!--align-items-center 가로 가운데, justify-content-center 세로 가운데-->
                             <span class="menu-icon ">
                                 <i class="ki-duotone ki-document fs-2x ">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="h-50 p-2">
-                    <div class="border border-3 rounded-3 h-100">
+                    <div class="border border-3 rounded-3 border-dark-subtle h-100 shadow-sm">
                         <div class="d-flex flex-column align-items-center justify-content-center h-100"> <!--align-items-center 가로 가운데, justify-content-center 세로 가운데-->
                             <span class="menu-icon ">
                                 <i class="ki-duotone ki-document fs-2x ">
@@ -42,7 +42,7 @@
         <div class="w-50 h-200px">  <!-- 왠지는 모르겠는데 이러니까 4:4:2로 나눠가지네-->
             <div class="d-flex flex-column justify-content-between h-200px">
                 <div class="h-50 p-2">
-                    <div class="border border-3 rounded-3 h-100">
+                    <div class="border border-3 rounded-3 border-dark-subtle h-100 shadow-sm">
                         <div class="d-flex flex-column align-items-center justify-content-center h-100"> <!--align-items-center 가로 가운데, justify-content-center 세로 가운데-->
                             <span class="menu-icon ">
                                 <i class="ki-duotone ki-document fs-2x ">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="h-50 p-2">
-                    <div class="border border-3 rounded-3 h-100">
+                    <div class="border border-3 rounded-3 border-dark-subtle h-100 shadow-sm">
                         <div class="d-flex flex-column align-items-center justify-content-center h-100"> <!--align-items-center 가로 가운데, justify-content-center 세로 가운데-->
                             <span class="menu-icon ">
                                 <i class="ki-duotone ki-document fs-2x ">
@@ -73,7 +73,7 @@
         <div class="w-25 h-200px">
             <div class="d-flex flex-column justify-content-between h-100 me-1">
                 <div class="h-100 p-2">
-                    <div class="border border-3 rounded-3 h-100">
+                    <div class="border border-3 border-success rounded-3 h-100 shadow-sm bg-success-subtle">
                         <div class="d-flex flex-column align-items-center justify-content-center h-100"> <!--align-items-center 가로 가운데, justify-content-center 세로 가운데-->
                             <span class="menu-icon ">
                                 <i class="ki-duotone ki-document fs-2x ">

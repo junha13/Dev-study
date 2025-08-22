@@ -4,7 +4,5 @@ module.exports = [
     {id:4, type:'path', path:'/profile/add', method:['get'], file:'profile-controller', func:'add'},
     {id:5, type:'path', path:'/profile/upload', method:['post'], file:'profile-controller', func:'upload', upload:true},
     {id:6, type:'path', path:'/cookie/set_cookie', method:['get'], file:'cookie-controller', func:'set_cookie'},
-    {id:7, type:'path', path:'/cookie/show_cookie', method:['get'], file:'cookie-controller', func:'show_cookie'},
-    {id:8, type:'path', path:'/person/list', method:['get','post'], file:'person', func:'testPersonList'},
-    {id:9, type:'path', path:'/person/list2', method:['get','post'], file:'person', func:'testPersonList2'}
+    {id:7, type:'path', path:'/cookie/show_cookie', method:['get'], file:'cookie-controller', func:'show_cookie'}
 ];
