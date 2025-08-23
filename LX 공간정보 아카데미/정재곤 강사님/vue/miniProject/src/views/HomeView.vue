@@ -3,7 +3,7 @@
 <template>
 
 	<!--메인 영역-->
-	<div class="flex-glow-1 overflow-auto p-5 ">
+	<div class="flex-grow-1 overflow-auto p-5 ">
 
 		<div>
 			<div class="d-flex flex-row flex-fill justify-content-between h-475px">

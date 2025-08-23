@@ -35,7 +35,7 @@
  <!--:이 붙으면 어떤 상황에 있을 때를 말하는ㄱ임-->
 
  <!--호출되는 상황 이해하기-->
-    <div  v-if="!fullScreen" class="fixed-bottom d-md-none bg-white border-top h-10">
+    <div  v-if="!fullScreen" class="fixed-bottom bg-white border-top h-10">
 
       <div class="menu menu-row d-flex justify-content-around py-2 fs-6 fw-bold cursor-pointer">
 
