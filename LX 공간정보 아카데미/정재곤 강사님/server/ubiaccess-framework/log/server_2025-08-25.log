@@ -1,0 +1,291 @@
+2025-08-25 01:41:38.308 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 01:41:38.334 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 01:41:38.335 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 01:41:38.335 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 01:41:38.658 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 01:41:38.658 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 01:41:38.659 - INFO: [logger.js:246:9] Namespace -> ::_8001_25376
+2025-08-25 01:41:38.667 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 01:44:05.077 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 01:44:05.094 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 01:44:05.094 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 01:44:05.095 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 01:44:05.306 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 01:44:05.307 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 01:44:05.309 - INFO: [logger.js:246:9] Namespace -> ::_8001_16540
+2025-08-25 01:44:05.316 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 01:48:29.212 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 01:48:29.230 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 01:48:29.231 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 01:48:29.231 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 01:48:29.447 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 01:48:29.448 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 01:48:29.449 - INFO: [logger.js:246:9] Namespace -> ::_8001_23836
+2025-08-25 01:48:29.456 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 01:48:47.271 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 01:48:47.272 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 01:48:47.276 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"11","password":"11","name":"11","email":"11","phone":"11"}
+2025-08-25 01:53:22.609 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 01:53:22.626 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 01:53:22.626 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 01:53:22.627 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 01:53:22.833 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 01:53:22.834 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 01:53:22.835 - INFO: [logger.js:246:9] Namespace -> ::_8001_22984
+2025-08-25 01:53:22.841 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 01:53:27.151 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 01:53:27.153 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 01:53:27.154 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"11","password":"11","name":"11","email":"11","phone":"11"}
+2025-08-25 01:53:58.160 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 01:53:58.179 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 01:53:58.180 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 01:53:58.180 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 01:53:58.399 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 01:53:58.400 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 01:53:58.401 - INFO: [logger.js:246:9] Namespace -> ::_8001_30264
+2025-08-25 01:53:58.409 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 01:54:02.020 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 01:54:02.021 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 01:54:02.022 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"11","password":"11","name":"11","email":"11","phone":"11"}
+2025-08-25 01:54:59.950 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 01:54:59.967 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 01:54:59.968 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 01:54:59.968 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 01:55:00.190 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 01:55:00.191 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 01:55:00.192 - INFO: [logger.js:246:9] Namespace -> ::_8001_29776
+2025-08-25 01:55:00.200 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 01:55:04.866 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 01:55:04.867 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 01:55:04.868 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"11","password":"11","name":"11","email":"11","phone":"11"}
+2025-08-25 01:55:36.734 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 01:55:36.734 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 01:55:36.736 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"22","password":"22","name":"22","email":"222","phone":"22"}
+2025-08-25 01:59:49.911 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 01:59:49.933 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 01:59:49.934 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 01:59:49.934 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 01:59:50.169 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 01:59:50.170 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 01:59:50.172 - INFO: [logger.js:246:9] Namespace -> ::_8001_28364
+2025-08-25 01:59:50.179 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 01:59:53.571 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 01:59:53.573 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 01:59:53.574 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"22","password":"22","name":"22","email":"222","phone":"22"}
+2025-08-25 02:00:21.943 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:00:21.944 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:00:21.947 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"22","password":"22","name":"22","email":"222","phone":"22"}
+2025-08-25 02:00:22.472 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:00:22.473 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:00:22.476 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"22","password":"22","name":"22","email":"222","phone":"22"}
+2025-08-25 02:00:29.498 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:00:29.499 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:00:29.501 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"","password":"","name":"","email":"","phone":""}
+2025-08-25 02:00:32.576 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:00:32.576 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:00:32.578 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ㅇ","password":"ㅇ","name":"ㅇㅇ","email":"ㅇ","phone":"ㅇ"}
+2025-08-25 02:02:21.361 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 02:02:21.379 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 02:02:21.380 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 02:02:21.382 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 02:02:21.586 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 02:02:21.587 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 02:02:21.588 - INFO: [logger.js:246:9] Namespace -> ::_8001_10252
+2025-08-25 02:02:21.593 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 02:02:23.478 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:02:23.479 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:02:23.479 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ㅇ","password":"ㅇ","name":"ㅇㅇ","email":"ㅇ","phone":"ㅇ"}
+2025-08-25 02:02:23.501 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:23.502 - DEBUG: [logger.js:246:9] retryCount : 1/3
+2025-08-25 02:02:23.502 - DEBUG: [logger.js:246:9] Retrying #1
+2025-08-25 02:02:23.505 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:23.505 - DEBUG: [logger.js:246:9] retryCount : 2/3
+2025-08-25 02:02:23.506 - DEBUG: [logger.js:246:9] Retrying #2
+2025-08-25 02:02:23.508 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:23.508 - DEBUG: [logger.js:246:9] retryCount : 3/3
+2025-08-25 02:02:25.516 - DEBUG: [logger.js:246:9] existing pool ended.
+2025-08-25 02:02:25.517 - DEBUG: [logger.js:246:9] database connection pool is failovered to 
+2025-08-25 02:02:25.518 - DEBUG: [logger.js:246:9] slave config -> localhost:4406
+2025-08-25 02:02:25.519 - DEBUG: [logger.js:246:9] failoverCount : 1/3
+2025-08-25 02:02:25.521 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:25.521 - DEBUG: [logger.js:246:9] retryCount : 1/3
+2025-08-25 02:02:25.521 - DEBUG: [logger.js:246:9] Retrying #1
+2025-08-25 02:02:25.523 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:25.523 - DEBUG: [logger.js:246:9] retryCount : 2/3
+2025-08-25 02:02:25.524 - DEBUG: [logger.js:246:9] Retrying #2
+2025-08-25 02:02:25.525 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:25.526 - DEBUG: [logger.js:246:9] retryCount : 3/3
+2025-08-25 02:02:27.527 - DEBUG: [logger.js:246:9] existing pool ended.
+2025-08-25 02:02:27.527 - DEBUG: [logger.js:246:9] database connection pool is failovered to 
+2025-08-25 02:02:27.529 - DEBUG: [logger.js:246:9] master config -> localhost:4406
+2025-08-25 02:02:27.529 - DEBUG: [logger.js:246:9] failoverCount : 2/3
+2025-08-25 02:02:27.531 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:27.531 - DEBUG: [logger.js:246:9] retryCount : 1/3
+2025-08-25 02:02:27.532 - DEBUG: [logger.js:246:9] Retrying #1
+2025-08-25 02:02:27.533 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:27.533 - DEBUG: [logger.js:246:9] retryCount : 2/3
+2025-08-25 02:02:27.534 - DEBUG: [logger.js:246:9] Retrying #2
+2025-08-25 02:02:27.536 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:27.536 - DEBUG: [logger.js:246:9] retryCount : 3/3
+2025-08-25 02:02:29.548 - DEBUG: [logger.js:246:9] existing pool ended.
+2025-08-25 02:02:29.549 - DEBUG: [logger.js:246:9] database connection pool is failovered to 
+2025-08-25 02:02:29.550 - DEBUG: [logger.js:246:9] slave config -> localhost:4406
+2025-08-25 02:02:29.550 - DEBUG: [logger.js:246:9] failoverCount : 3/3
+2025-08-25 02:02:29.552 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:29.552 - DEBUG: [logger.js:246:9] retryCount : 1/3
+2025-08-25 02:02:29.553 - DEBUG: [logger.js:246:9] Retrying #1
+2025-08-25 02:02:29.555 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:29.555 - DEBUG: [logger.js:246:9] retryCount : 2/3
+2025-08-25 02:02:29.555 - DEBUG: [logger.js:246:9] Retrying #2
+2025-08-25 02:02:29.557 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:02:29.558 - DEBUG: [logger.js:246:9] retryCount : 3/3
+2025-08-25 02:02:31.562 - DEBUG: [logger.js:246:9] existing pool ended.
+2025-08-25 02:02:31.562 - DEBUG: [logger.js:246:9] database connection pool is failovered to 
+2025-08-25 02:02:31.563 - DEBUG: [logger.js:246:9] master config -> localhost:4406
+2025-08-25 02:02:31.563 - DEBUG: [logger.js:246:9] failoverCount : 4/3
+2025-08-25 02:03:19.018 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 02:03:19.033 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 02:03:19.034 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 02:03:19.034 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 02:03:19.252 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 02:03:19.253 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 02:03:19.255 - INFO: [logger.js:246:9] Namespace -> ::_8001_1416
+2025-08-25 02:03:19.261 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 02:03:28.687 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:03:28.688 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:03:28.689 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ㅇ","password":"ㅇ","name":"ㅇㅇ","email":"ㅇ","phone":"ㅇ"}
+2025-08-25 02:04:45.531 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 02:04:45.547 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 02:04:45.548 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 02:04:45.549 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 02:04:45.762 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 02:04:45.763 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 02:04:45.764 - INFO: [logger.js:246:9] Namespace -> ::_8001_13988
+2025-08-25 02:04:45.771 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 02:05:11.663 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 02:05:11.679 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 02:05:11.679 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 02:05:11.680 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 02:05:11.876 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 02:05:11.876 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 02:05:11.878 - INFO: [logger.js:246:9] Namespace -> ::_8001_14912
+2025-08-25 02:05:11.884 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 02:05:20.599 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:05:20.600 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:05:20.601 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ㅇ","password":"ㅇ","name":"ㅇㅇ","email":"ㅇ","phone":"ㅇ"}
+2025-08-25 02:06:41.944 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:06:41.945 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:06:41.948 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ㅇ","password":"ㅇ","name":"ㅇㅇ","email":"ㅇ","phone":"ㅇ"}
+2025-08-25 02:07:58.001 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 02:07:58.018 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 02:07:58.021 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 02:07:58.021 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 02:07:58.217 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 02:07:58.218 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 02:07:58.219 - INFO: [logger.js:246:9] Namespace -> ::_8001_29336
+2025-08-25 02:07:58.225 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 02:08:04.361 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:08:04.362 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:08:04.363 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ㅇ","password":"ㅇ","name":"ㅇㅇ","email":"ㅇ","phone":"ㅇ"}
+2025-08-25 02:08:04.383 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:04.384 - DEBUG: [logger.js:246:9] retryCount : 1/3
+2025-08-25 02:08:04.384 - DEBUG: [logger.js:246:9] Retrying #1
+2025-08-25 02:08:04.386 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:04.386 - DEBUG: [logger.js:246:9] retryCount : 2/3
+2025-08-25 02:08:04.387 - DEBUG: [logger.js:246:9] Retrying #2
+2025-08-25 02:08:04.388 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:04.389 - DEBUG: [logger.js:246:9] retryCount : 3/3
+2025-08-25 02:08:06.392 - DEBUG: [logger.js:246:9] existing pool ended.
+2025-08-25 02:08:06.393 - DEBUG: [logger.js:246:9] database connection pool is failovered to 
+2025-08-25 02:08:06.394 - DEBUG: [logger.js:246:9] slave config -> localhost:4406
+2025-08-25 02:08:06.395 - DEBUG: [logger.js:246:9] failoverCount : 1/3
+2025-08-25 02:08:06.398 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:06.399 - DEBUG: [logger.js:246:9] retryCount : 1/3
+2025-08-25 02:08:06.399 - DEBUG: [logger.js:246:9] Retrying #1
+2025-08-25 02:08:06.401 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:06.402 - DEBUG: [logger.js:246:9] retryCount : 2/3
+2025-08-25 02:08:06.402 - DEBUG: [logger.js:246:9] Retrying #2
+2025-08-25 02:08:06.404 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:06.405 - DEBUG: [logger.js:246:9] retryCount : 3/3
+2025-08-25 02:08:08.420 - DEBUG: [logger.js:246:9] existing pool ended.
+2025-08-25 02:08:08.422 - DEBUG: [logger.js:246:9] database connection pool is failovered to 
+2025-08-25 02:08:08.423 - DEBUG: [logger.js:246:9] master config -> localhost:4406
+2025-08-25 02:08:08.423 - DEBUG: [logger.js:246:9] failoverCount : 2/3
+2025-08-25 02:08:08.426 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:08.427 - DEBUG: [logger.js:246:9] retryCount : 1/3
+2025-08-25 02:08:08.427 - DEBUG: [logger.js:246:9] Retrying #1
+2025-08-25 02:08:08.429 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:08.429 - DEBUG: [logger.js:246:9] retryCount : 2/3
+2025-08-25 02:08:08.430 - DEBUG: [logger.js:246:9] Retrying #2
+2025-08-25 02:08:08.432 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:08.432 - DEBUG: [logger.js:246:9] retryCount : 3/3
+2025-08-25 02:08:10.434 - DEBUG: [logger.js:246:9] existing pool ended.
+2025-08-25 02:08:10.435 - DEBUG: [logger.js:246:9] database connection pool is failovered to 
+2025-08-25 02:08:10.436 - DEBUG: [logger.js:246:9] slave config -> localhost:4406
+2025-08-25 02:08:10.436 - DEBUG: [logger.js:246:9] failoverCount : 3/3
+2025-08-25 02:08:10.438 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:10.439 - DEBUG: [logger.js:246:9] retryCount : 1/3
+2025-08-25 02:08:10.440 - DEBUG: [logger.js:246:9] Retrying #1
+2025-08-25 02:08:10.442 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:10.442 - DEBUG: [logger.js:246:9] retryCount : 2/3
+2025-08-25 02:08:10.443 - DEBUG: [logger.js:246:9] Retrying #2
+2025-08-25 02:08:10.444 - DEBUG: [logger.js:246:9] Error in fetching database connection -> AggregateError
+2025-08-25 02:08:10.445 - DEBUG: [logger.js:246:9] retryCount : 3/3
+2025-08-25 02:08:12.454 - DEBUG: [logger.js:246:9] existing pool ended.
+2025-08-25 02:08:12.891 - DEBUG: [logger.js:246:9] database connection pool is failovered to 
+2025-08-25 02:08:12.893 - DEBUG: [logger.js:246:9] master config -> localhost:4406
+2025-08-25 02:08:12.893 - DEBUG: [logger.js:246:9] failoverCount : 4/3
+2025-08-25 02:09:17.501 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 02:09:17.517 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 02:09:17.518 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 02:09:17.518 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 02:09:17.743 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 02:09:17.743 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 02:09:17.745 - INFO: [logger.js:246:9] Namespace -> ::_8001_12188
+2025-08-25 02:09:17.752 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 02:09:21.481 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:09:21.482 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:09:21.483 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ㅇ","password":"ㅇ","name":"ㅇㅇ","email":"ㅇ","phone":"ㅇ"}
+2025-08-25 02:09:21.562 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2025-08-25 02:10:07.914 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 02:10:07.930 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 02:10:07.931 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 02:10:07.931 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 02:10:08.140 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 02:10:08.140 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 02:10:08.142 - INFO: [logger.js:246:9] Namespace -> ::_8001_18748
+2025-08-25 02:10:08.149 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 02:10:13.285 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:10:13.286 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:10:13.287 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ㅇ","password":"ㅇ","name":"ㅇㅇ","email":"ㅇ","phone":"ㅇ"}
+2025-08-25 02:10:13.318 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2025-08-25 02:10:45.082 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 02:10:45.099 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 02:10:45.099 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 02:10:45.100 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 02:10:45.305 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 02:10:45.305 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 02:10:45.307 - INFO: [logger.js:246:9] Namespace -> ::_8001_4748
+2025-08-25 02:10:45.312 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 02:10:49.605 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:10:49.607 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:10:49.609 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ㅇ","password":"ㅇ","name":"ㅇㅇ","email":"ㅇ","phone":"ㅇ"}
+2025-08-25 02:10:49.637 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2025-08-25 02:10:54.054 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:10:54.054 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:10:54.056 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ㅇ","password":"ㅇ","name":"ㅇㅇ","email":"ㅇ","phone":"ㅇ"}
+2025-08-25 02:10:54.060 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2025-08-25 02:12:03.999 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 02:12:04.018 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 02:12:04.019 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 02:12:04.019 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 02:12:04.223 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 02:12:04.224 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 02:12:04.226 - INFO: [logger.js:246:9] Namespace -> ::_8001_10948
+2025-08-25 02:12:04.235 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 02:12:06.820 - DEBUG: [logger.js:246:9] user::add 실행됨
+2025-08-25 02:12:06.821 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 02:12:06.823 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ㅇ","password":"ㅇ","name":"ㅇㅇ","email":"ㅇ","phone":"ㅇ"}
+2025-08-25 02:12:06.850 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, phone)
+                values
+                ('ㅇ', 'ㅇ', 'ㅇㅇ', 'ㅇ', 'ㅇ')

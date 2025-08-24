@@ -43,7 +43,7 @@ const router = createRouter({
       path: '/myLocation',
       name: 'MyLocation',
       component: () => import('../views/MyLocationView.vue'),
-    },
+    }
   ],
 })
 

@@ -88,7 +88,7 @@
               <span class="path8"></span>
             </i>
           </span>
-          <span class="menu-title">위험신고</span>
+          <span class="menu-title">농장</span>
         </div>
 
         <div class="menu-item flex-column align-items-center flex-fill mx-4 tab-btn"
@@ -113,26 +113,32 @@
 
   <div v-if="fullScreen" class="fixed-bottom bg-white border-top">
     <div class="menu menu-row d-flex justify-content-around cursor-pointer py-2">
-      <div class="menu-item flex-column align-items-center flex-fill tab-btn">
+      <div class="menu-item flex-column align-items-center flex-fill tab-btn"
+              :class="(activeTab == 'homeHome') ? 'active' : ''"
+              @click="tabButtonClicked('homeHome')">
           <span class="menu-icon mb-1">
             <i class="ki-duotone ki-home fs-2x">
             </i>
           </span>
-          <span class="menu-title">HOME</span>
+          <span class="menu-title">홈</span>
       </div>
-      <div class="menu-item flex-column align-items-center flex-fill">
+      <div class="menu-item flex-column align-items-center flex-fill tab-btn"
+              :class="(activeTab == 'myLocation') ? 'active' : ''"
+              @click="tabButtonClicked('myLocation')">
         <i class="ki-duotone ki-geolocation fs-2x">
           <span class="path1"></span>
           <span class="path2"></span>
         </i>
           <span class="menu-title">내 위치</span>
       </div>
-      <div class="menu-item flex-column align-items-center flex-fill">
+      <div class="menu-item flex-column align-items-center flex-fill tab-btn"
+              :class="(activeTab == 'mountainHome') ? 'active' : ''"
+              @click="tabButtonClicked('mountainHome')">
           <span class="menu-icon mb-1">
             <i class="ki-duotone ki-home fs-2x">
             </i>
           </span>
-          <span class="menu-title">MY</span>
+          <span class="menu-title">등산</span>
       </div>
     </div>
   </div>
@@ -276,11 +282,21 @@ function tabButtonClicked(name) {
     goToReport();
   } else if(name == 'community') {
     goToCommunity();
+  } else if(name == 'mountainHome') {
+    goToHome();
+  } else if(name == 'myLocation') {
+    goMyLocation();
+  } else if(name == 'homeHome') {
+    goToReport();
   }
 }
 
 function goToHome() {
+  fullScreen.value = false
   router.push('/');
+}
+function goMyLocation() {
+  router.push('/myLocation');
 }
 
 function goToCourse() {
