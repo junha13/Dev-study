@@ -1,5 +1,5 @@
 {
-  "name": "miniproject",
+  "name": "layout1",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^1.11.0",
+    "bootstrap": "^5.3.7",
     "install": "^0.13.0",
     "pinia": "^3.0.3",
     "vue": "^3.5.18",
