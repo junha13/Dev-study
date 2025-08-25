@@ -272,3 +272,22 @@
 2025-08-22 15:44:57.069 - DEBUG: [logger.js:246:9] PARAMS -> {}
 2025-08-22 15:44:57.071 - DEBUG: [logger.js:246:9] SQL -> select id, name, age, mobile 
                 from test.customer
+2025-08-22 16:57:53.078 - INFO: [logger.js:246:9] service loader called.
+2025-08-22 16:57:53.091 - INFO: [logger.js:246:9] controller loader called.
+2025-08-22 16:57:53.092 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-22 16:57:53.092 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-22 16:57:53.309 - INFO: [logger.js:246:9] Http Server started.
+2025-08-22 16:57:53.309 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-22 16:57:53.310 - INFO: [logger.js:246:9] Namespace -> ::_8001_23364
+2025-08-22 16:57:53.313 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-22 16:58:36.733 - DEBUG: [logger.js:246:9] Customer::listAll 호출됨.
+2025-08-22 16:58:36.734 - DEBUG: [logger.js:246:9] POST /customer/v1/list-all requested
+2025-08-22 16:58:36.735 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-22 16:58:36.762 - DEBUG: [logger.js:246:9] SQL -> select id, name, age, mobile 
+                from test.customer
+2025-08-22 16:59:02.660 - DEBUG: [logger.js:246:9] Customer::read 호출됨.
+2025-08-22 16:59:02.660 - DEBUG: [logger.js:246:9] POST /customer/v1/read requested
+2025-08-22 16:59:02.661 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"1"}
+2025-08-22 16:59:02.662 - DEBUG: [logger.js:246:9] SQL -> select id, name, age, mobile 
+                from test.customer
+                where id = '1'
