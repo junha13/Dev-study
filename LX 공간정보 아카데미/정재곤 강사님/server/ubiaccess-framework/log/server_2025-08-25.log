@@ -774,3 +774,481 @@
                   from test.animal
 2025-08-25 19:00:10.231 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path  
                 from test.animal  limit 2, 2 
+2025-08-25 19:22:43.932 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 19:22:43.950 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 19:22:43.951 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 19:22:43.952 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 19:22:44.194 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 19:22:44.196 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 19:22:44.197 - INFO: [logger.js:246:9] Namespace -> ::_8001_28264
+2025-08-25 19:22:44.203 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 19:38:12.190 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 19:38:12.209 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 19:38:12.210 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 19:38:12.213 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 19:38:12.470 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 19:38:12.471 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 19:38:12.473 - INFO: [logger.js:246:9] Namespace -> ::_8001_3156
+2025-08-25 19:38:12.480 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 19:40:13.922 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 19:40:13.943 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 19:40:13.944 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 19:40:13.945 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 19:40:14.166 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 19:40:14.168 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 19:40:14.170 - INFO: [logger.js:246:9] Namespace -> ::_8001_5440
+2025-08-25 19:40:14.177 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 19:44:57.927 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 19:44:57.951 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 19:44:57.952 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 19:44:57.952 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 19:44:58.191 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 19:44:58.192 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 19:44:58.195 - INFO: [logger.js:246:9] Namespace -> ::_8001_13136
+2025-08-25 19:44:58.204 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 19:49:27.400 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 19:49:27.402 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 19:49:27.403 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"d","password":"d","name":"d","email":"d","phone":"dd"}
+2025-08-25 19:49:27.439 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(name, age, mobile) 
+                values
+                ('d', :AGE, :MOBILE)
+2025-08-25 19:49:27.440 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':AGE, :MOBILE)' at line 3
+2025-08-25 19:52:03.083 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 19:52:03.110 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 19:52:03.110 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 19:52:03.113 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 19:52:03.402 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 19:52:03.403 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 19:52:03.406 - INFO: [logger.js:246:9] Namespace -> ::_8001_8220
+2025-08-25 19:52:03.414 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 19:52:06.527 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 19:52:06.529 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 19:52:06.533 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"d","password":"d","name":"d","email":"d","phone":"dd"}
+2025-08-25 19:52:06.568 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('d', 'd', 'd', 'd', :MOBILE )
+2025-08-25 19:52:06.569 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':MOBILE )' at line 3
+2025-08-25 19:54:07.129 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 19:54:07.130 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 19:54:07.133 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"d","password":"d","name":"dd","email":"d","mobile":"d"}
+2025-08-25 19:54:07.148 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('d', 'd', 'dd', 'd', 'd' )
+2025-08-25 19:57:11.903 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 19:57:11.904 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 19:57:11.906 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"d","password":"d","name":"dd","email":"d","mobile":"dd"}
+2025-08-25 19:57:11.918 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('d', 'd', 'dd', 'd', 'dd' )
+2025-08-25 20:07:05.649 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 20:07:05.650 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 20:07:05.653 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"","password":"","name":"","email":"","mobile":""}
+2025-08-25 20:07:05.667 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('', '', '', '', '' )
+2025-08-25 20:07:07.476 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 20:07:07.477 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 20:07:07.480 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"","password":"","name":"","email":"","mobile":""}
+2025-08-25 20:07:07.495 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('', '', '', '', '' )
+2025-08-25 20:07:08.503 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 20:07:08.504 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 20:07:08.506 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"","password":"","name":"","email":"","mobile":""}
+2025-08-25 20:07:08.517 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('', '', '', '', '' )
+2025-08-25 20:15:54.395 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 20:15:54.396 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 20:15:54.399 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"","password":"","name":"","email":"","mobile":""}
+2025-08-25 20:15:54.402 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('', '', '', '', '' )
+2025-08-25 20:15:55.736 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 20:15:55.737 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 20:15:55.740 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dd","password":"","name":"","email":"","mobile":""}
+2025-08-25 20:15:55.755 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('dd', '', '', '', '' )
+2025-08-25 20:29:18.144 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 20:29:18.145 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 20:29:18.147 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"","password":"","name":"","email":"","mobile":""}
+2025-08-25 20:29:18.158 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('', '', '', '', '' )
+2025-08-25 20:41:31.018 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 20:41:31.036 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 20:41:31.037 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 20:41:31.037 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 20:41:31.238 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 20:41:31.238 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 20:41:31.240 - INFO: [logger.js:246:9] Namespace -> ::_8001_13768
+2025-08-25 20:41:31.247 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 20:41:37.765 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:41:37.766 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:41:37.767 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dd"}
+2025-08-25 20:41:37.790 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dd'
+2025-08-25 20:41:48.240 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:41:48.241 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:41:48.243 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddddd"}
+2025-08-25 20:41:48.245 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddddd'
+2025-08-25 20:42:24.880 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:42:24.881 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:42:24.883 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd"}
+2025-08-25 20:42:24.885 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddd'
+2025-08-25 20:42:27.995 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:42:27.996 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:42:27.998 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddddd"}
+2025-08-25 20:42:28.000 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddddd'
+2025-08-25 20:43:04.031 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:43:04.032 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:43:04.033 - DEBUG: [logger.js:246:9] PARAMS -> {"id":""}
+2025-08-25 20:43:04.037 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = ''
+2025-08-25 20:43:06.198 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:43:06.198 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:43:06.200 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dd"}
+2025-08-25 20:43:06.202 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dd'
+2025-08-25 20:43:07.809 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:43:07.810 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:43:07.812 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd"}
+2025-08-25 20:43:07.814 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dddd'
+2025-08-25 20:43:22.690 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:43:22.690 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:43:22.692 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd"}
+2025-08-25 20:43:22.695 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddd'
+2025-08-25 20:43:32.265 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:43:32.265 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:43:32.268 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"sdd"}
+2025-08-25 20:43:32.269 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'sdd'
+2025-08-25 20:43:56.132 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:43:56.132 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:43:56.135 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd"}
+2025-08-25 20:43:56.137 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddd'
+2025-08-25 20:44:26.712 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:44:26.713 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:44:26.715 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dd"}
+2025-08-25 20:44:26.717 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dd'
+2025-08-25 20:44:48.215 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:44:48.216 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:44:48.218 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd"}
+2025-08-25 20:44:48.220 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddd'
+2025-08-25 20:45:02.197 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:45:02.198 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:45:02.200 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd"}
+2025-08-25 20:45:02.202 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddd'
+2025-08-25 20:45:10.641 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:45:10.641 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:45:10.643 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd"}
+2025-08-25 20:45:10.645 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddd'
+2025-08-25 20:45:50.009 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:45:50.010 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:45:50.011 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd"}
+2025-08-25 20:45:50.013 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddd'
+2025-08-25 20:50:44.199 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:50:44.200 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:50:44.203 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd"}
+2025-08-25 20:50:44.205 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddd'
+2025-08-25 20:50:49.404 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:50:49.405 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:50:49.407 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd"}
+2025-08-25 20:50:49.409 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dddd'
+2025-08-25 20:53:54.259 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:53:54.260 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:53:54.262 - DEBUG: [logger.js:246:9] PARAMS -> {"id":""}
+2025-08-25 20:53:54.264 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = ''
+2025-08-25 20:55:29.785 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:55:29.786 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:55:29.788 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dd"}
+2025-08-25 20:55:29.790 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dd'
+2025-08-25 20:55:31.412 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:55:31.413 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:55:31.416 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd"}
+2025-08-25 20:55:31.417 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddd'
+2025-08-25 20:55:36.289 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:55:36.290 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:55:36.292 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd"}
+2025-08-25 20:55:36.294 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dddd'
+2025-08-25 20:56:27.619 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:56:27.620 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:56:27.622 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd"}
+2025-08-25 20:56:27.624 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddd'
+2025-08-25 20:56:35.234 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 20:56:35.235 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 20:56:35.238 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd","password":"dd","name":"dd","email":"dd","mobile":"dd"}
+2025-08-25 20:56:35.251 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('ddd', 'dd', 'dd', 'dd', 'dd' )
+2025-08-25 20:58:06.661 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:58:06.661 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:58:06.664 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd"}
+2025-08-25 20:58:06.666 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dddd'
+2025-08-25 20:58:10.314 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 20:58:10.314 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 20:58:10.318 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd","name":"dd","email":"dd","mobile":"dd"}
+2025-08-25 20:58:10.332 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('dddd', 'dd', 'dd', 'dd', 'dd' )
+2025-08-25 20:58:34.421 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:58:34.421 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:58:34.425 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd"}
+2025-08-25 20:58:34.428 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dddd'
+2025-08-25 20:58:36.810 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:58:36.811 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:58:36.813 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddd"}
+2025-08-25 20:58:36.814 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'ddd'
+2025-08-25 20:58:40.017 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:58:40.018 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:58:40.021 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"d"}
+2025-08-25 20:58:40.024 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'd'
+2025-08-25 20:58:41.856 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:58:41.857 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:58:41.860 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd"}
+2025-08-25 20:58:41.862 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dddd'
+2025-08-25 20:58:51.741 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 20:58:51.743 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 20:58:51.746 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd"}
+2025-08-25 20:58:51.749 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dddd'
+2025-08-25 20:58:56.288 - DEBUG: [logger.js:246:9] User::add 호출됨.
+2025-08-25 20:58:56.289 - DEBUG: [logger.js:246:9] POST /user/add requested
+2025-08-25 20:58:56.295 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd","name":"d","email":"ddd","mobile":"dd"}
+2025-08-25 20:58:56.307 - DEBUG: [logger.js:246:9] SQL -> insert into project.user(id, password, name, email, mobile ) 
+                values
+                ('dddd', 'dd', 'd', 'ddd', 'dd' )
+2025-08-25 21:04:50.486 - DEBUG: [logger.js:246:9] User::overlapCheck 호출됨.
+2025-08-25 21:04:50.487 - DEBUG: [logger.js:246:9] POST /user/overlapCheck requested
+2025-08-25 21:04:50.490 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dd"}
+2025-08-25 21:04:50.493 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dd'
+2025-08-25 21:39:21.526 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 21:39:21.549 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 21:39:21.551 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 21:39:21.552 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 21:39:21.846 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 21:39:21.847 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 21:39:21.848 - INFO: [logger.js:246:9] Namespace -> ::_8001_28560
+2025-08-25 21:39:21.859 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 21:39:33.114 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:39:33.115 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:39:33.117 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:39:33.145 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:39:57.678 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:39:57.679 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:39:57.682 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:39:57.685 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:41:55.609 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 21:41:55.638 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 21:41:55.639 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 21:41:55.640 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 21:41:55.930 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 21:41:55.931 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 21:41:55.934 - INFO: [logger.js:246:9] Namespace -> ::_8001_13920
+2025-08-25 21:41:55.946 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 21:42:06.030 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:42:06.031 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:42:06.033 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:42:06.062 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:42:28.145 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:42:28.146 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:42:28.149 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:42:28.152 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:44:43.242 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:44:43.243 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:44:43.244 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dd","password":"dd"}
+2025-08-25 21:44:43.247 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dd' and password = 'dd'
+2025-08-25 21:45:37.530 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:45:37.530 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:45:37.531 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"ddddd","password":"dd"}
+2025-08-25 21:45:37.534 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'ddddd' and password = 'dd'
+2025-08-25 21:45:47.440 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:45:47.441 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:45:47.442 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dd","password":"dd"}
+2025-08-25 21:45:47.444 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dd' and password = 'dd'
+2025-08-25 21:47:24.466 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:47:24.467 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:47:24.468 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"ddddd"}
+2025-08-25 21:47:24.471 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'ddddd'
+2025-08-25 21:48:21.676 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:48:21.677 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:48:21.678 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"ddddd"}
+2025-08-25 21:48:21.680 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'ddddd'
+2025-08-25 21:55:31.394 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:55:31.395 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:55:31.396 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:55:31.399 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:55:34.698 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:55:34.698 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:55:34.699 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"ddd"}
+2025-08-25 21:55:34.703 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'ddd'
+2025-08-25 21:55:35.880 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:55:35.881 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:55:35.882 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"ddd"}
+2025-08-25 21:55:35.884 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'ddd'
+2025-08-25 21:55:36.428 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:55:36.429 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:55:36.430 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"ddd"}
+2025-08-25 21:55:36.432 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'ddd'
+2025-08-25 21:55:42.548 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:55:42.549 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:55:42.550 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:55:42.552 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:57:21.342 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:57:21.343 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:57:21.348 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:57:21.351 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:57:22.456 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:57:22.457 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:57:22.460 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:57:22.464 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:57:22.705 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:57:22.705 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:57:22.707 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:57:22.710 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:57:22.884 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:57:22.885 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:57:22.889 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:57:22.891 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:57:23.050 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:57:23.051 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:57:23.054 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:57:23.056 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:57:28.084 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 21:57:28.109 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 21:57:28.110 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 21:57:28.111 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 21:57:28.405 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 21:57:28.406 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 21:57:28.408 - INFO: [logger.js:246:9] Namespace -> ::_8001_28752
+2025-08-25 21:57:28.421 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 21:57:30.636 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:57:30.638 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:57:30.640 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:57:30.669 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 21:59:02.303 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 21:59:02.305 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 21:59:02.308 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 21:59:02.314 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 22:08:12.884 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 22:08:12.885 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 22:08:12.889 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 22:08:12.892 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 22:12:08.508 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 22:12:08.509 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 22:12:08.513 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 22:12:08.517 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
+2025-08-25 22:12:15.405 - INFO: [logger.js:246:9] service loader called.
+2025-08-25 22:12:15.429 - INFO: [logger.js:246:9] controller loader called.
+2025-08-25 22:12:15.430 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-25 22:12:15.431 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-25 22:12:15.728 - INFO: [logger.js:246:9] Http Server started.
+2025-08-25 22:12:15.729 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-25 22:12:15.732 - INFO: [logger.js:246:9] Namespace -> ::_8001_6268
+2025-08-25 22:12:15.742 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-25 22:12:27.534 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-25 22:12:27.536 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-25 22:12:27.539 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-25 22:12:27.570 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, pkNumber, name
+                from project.user
+                where id = 'dddd' and password = 'dd'

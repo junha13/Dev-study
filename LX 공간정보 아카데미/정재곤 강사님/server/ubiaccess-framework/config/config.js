@@ -21,19 +21,19 @@ module.exports = {
             },
             master: {
                 host:'localhost',
-                port:4406,
+                port:3307,
                 user:'root',
-                password:'admin',
-                database:'test',
+                password:'rootroot',
+                database:'project',
                 connectionLimit:10,
                 debug:false
             },
             slave: {
                 host:'localhost',
-                port:4406,
+                port:3307,
                 user:'root',
-                password:'admin',
-                database:'test',
+                password:'rootroot',
+                database:'project',
                 connectionLimit:10,
                 debug:false
             }

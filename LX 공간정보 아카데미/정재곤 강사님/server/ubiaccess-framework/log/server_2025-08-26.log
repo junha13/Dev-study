@@ -1,0 +1,6 @@
+2025-08-26 00:32:49.760 - DEBUG: [logger.js:246:9] User::login 호출됨.
+2025-08-26 00:32:49.762 - DEBUG: [logger.js:246:9] POST /user/login requested
+2025-08-26 00:32:49.767 - DEBUG: [logger.js:246:9] PARAMS -> {"id":"dddd","password":"dd"}
+2025-08-26 00:32:49.786 - DEBUG: [logger.js:246:9] SQL -> select count(*) as cnt, pkNumber, name
+                from project.user
+                where id = 'dddd' and password = 'dd'
