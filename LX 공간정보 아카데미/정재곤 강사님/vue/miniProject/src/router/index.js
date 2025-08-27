@@ -25,6 +25,11 @@ const router = createRouter({
       component: () => import('../views/user/MyPageView.vue'),
     },
     {
+      path: '/user-modify',
+      name: 'user-modify',
+      component: () => import('../views/user/UserModifyView.vue'),
+    },
+    {
       path: '/archive',
       name: 'archive',
       component: () => import('../views/post/ArchiveView.vue'),

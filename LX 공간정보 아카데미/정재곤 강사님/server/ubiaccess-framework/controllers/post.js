@@ -126,4 +126,15 @@ module.exports = class Post {
 
     }
 
+    /**
+     * @RequestMapping(path="/myList", method="get,post")
+     */
+    async myList(req, res) {
+        logger.debug(`Post::myList 호출됨.`);
+
+        const sqlName = 'post_myList';
+        this.controllerHelper.executeListByCondition(req, res, sqlName);
+
+    }
+
 }

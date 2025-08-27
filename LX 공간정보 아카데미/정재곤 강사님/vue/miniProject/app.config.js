@@ -1,3 +1,3 @@
 export const requestConfig = {
-    baseUrl: 'http://172.168.10.52:8001'
+    baseUrl: 'http://192.168.0.34:8001'
 }

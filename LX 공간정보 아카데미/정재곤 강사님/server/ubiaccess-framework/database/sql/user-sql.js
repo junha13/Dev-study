@@ -32,8 +32,7 @@ module.exports = {
     // 고객 데이터 수정
     user_modify: {
         sql: `update project.user 
-                set id = :id,
-                    password = :password,
+                set password = :password,
                     name = :name, 
                     email = :email,
                     mobile = :mobile

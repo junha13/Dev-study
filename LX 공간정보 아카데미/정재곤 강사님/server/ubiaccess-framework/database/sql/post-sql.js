@@ -22,6 +22,7 @@ module.exports = {
                 where pkNumber = :pkNumber`
     },
 
+
     // 고객 데이터 추가
     post_add: {
         sql: `insert into project.post(title, content, thumbnail, likes, user_id, year, grade, semester) 
@@ -59,7 +60,14 @@ module.exports = {
                     and cast(year as CHAR) like :year
                     and cast(grade as CHAR) like :grade
                     and cast(semester as CHAR) like :semester `,
-        }
+    },
+
+    post_myList: {
+        sql: `Select pkNumber, title, content, thumbnail, likes, user_id, year, grade, semester
+                from project.post
+                where 1=1
+                    and user_id = :user_id `,
+    }
 
 
 }

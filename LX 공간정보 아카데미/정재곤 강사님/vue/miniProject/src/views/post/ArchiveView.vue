@@ -2,7 +2,7 @@
 <template>
 <div class="d-flex justify-content-end me-4 gap-7 mt-4">
   <button @click="showDialog()" class="btn btn-secondary border border-dark border-2 fw-bold p-2 px-5">검색</button>
-  <button v-if="!loginCheck" @click="goToAddPost()" class="btn btn-secondary border border-dark border-2 fw-bold p-2 px-5">추가</button>
+  <button v-if="loginCheck" @click="goToAddPost()" class="btn btn-secondary border border-dark border-2 fw-bold p-2 px-5">추가</button>
 </div>
 <!-- ======== 카드 List ======== -->
 <div class="p-4">
@@ -95,8 +95,9 @@ const router = useRouter();
 onMounted(() => {
   console.log(`homeView :: onMounted 실행됨`)
 
-  getPostList(1, 5)
+  mode.value = 'archive-add'
 
+  getPostList(1, 5)
 })
 
 // ======== 페이지네이션 ========
@@ -215,13 +216,11 @@ async function getPostListBySearchCondition(page, perPage) {
 function goToAddPost() {
   console.log(`goToAddPost 함수 실행됨`)
 
-  mode.value = 'add'
-
   router.push('/post-add')
 }
 
 function goToPostDetail(pkNumber) {
-  console.log(`goToAddPost 함수 실행됨`)
+  console.log(`goToPostDetail 함수 실행됨`)
 
   post_pkNumber.value = pkNumber
 
