@@ -2,12 +2,12 @@
 module.exports = {
 
     post_list_all: {
-        sql: `select title, content, thumbnail, likes, user_id
+        sql: `select title, content, thumbnail, likes, user_id, year, grade, semester
                 from project.post`
     },
 
     post_list: {
-        sql: `select pkNumber, title, content, thumbnail, likes, user_id
+        sql: `select pkNumber, title, content, thumbnail, likes, user_id, year, grade, semester
                 from project.post`,
         count: `select count(*) as total 
                   from project.post`,
@@ -17,16 +17,16 @@ module.exports = {
     },
 
     post_read: {
-        sql: `select title, content, thumbnail, likes, user_id
+        sql: `select title, content, thumbnail, likes, user_id, year, grade, semester
                 from project.post
                 where pkNumber = :pkNumber`
     },
 
     // 고객 데이터 추가
     post_add: {
-        sql: `insert into project.post(title, content, thumbnail, likes, user_id) 
+        sql: `insert into project.post(title, content, thumbnail, likes, user_id, year, grade, semester) 
                 values
-                (:title, :content, :thumbnail, :likes, :user_id)`
+                (:title, :content, :thumbnail, :likes, :user_id, :year, :grade, :semester)`
     },
 
     // 고객 데이터 수정
@@ -35,7 +35,10 @@ module.exports = {
                 set title = :title,
                     content = :content,
                     thumbnail = :thumbnail, 
-                    likes = :likes
+                    likes = :likes,
+                    year = :year, 
+                    grade = :grade, 
+                    semester = :semester
                 where pkNumber = :pkNumber `
     },
 
@@ -44,6 +47,19 @@ module.exports = {
         sql: `delete from project.post 
                 where pkNumber = :pkNumber `
     },
+
+    // 고객 데이터 검색 / 인트는 문자로 변환
+    // 아니 ?(포지셔널 ) 랑 :(네임드 ) 같이쓰면 터짐 ??
+    post_search: {
+        sql: `Select pkNumber, title, content, thumbnail, likes, user_id, year, grade, semester
+                from project.post
+                where 1=1
+                    and title like :title
+                    and user_id like :user_id
+                    and cast(year as CHAR) like :year
+                    and cast(grade as CHAR) like :grade
+                    and cast(semester as CHAR) like :semester `,
+        }
 
 
 }

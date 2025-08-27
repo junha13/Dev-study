@@ -139,7 +139,7 @@ module.exports = class User {
     /**
      * @RequestMapping(path="/login", method="get,post")
      */
-    async overlapCheck(req, res) {
+    async login(req, res) {
         logger.debug(`User::login 호출됨.`);
 
         const sqlName = 'user_login';

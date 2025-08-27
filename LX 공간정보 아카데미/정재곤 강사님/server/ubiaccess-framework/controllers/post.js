@@ -115,4 +115,15 @@ module.exports = class Post {
 
     }
 
+    /**
+     * @RequestMapping(path="/search", method="get,post")
+     */
+    async search(req, res) {
+        logger.debug(`Post::search 호출됨.`);
+
+        const sqlName = 'post_search';
+        this.controllerHelper.executeListByCondition(req, res, sqlName);
+
+    }
+
 }

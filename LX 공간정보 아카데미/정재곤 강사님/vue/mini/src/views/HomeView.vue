@@ -12,14 +12,14 @@
 						<div class="h-350px p-2 cursor-pointer"> <!--paddig같은 경우엔 부모에 걸어주는게 효과적임 그리고 너비나 높이설정도 미리 하면 좋음-->
 							<div class="w-100 h-100 rounded-3" style="position: relative;" @click="tabButtonClicked('course')"> <!--그랬을때 자식은 부모의 %로 적용하는게 나중에 볼때 좋음-->
                     <!-- 
-                      📌 position:relative
+                       position:relative
                       - 이 div를 기준점으로 삼음
                       - 안쪽 absolute 박스(top/left 등)는 이 div의 좌표(0,0)부터 계산됨
                     -->
                 <img src="/src/assets/images/a.png" class="w-100 h-100 rounded-3"></img>
                     <div class="p-3 h-100 w-100 position-absolute" style="z-index:1; top:0; left:0;">
                       <!-- 
-                        📍 위치 잡는 방법 정리
+                         위치 잡는 방법 정리
                         
                         1) top:0; left:0;
                           → 부모의 "왼쪽 위 모서리"에 고정
@@ -42,11 +42,11 @@
 						<div class="h-125px p-2 cursor-pointer"> <!--paddig같은 경우엔 부모에 걸어주는게 효과적임 그리고 너비나 높이설정도 미리 하면 좋음-->
 							<div class="w-100 h-100 rounded-3" style="z-index: 30; position: relative;" @click="tabButtonClicked('mountain')"> <!--그랬을때 자식은 부모의 %로 적용하는게 나중에 볼때 좋음-->
                 <img src="/src/assets/images/c.png" class="w-100 h-100 rounded-3"></img>
-                    <div class="p-3 h-100 w-100 position-absolute" style="z-index:1; top:0; left:0;">
-                      <span class="fs-1 fw-bold title" >등산</span><br></br>
-                      <span class="fs-4">나만의</span><br>
-                      <span class="fs-4">등산기록</span>
-                    </div>
+                  <div class="p-3 h-100 w-100 position-absolute" style="z-index:1; top:0; left:0;">
+                    <span class="fs-1 fw-bold title" >등산</span><br></br>
+                    <span class="fs-4">나만의</span><br>
+                    <span class="fs-4">등산기록</span>
+                  </div>
 							</div>
 						</div>
 					</div>

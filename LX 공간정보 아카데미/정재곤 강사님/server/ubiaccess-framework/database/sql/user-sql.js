@@ -55,7 +55,7 @@ module.exports = {
 
     // 고객 id login
     user_login: {
-        sql: `select count(*) as cnt, pkNumber, name
+        sql: `select count(*) as cnt, pkNumber, id
                 from project.user
                 where id = :id and password = :password`
     }

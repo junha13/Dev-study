@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    <button @clcik="logOut()">로그아웃</button>
+    <button @click="logOut()">로그아웃</button>
   </div>
 
 </template>
@@ -17,18 +17,19 @@ import { storeToRefs } from 'pinia';
 
 import { useUserStore } from '@/stores/user';
 const userStore =  useUserStore();
-const { userName, pkNumber } = storeToRefs(userStore);
+const { loginCheck, userName, pkNumber } = storeToRefs(userStore);
 
 const router = useRouter();
 
 onMounted(() => {
- console.log(`homeView :: onMounted 실행됨`)
+ console.log(`MyPageView :: onMounted 실행됨`)
 
 })
 
 function logOut() {
   console.log(`logout 함수 실행됨`)
 
+  loginCheck.value = false
   userName.value = false
   pkNumber.value = false
 

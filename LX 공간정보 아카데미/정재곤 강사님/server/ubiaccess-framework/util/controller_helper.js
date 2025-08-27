@@ -76,6 +76,33 @@ class ControllerHelper {
 
     }
 
+
+    async executeListByCondition(req, res, sqlName) {
+
+        const params = param.parse(req);
+
+        try {
+
+            const rows = await this.databaseHelper.query(sqlName, params);
+    
+            const output = {
+                header: {
+                    page: params.page,
+                    perPage: params.perPage,
+                    total: rows.length  // total에서 너무 오류가 많이나서 total - rows 갯수로 구함
+                },
+                data: rows
+            }
+
+            util.sendRes(res, 200, 'OK', output);
+
+        } catch(err) {
+            util.sendError(res, 400, `Error -> ${err}`);
+        }
+
+    }
+    
+
 }
 
 module.exports = ControllerHelper;

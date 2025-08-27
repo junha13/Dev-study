@@ -1,5 +1,5 @@
 <template>
-<h1>코스</h1>
+
 <div>
     <div>
         <span>
@@ -34,6 +34,9 @@
 import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import axios from 'axios'
+
+// BaseURL 받기
+import { requestConfig } from '../../../app.config'
 
 const router = useRouter();
 
@@ -97,7 +100,7 @@ async function addUser() {
 
         const response = await axios({
             method: 'post',
-            baseURL: 'http://localhost:8001',
+            baseURL: requestConfig.baseUrl,
             url: '/user/add',
             data: params,
             timeout: 5000,
@@ -106,7 +109,7 @@ async function addUser() {
 
         console.log(`응답 => ${JSON.stringify(response.data)}`)
 
-        router.push('/');
+        router.push('/login');
     } catch(err) {
         console.error(`에러 => ${err}`)
 
@@ -123,12 +126,12 @@ async function idOverlapCheckByDB() {
     try{
 
         const params = {
-                id:userId.value,
-            }
+            id:userId.value,
+        }
 
         const response = await axios({
             method: 'post',
-            baseURL: 'http://localhost:8001',
+            baseURL: requestConfig.baseUrl,
             url: '/user/overlapCheck',
             data: params,
             timeout: 5000,

@@ -6,7 +6,7 @@
         </div>
     </div>
 
-    <div class="d-flex flex-row justify-content-between mt-7">
+    <div class="d-flex flex-row justify-content-between mt-3">
         <div class="w-50 h-300px">  <!-- 왠지는 모르겠는데 이러니까 4:4:2로 나눠가지네-->
             <div class="d-flex flex-column justify-content-between h-300px ms-1">
                 <div v-for="(menu, index) in firstMenu" :key="menu.name" class="h-50 p-2">

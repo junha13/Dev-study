@@ -1,22 +1,23 @@
 
 <template>
+  <div class="">
+    
+  <div class="d-flex flex-column align-items-center">
+    <div class="d-flex flex-row align-items-center mt-10">
+      <div class="">
+        <div class="d-flex flex-column align-items-center">
+          <input class="idInput" type="text" placeholder="id" v-model="userId"></input>
+          <input class="passwordInput" type="password" placeholder="password" v-model="userPassword"></input>
+            <span class="mt-1 cursor-pointer" @click="goToJoin()">회원가입</span>
+        </div>
+      </div>
+      <div class="">
+        <button class="btn btn-primary" @click="login()">로그인</button>
+      </div>
+    </div>
 
-  <div>
-    <div>
-      <span>
-        <span>아이디</span>
-        <input class="idInput" type="text" placeholder="id" v-model="userId"></input>
-      </span>
-    </div>
-    <div>
-      <span>
-        <span>비번</span>
-        <input class="passwordInput" type="password" placeholder="password" v-model="userPassword"></input>
-      </span>
-    </div>
-    <div>
-      <button @click="login()">로그인</button>
-    </div>
+
+  </div>
   </div>
 
 </template>
@@ -27,13 +28,15 @@ import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router';
 import axios from 'axios'
 
+// BaseURL 받기
+import { requestConfig } from '../../../app.config'
 
 // user name 저장
 import { storeToRefs } from 'pinia';
 
 import { useUserStore } from '@/stores/user';
 const userStore =  useUserStore();
-const { loginCheck, userName, pkNumber } = storeToRefs(userStore);
+const { loginCheck, user_Id, post_pkNumber, fullScreen } = storeToRefs(userStore);
 
 const userId = ref('')
 const userPassword = ref('')
@@ -42,6 +45,8 @@ const router = useRouter();
 
 onMounted(() => {
  console.log(`homeView :: onMounted 실행됨`)
+
+ fullScreen.value = false
 
 })
 
@@ -57,23 +62,23 @@ async function login() {
 
     const response = await axios({
       method: 'post',
-      baseURL: 'http://localhost:8001',
+      baseURL: requestConfig.baseUrl,
       url: '/user/login',
       data: params,
       timeout: 5000,
       response: 'json'
     })
 
-    console.log(`응답 -> ${JSON.stringify(response.data.data.data[0]['cnt'])}`)
+    console.log(`응답 -> ${JSON.stringify(response.data)}`)
 
     let loginCnt = response.data.data.data[0]['cnt'];
-    userName.value = response.data.data.data[0]['name'];
-    pkNumber.value = response.data.data.data[0]['pkNumber'];
+    user_Id.value = response.data.data.data[0]['id'];
 
     if (loginCnt === 1) {
-      alert(`로그인 성공 ${userName.value}님`)
+      alert(`로그인 성공 ${user_Id.value}님`)
       loginCheck.value = true;
 
+      fullScreen.value = true
       router.push('/')
 
     } else {
@@ -85,6 +90,11 @@ async function login() {
   } catch (err) {
     console.log(`에러 발생 -> ${err}`)
   }
+}
+
+function goToJoin() {
+
+  router.replace('/join', {})
 }
 
 
