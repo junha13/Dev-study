@@ -1,31 +1,38 @@
 <template>
-
-<div>
-    <div>
-        <span>
-            <input placeholder="id" v-model="userId"></input>
-            <button @click="idOverlapCheck()">id 중복체크</button>
-        </span>
+<div class="d-flex flex-row justify-content-center mt-10">
+    <div class="d-flex flex-column align-items-center gap-4 ms-20">
+        <div>
+            <span>
+                <input class="form-control form-control-solid bg-white border-black" placeholder="id" v-model="userId"></input>
+            </span>
+        </div>
+        <div>
+            <input type="password" class="form-control form-control-solid bg-white border-black" placeholder="password" v-model="userPassword"></input>
+        </div>
+        <div>
+            <input type="password" class="form-control form-control-solid bg-white border-black" placeholder="password check" v-model="userPasswordDoubleCheck"></input>
+        </div>
+        <div>
+            <input class="form-control form-control-solid bg-white border-black" placeholder="name" v-model="userName"></input>
+        </div>
+        <div>
+            <input class="form-control form-control-solid bg-white border-black" placeholder="email" v-model="userEmail"></input>
+        </div>
+        <div>
+            <input class="form-control form-control-solid bg-white border-black" placeholder="mobile" v-model="userMobile"></input>
+        </div>
+        <div>
+            <button class="btn btn-primary px-20" @click="addUser">회원가입</button>
+        </div>
     </div>
     <div>
-        <input placeholder="password" v-model="userPassword"></input>
-    </div>
-    <div>
-        <input placeholder="password check" v-model="userPasswordDoubleCheck"></input>
-    </div>
-    <div>
-        <input placeholder="name" v-model="userName"></input>
-    </div>
-    <div>
-        <input placeholder="email" v-model="userEmail"></input>
-    </div>
-    <div>
-        <input placeholder="mobile" v-model="userMobile"></input>
-    </div>
-    <div>
-        <button @click="addUser">회원가입</button>
+        <button class="btn btn-secondary border border-dark border-2 p-2 me-n5 mt-1 ms-3" @click="idOverlapCheck()">id 중복체크</button>
     </div>
 </div>
+<div class="h-200px">
+
+</div>
+
 
 
 </template>
@@ -108,6 +115,8 @@ async function addUser() {
         })
 
         console.log(`응답 => ${JSON.stringify(response.data)}`)
+
+        alert('회원가입 완료~~ 다시 로그인해주세요')
 
         router.push('/login');
     } catch(err) {

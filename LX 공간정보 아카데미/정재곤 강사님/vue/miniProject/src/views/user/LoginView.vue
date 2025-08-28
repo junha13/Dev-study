@@ -1,23 +1,26 @@
 
 <template>
   <div class="">
-    
-  <div class="d-flex flex-column align-items-center">
-    <div class="d-flex flex-row align-items-center mt-10">
-      <div class="">
+    <div class="d-flex flex-column align-items-center">
+
+      <div class="mt-10">
         <div class="d-flex flex-column align-items-center">
-          <input class="idInput" type="text" placeholder="id" v-model="userId"></input>
-          <input class="passwordInput" type="password" placeholder="password" v-model="userPassword"></input>
-            <span class="mt-1 cursor-pointer" @click="goToJoin()">회원가입</span>
+          <input class="form-control form-control-solid bg-white border-black" type="text" placeholder="id" v-model="userId"></input>
+          <input class="form-control form-control-solid bg-white border-black mt-5" type="password" placeholder="password" v-model="userPassword"></input>
         </div>
       </div>
-      <div class="">
-        <button class="btn btn-primary" @click="login()">로그인</button>
+
+      <div class=" mt-10">
+        <button class="btn btn-primary px-20" @click="login()">로그인</button>
       </div>
+
+      <div class="mt-3">
+        <span class="cursor-pointer" @click="goToJoin()">회원가입</span>
+      </div>  
+
     </div>
-
-
   </div>
+  <div class="h-350px">
   </div>
 
 </template>
@@ -83,7 +86,8 @@ async function login() {
 
     } else {
       alert(`아이디와 비밀번호가 맞지 않습니다. 로그인을 다시 시도해주세요`)
-      $('input').val('');  // jquery가 기본으로 됨
+      userId.value = ''
+      userPassword.value = ''
       return;
     }
 

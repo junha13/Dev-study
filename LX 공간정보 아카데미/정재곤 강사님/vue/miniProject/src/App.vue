@@ -8,7 +8,7 @@
 
         <!-- ======== 학교 로고 ======== -->
         <button class="h-100 p-2 btn">
-          <img src="/images/anyangLogo.png" class="h-100" @click="tabButtonClicked('home')"></img>
+          <img src="/images/anyangLogo.png" class="h-100" @click="goToHome()"></img>
         </button>
 
         <!-- ======== 햄버거 버튼 ======== -->
@@ -19,11 +19,11 @@
           </i>
         </button>
     </div>
-    <!-- ======== login, join 버튼 ======== -->
+    <!-- ======== login, join 헤더 ======== -->
     <div v-if="!fullScreen" class="d-flex flex-column align-items-center">
       <img src="/images/han.jpg" class="w-100 border-top border-primary border-2 shadow-sm"></img>
         <button class="h-60px p-2 btn mt-10">
-          <img src="/images/anyangLogo.png" class="h-100" @click="tabButtonClicked('home')"></img>
+          <img src="/images/anyangLogo.png" class="h-100" @click="goToHome()"></img>
         </button>
     </div>
 
@@ -36,7 +36,16 @@
       <RouterView />
     </div>
 
+     <!-- ======== footer ======== -->
+      <div class="w-100 bg-secondary h-125px shadow-lg">
+        <div>
+          <div class="w-100 d-flex flex-column align-items-center">
+            <span class="fw-bold mt-3">안양캠퍼스 14028 경기 안양시 만안구 삼덕로37번길 22 (안양대학교) </span> <br /> <span class="mt-n4"> TEL 031-467-0700</span> <br />
+            <span class="fw-bold">강화캠퍼스 23038 인천광역시 강화군 불은면 중앙로 602-14 </span> <br /> <span class="mt-n4"> TEL 032-930-6000</span>
+          </div>
+        </div>
 
+      </div>
 
     <!--
          ======== footer ======== 
@@ -95,7 +104,7 @@
       </div>
     </div>
     -->
-
+    
   </div>
 
  <!-- ======== 드로어 ======== -->
@@ -231,24 +240,6 @@ function closeDrawer() {
 }
 
 
-function tabButtonClicked(name) {
-  console.log(`tabButtonclicked 호출됨`)
-
-  activeTab.value = name;
-
-  if(name == 'home') {
-    goToHome();
-  } else if (name == 'archive') {
-    goToArchive();
-  } else if (name == 'login') {
-    goToLogin();
-  } else if (name == 'myPage') {
-    goToMyPage();
-  }
-}
-
-
-
 // ======== router push ========
 function goToHome() {
   console.log(`goToHome 호출됨`)
@@ -327,8 +318,6 @@ function goToIntroduction() {
 </script>
 
 <style scoped>
-
-
 /* drawer */
 .drawer-hidden {
   transform: translateX(100%);
@@ -339,27 +328,5 @@ function goToIntroduction() {
   visibility: visible;
 }
 
-
-/* tab-btn */
-.tab-btn {
-  padding: 4px 8px;
-  border-radius: 8px;
-  transition: all 0.25s ease-in-out;
-}
-
-.tab-btn.active {
-  background-color: rgba(15, 110, 253, 0.1);
-  color: var(--bs-primary) !important;
-  border-radius: 8px;
-  transform: scale(1);
-}
-
-.tab-btn .menu-icon {
-  transition: color 0.25s ease-in-out;
-}
-
-.tab-btn.active .menu-icon i {
-  color: var(--bs-primary) !important;
-}
 
 </style>

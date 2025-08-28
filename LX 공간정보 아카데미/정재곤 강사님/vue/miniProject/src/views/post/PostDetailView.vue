@@ -17,17 +17,17 @@
   </div>
 
 
-  <div class="d-flex flex-row justify-content-between mt-5 border-top border-bottom border-2">
-    <div class="d-flex align-items-center gap-4">
+  <div class="d-flex flex-row justify-content-between mt-5 border-top border-bottom border-2 ">
+    <div class="d-flex align-items-center gap-4 ms-3">
       <span class="fs-2x fw-bold">{{ title }}</span>
-      <span class="fw-bold">{{ likes }}</span>
+      <span class="fw-bold"> || ❤️ {{ likes }}</span>
     </div>
-    <div class="d-flex align-items-center gap-4" >
+    <div class="d-flex align-items-center gap-4 me-3" >
       <span class="fw-bold">{{ year }}년 {{ semester }}학기 ({{ grade }}학년)</span>
     </div>
   </div>
   <div>
-    <div>
+    <div class="my-5 mx-5">
       <span>{{ content }}</span>
     </div>
   </div>
@@ -123,7 +123,11 @@ function goToModify() {
 function postRemove(post_pkNumber) {
   console.log(`postRemove 실행됨`)
 
-  requestPostRemove(post_pkNumber)
+  if (confirm('진짜 삭제하게???')) {
+    requestPostRemove(post_pkNumber)
+  } else {
+    return
+  }
 
   router.push('/post-add')
 }

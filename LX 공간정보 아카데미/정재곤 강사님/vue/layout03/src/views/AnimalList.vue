@@ -31,6 +31,8 @@
     <div style="margin-top: 2em; margin-bottom: 2em;">
       <span>동물들</span>
       <button @click="addAnimal()">추가</button>
+
+      <button class="btn btn-sm btn-primary ms-4" @click="showDialog()">대화상자 띄우기</button>
     </div>
 
     <div v-for="(item, index) in animals" :key="item.id" :class="(item.type == 'dog') ? 'dog-style' : 'cat-style'">
@@ -76,6 +78,45 @@
 
 </div>
 
+<!--====== begin :: 대화상자  =======-->
+<div class="modal fade" id="myDialog">  <!--modal은 보이지 않음-->
+
+  <div class="modal-dialog modal-dialog-centered">
+
+    <div class="modal-content rounded">
+
+      <div class="modal-header">
+        <span class="fs-1 fw-bold">파일 업로드</span>
+      </div>
+
+      <div class="modal-body p-10">
+
+        <div>
+          <label>이름 : </label>
+          <input type="text" class="form-control form-control-solid"></input>
+        </div>
+
+        <div class="mt-4">
+          <!-- 입력값이 바뀔 때마다 함수 실행 -->
+          <input type="file" id="uploadImage" hidden @change="getFilename($event.target.files)"></input>
+          <label for="uploadImage" class="d-flex justify-content-center">
+            <img src="/assets/media/avatars/300-20.jpg" id="preview" width="50%"></img>
+          </label>
+        </div>
+
+        <div class="mt-10">
+          <button class="btn btn-primary" @click="uploadFile()">업로드</button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+<!--====== end :: 대화상자  =======-->
+
 </template>
 
 <script setup>
@@ -104,6 +145,17 @@ const { makePagination } = usePagination()
 
 const pagination1 = ref({})
 
+// 부트스트랩
+import { Modal } from 'bootstrap'
+
+// 업로드
+import { useUpload } from '@/util/upload.js'
+const { upload } = useUpload()
+
+// 대화상자 객체를 담아둘 변수상자
+let myDialog;
+// 선택된 파일
+const selectedFile = ref('')
 
 // 감시할 수 있는 변수상자, ref 함수를 이용해서 만든다, 봉지를 씌운 것과 같다.
 // 자바스크립트 코드에서는 변수상자의 값을 바꿀 때 name.value를 사용해야 한다.
@@ -155,6 +207,51 @@ async function requestAnimalList(page, perPage) {
 }
 
 
+function showDialog() {
+  console.log(`showDialog 함수 호출됨`)
+
+  const elem = document.querySelector('#myDialog')
+  myDialog = new Modal(elem);
+  myDialog.show() // 보여주거나 안보여주거나 정할 수 있음
+}
+
+
+async function getFilename(files) {
+  selectedFile.value = files[0] // 파일 중 첫번재 파일만 저장
+  await base64()
+
+}
+
+function base64() {
+  return new Promise((resolve, reject) => {
+    let reader = new FileReader()
+    // 파일을 다 로딩하고 previewImage.src에 저장
+    reader.onload = e => {
+      resolve(e.target.result)
+
+      const previewImage = document.querySelector('#preview')
+      previewImage.src = e.target.result
+    }
+
+    reader.readAsDataURL(selectedFile.value)
+    // 선택한 파일 읽기 이게 먼저 실행되고 위 함수가 실행됨
+  })
+}
+
+async function uploadFile() {
+  console.log(`uploadFile 함수 호출됨 -> ${selectedFile.value.name}`)
+
+  try{
+  await upload(selectedFile.value, (progress) => {
+    console.log(`업로드 진행률 : ${progress}`)
+  })
+
+  console.log(`업로드 응답 -> ${JSON.stringify(response)}`)
+  } catch (err) {
+    console.error(`업로드 중 에러 -> ${err}`)
+  }
+}
+
 function show() {
   console.log(`show 함수 호출됨`)
 
@@ -181,6 +278,7 @@ function modifyAnimal(index) {
   selectedIndex.value = index
 
   router.replace('/animal-add', {})
+
 
 }
 

@@ -1,9 +1,13 @@
 
 <template>
-  <div>
-    <button @click="logOut()">로그아웃</button>
+  <div class="h-750px">
+    <div class="d-flex justify-content-center mt-10">
+      <div>
+        <span class="fs-2x fw-bold">이 페이지는 인사말 페이지입니다.</span><br />
+        <span class="fs-2x fw-bold">안녕하세요??? 반갑습니다?????</span><br />
+      </div>
+    </div>
   </div>
-
 </template>
 
 <script setup>
@@ -17,30 +21,15 @@ import { storeToRefs } from 'pinia';
 
 import { useUserStore } from '@/stores/user';
 const userStore =  useUserStore();
-const { loginCheck, userName, pkNumber } = storeToRefs(userStore);
+const { } = storeToRefs(userStore);
 
 const router = useRouter();
 
 onMounted(() => {
- console.log(`MyPageView :: onMounted 실행됨`)
+ console.log(`IntroductionView :: onMounted 실행됨`)
 
 })
 
-function logOut() {
-  console.log(`logout 함수 실행됨`)
-
-  loginCheck.value = false
-  userName.value = false
-  pkNumber.value = false
-
-  goToHome()
-}
-
-function goToHome() {
-  console.log(`goToHome 함수 실행됨`)
-
-  router.push('/')
-}
 
 </script>
 

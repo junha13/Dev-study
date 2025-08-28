@@ -33,6 +33,14 @@
       <input type="text" v-model="pathInput">
     </div>
 
+      <div class="mt-4">
+    <!-- 입력값이 바뀔 때마다 함수 실행 -->
+    <input type="file" id="uploadImage" hidden @change="getFilename($event.target.files)"></input>
+    <label for="uploadImage" class="d-flex justify-content-center">
+      <img src="/assets/media/avatars/300-20.jpg" id="preview" width="50%"></img>
+    </label>
+  </div>
+
   </div>
 
   <div style="margin-top: 2em;">
@@ -62,11 +70,22 @@ const { animals, mode, selectedIndex } = storeToRefs(animalStore)
 import axios from 'axios'
 
 
+
+
 const typeInput = ref('')
 const nameInput = ref('')
 const ageInput = ref('')
 const mobileInput = ref('')
 const pathInput = ref('')
+
+// 업로드
+import { useUpload } from '@/util/upload.js'
+const { upload } = useUpload()
+
+import { requestConfig } from '../../app.config'
+
+// 선택된 파일
+const selectedFile = ref('')
 
 
 onMounted(() => {
@@ -85,6 +104,30 @@ onMounted(() => {
   }
 
 })
+
+
+async function getFilename(files) {
+  selectedFile.value = files[0] // 파일 중 첫번재 파일만 저장
+  await base64()
+
+}
+
+function base64() {
+  return new Promise((resolve, reject) => {
+    let reader = new FileReader()
+    // 파일을 다 로딩하고 previewImage.src에 저장
+    reader.onload = e => {
+      resolve(e.target.result)
+
+      const previewImage = document.querySelector('#preview')
+      previewImage.src = e.target.result
+    }
+
+    reader.readAsDataURL(selectedFile.value)
+    // 선택한 파일 읽기 이게 먼저 실행되고 위 함수가 실행됨
+  })
+}
+
 
 
 function save() {
@@ -123,8 +166,20 @@ function save() {
 async function requestAnimalAdd(item) {
 
   try {
+
+    let response = await upload(selectedFile.value, (progress) => {
+        console.log(`업로드 진행률 : ${progress}`)
+      })
+
+      console.log(`업로드 응답 -> ${JSON.stringify(response)}`)
+
+      item.path = `${requestConfig.baseUrl}${response.data.filename}` // item의 path 정보를 filename으로 바꿈
   
-    const response = await axios({
+      // 이게 왜 이렇게 하면 되는거임??  => 웹서버쪽 전체주소를 db에 넣어야됨 ex)  http://localhost:8001//images/CB3E7290-EFFC-4951-9986-7D6DD1001FD51756174075185.png
+
+
+
+    response = await axios({
       method: 'post',
       baseURL: 'http://localhost:8001',
       url: '/animal/v1/add',

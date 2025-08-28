@@ -93,7 +93,7 @@ import { storeToRefs } from 'pinia';
 // ======== stores / user_id, post_pkNumber, mode 가져옴 ========
 import { useUserStore } from '@/stores/user';
 const userStore =  useUserStore();
-const { user_Id, post_pkNumber, mode,  } = storeToRefs(userStore);
+const { user_Id, post_pkNumber, mode } = storeToRefs(userStore);
 
 const router = useRouter();
 let postDetail;
@@ -207,8 +207,9 @@ function addPost() {
     title: title.value,
     content: content.value,
     thumbnail: thumbnail.value,  // 기존 사진 저장
-    likes: likes.value ? likes.value : 0,
-    user_id: user_id.value,
+    likes: likes.value ? likes.value : 0, // 기존 게시물이면 기존의 like 개수 적용, 아니면 0
+    user_id: user_id.value ? user_id.value : user_Id.value, 
+    // 기존 게시물이면 게시물에 잡혀있는 user_id, 아니면 store에 있는 user_Id 반영
     year: year.value,
     grade: grade.value,
     semester: semester.value

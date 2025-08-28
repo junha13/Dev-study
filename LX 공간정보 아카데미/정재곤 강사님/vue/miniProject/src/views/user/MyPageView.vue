@@ -6,8 +6,8 @@
         <span class="fs-2x fw-bold mb-2">{{user_Id}} 님의 마이페이지</span>
       </div>
       <div class="d-flex flex-row justify-content-center gap-6 mt-4">
-        <button @click="logOut()">로그아웃</button>
-        <button @click="goToUserModify()">회원정보 수정</button>
+        <button class="btn btn-secondary border border-dark border-2 px-3" @click="logOut()">로그아웃</button>
+        <button class="btn btn-secondary border border-dark border-2 px-3" @click="goToUserModify()">회원정보 수정</button>
       </div>
     </div>
     <div class="p-3">
@@ -31,6 +31,7 @@
         </div>
     </div>
   </div>
+
   <!-- ======== 페이지네이션 ======== -->
   <div>
     <Pagination :requestFunc="getPostList" :pagination="pagination1" />
@@ -103,6 +104,8 @@ function logOut() {
 
   loginCheck.value = false
   user_Id.value = false
+
+  alert('로그아웃 되었습니다.')
 
   goToHome()
 }

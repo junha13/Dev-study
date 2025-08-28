@@ -31,6 +31,7 @@
     <div style="margin-top: 2em; margin-bottom: 2em;">
       <span>동물들</span>
       <button @click="addAnimal()">추가</button>
+
     </div>
 
     <div v-for="(item, index) in animals" :key="item.id" :class="(item.type == 'dog') ? 'dog-style' : 'cat-style'">
