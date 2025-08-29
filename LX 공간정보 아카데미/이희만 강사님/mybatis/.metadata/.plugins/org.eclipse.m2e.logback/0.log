@@ -1,0 +1,538 @@
+2025-08-29 13:26:49,305 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-29 13:27:33,182 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [643])
+2025-08-29 13:27:33,185 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-08-29 13:27:33,185 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-08-29 13:27:33,185 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-08-29 13:27:33,186 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-08-29 13:27:33,186 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-08-29 13:27:33,186 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-08-29 13:27:33,186 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-08-29 13:27:33,186 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-08-29 13:27:33,186 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-08-29 13:27:33,186 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-08-29 13:27:33,187 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-08-29 13:27:33,187 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-08-29 13:27:33,187 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-08-29 13:27:33,187 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-08-29 13:27:33,187 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-08-29 13:27:33,187 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-08-29 13:27:33,188 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-08-29 13:27:33,188 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-08-29 13:27:33,188 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-08-29 13:27:33,188 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-08-29 13:27:33,188 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-08-29 13:27:33,188 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-08-29 13:27:33,188 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-08-29 13:27:33,188 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-08-29 13:27:33,189 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-08-29 13:27:33,189 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-08-29 13:27:33,189 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-08-29 13:27:33,189 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-08-29 13:27:33,189 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-08-29 13:27:33,189 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-08-29 13:27:33,190 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-08-29 13:27:33,190 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-08-29 13:27:33,190 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-08-29 13:27:33,190 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-08-29 13:27:33,190 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-08-29 13:27:33,190 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-08-29 13:27:33,191 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-08-29 13:27:33,191 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-08-29 13:27:33,191 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-08-29 13:27:33,191 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-08-29 13:27:33,191 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-08-29 13:27:33,191 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-08-29 13:27:33,192 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-08-29 13:27:33,192 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-08-29 13:27:33,192 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.4.8.jre [1072])
+2025-08-29 13:27:33,193 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\com.google.guava_33.4.8.jre.jar
+2025-08-29 13:27:33,193 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.17 [1141])
+2025-08-29 13:27:33,193 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\slf4j.api_2.0.17.jar
+2025-08-29 13:27:33,193 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [34])
+2025-08-29 13:27:33,193 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-08-29 13:27:33,193 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [29])
+2025-08-29 13:27:33,194 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\jakarta.annotation-api_1.3.5.jar
+2025-08-29 13:27:33,194 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [78])
+2025-08-29 13:27:33,194 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.apache.commons.cli_1.9.0.jar
+2025-08-29 13:27:33,194 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2025-08-29 13:27:33,194 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-08-29 13:27:33,194 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.3 [1073])
+2025-08-29 13:27:33,194 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\LX\eclipse_202409\plugins\com.google.guava.failureaccess_1.0.3.jar
+2025-08-29 13:27:33,200 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\LX\AppData\Local\Temp\m2e-archetypeGenerator16942183803659089466":
+2025-08-29 13:27:33,203 [Worker-15: Launching mavenrun-d3b70b86-a51b-44f8-ac67-4f3efce3f5a3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=com.huongdanjava -DarchetypeArtifactId=huongdanjava-springmvc-archetype -DarchetypeVersion=2.1.2 -DgroupId=lx.edu -DartifactId=spring -Dversion=0.0.1-SNAPSHOT -Dpackage=lx.edu.spring -DoutputDirectory=C:\LX\spring-workspace -Dstyle.color=always -U archetype:generate
+2025-08-29 13:27:39,517 [Worker-5: Creating huongdanjava-springmvc-archetype] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\LX\spring-workspace\spring\pom.xml
+2025-08-29 13:27:39,982 [Worker-5: Creating huongdanjava-springmvc-archetype] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: lx.edu:spring:0.0.1-SNAPSHOT @ C:\LX\spring-workspace\spring\pom.xml.
+2025-08-29 13:27:40,049 [Worker-5: Creating huongdanjava-springmvc-archetype] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.slf4j:slf4j-log4j12:jar:2.0.13 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.13
+2025-08-29 13:27:40,656 [Worker-5: Creating huongdanjava-springmvc-archetype] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring/src/main/java
+2025-08-29 13:27:40,658 [Worker-5: Creating huongdanjava-springmvc-archetype] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring/src/main/resources
+2025-08-29 13:27:40,659 [Worker-5: Creating huongdanjava-springmvc-archetype] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring/src/test/java
+2025-08-29 13:27:40,660 [Worker-5: Creating huongdanjava-springmvc-archetype] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring/src/test/resources
+2025-08-29 13:27:42,425 [Worker-5: Creating huongdanjava-springmvc-archetype] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.slf4j:slf4j-log4j12:jar:2.0.13 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.13
+2025-08-29 13:27:42,486 [Worker-5: Creating huongdanjava-springmvc-archetype] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-08-29 13:27:43,199 [Worker-4: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:27:43,204 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-29 13:27:43,218 [Worker-4: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:27:43,219 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\spring\src\test\resources
+2025-08-29 13:28:41,507 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:28:41,508 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-29 13:28:41,510 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:28:41,511 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-29 13:28:53,232 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:28:53,235 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-29 13:28:53,239 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:28:53,240 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-29 13:28:57,531 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:28:57,532 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-29 13:28:57,534 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:28:57,535 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-29 13:35:09,287 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-29 13:35:45,474 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lx.edu:mybatis:0.0.1-SNAPSHOT @ C:\LX\spring-workspace\mybatisproject\pom.xml.
+2025-08-29 13:35:45,999 [Worker-21: Enabling Maven Dependency Management] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.slf4j:slf4j-log4j12:jar:2.0.13 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.13
+2025-08-29 13:35:46,224 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mybatisproject/src
+2025-08-29 13:35:46,225 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /mybatisproject/src/main/resources overlaps with sources folder /mybatisproject/src
+2025-08-29 13:35:46,226 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /mybatisproject/src/test/java because it overlaps with /mybatisproject/src
+2025-08-29 13:35:46,227 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /mybatisproject/src/test/resources overlaps with sources folder /mybatisproject/src
+2025-08-29 13:35:46,441 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-29 13:35:46,774 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lx.edu:mybatis:0.0.1-SNAPSHOT @ C:\LX\spring-workspace\mybatisproject\pom.xml.
+2025-08-29 13:35:46,910 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mybatisproject/src
+2025-08-29 13:35:46,911 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /mybatisproject/src/main/resources overlaps with sources folder /mybatisproject/src
+2025-08-29 13:35:46,912 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /mybatisproject/src/test/java because it overlaps with /mybatisproject/src
+2025-08-29 13:35:46,913 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /mybatisproject/src/test/resources overlaps with sources folder /mybatisproject/src
+2025-08-29 13:35:47,051 [Worker-21: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-29 13:35:47,291 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:35:47,292 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:35:47,296 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:35:47,298 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:36:23,713 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lx.edu:mybatis:0.0.1-SNAPSHOT @ C:\LX\spring-workspace\mybatisproject\pom.xml.
+2025-08-29 13:36:23,824 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:36:23,824 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:36:23,828 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:36:23,828 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:36:29,025 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lx.edu:mybatis:0.0.1-SNAPSHOT @ C:\LX\spring-workspace\mybatisproject\pom.xml.
+2025-08-29 13:36:29,149 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.4.0/mysql-connector-j-9.4.0.pom
+2025-08-29 13:36:29,161 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.4.0/mysql-connector-j-9.4.0.pom
+2025-08-29 13:36:29,172 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.pom
+2025-08-29 13:36:29,179 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.pom
+2025-08-29 13:36:29,190 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/4.31.1/protobuf-parent-4.31.1.pom
+2025-08-29 13:36:29,197 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/4.31.1/protobuf-parent-4.31.1.pom
+2025-08-29 13:36:29,206 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/4.31.1/protobuf-bom-4.31.1.pom
+2025-08-29 13:36:29,215 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/4.31.1/protobuf-bom-4.31.1.pom
+2025-08-29 13:36:29,228 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.4.0/mysql-connector-j-9.4.0.jar
+2025-08-29 13:36:29,294 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.4.0/mysql-connector-j-9.4.0.jar
+2025-08-29 13:36:29,301 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.jar
+2025-08-29 13:36:29,347 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.jar
+2025-08-29 13:36:29,439 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:36:29,439 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:36:29,441 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:36:29,442 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:36:30,400 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.4.0/mysql-connector-j-9.4.0-sources.jar
+2025-08-29 13:36:30,441 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.4.0/mysql-connector-j-9.4.0-sources.jar
+2025-08-29 13:36:30,445 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.mysql:mysql-connector-j:9.4.0
+2025-08-29 13:36:30,467 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1-sources.jar
+2025-08-29 13:36:30,505 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1-sources.jar
+2025-08-29 13:36:30,509 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.protobuf:protobuf-java:4.31.1
+2025-08-29 13:36:30,762 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:36:30,763 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:36:30,765 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:36:30,766 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:36:35,501 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lx.edu:mybatis:0.0.1-SNAPSHOT @ C:\LX\spring-workspace\mybatisproject\pom.xml.
+2025-08-29 13:36:35,519 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+2025-08-29 13:36:35,525 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom
+2025-08-29 13:36:35,534 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.pom
+2025-08-29 13:36:35,537 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.pom
+2025-08-29 13:36:35,543 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.21.9/protobuf-parent-3.21.9.pom
+2025-08-29 13:36:35,546 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.21.9/protobuf-parent-3.21.9.pom
+2025-08-29 13:36:35,553 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.21.9/protobuf-bom-3.21.9.pom
+2025-08-29 13:36:35,555 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.21.9/protobuf-bom-3.21.9.pom
+2025-08-29 13:36:35,567 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.jar
+2025-08-29 13:36:35,614 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.jar
+2025-08-29 13:36:35,619 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar
+2025-08-29 13:36:35,679 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar
+2025-08-29 13:36:35,763 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:36:35,763 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:36:35,765 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:36:35,766 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:36:36,259 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:36:36,260 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:36:36,262 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:36:36,263 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:36:36,722 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0-sources.jar
+2025-08-29 13:36:36,761 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0-sources.jar
+2025-08-29 13:36:36,764 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.mysql:mysql-connector-j:8.2.0
+2025-08-29 13:36:36,782 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9-sources.jar
+2025-08-29 13:36:36,815 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9-sources.jar
+2025-08-29 13:36:36,817 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.protobuf:protobuf-java:3.21.9
+2025-08-29 13:38:15,518 [Worker-16: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\t</dependencies>... @30:17) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\t</dependencies>... @30:17) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-08-29 13:38:16,582 [Worker-10: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\t</dependencies>... @30:17) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\t</dependencies>... @30:17) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-08-29 13:38:23,465 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.5.19/mybatis-3.5.19.pom
+2025-08-29 13:38:23,478 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.5.19/mybatis-3.5.19.pom
+2025-08-29 13:38:23,490 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/48/mybatis-parent-48.pom
+2025-08-29 13:38:23,495 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/48/mybatis-parent-48.pom
+2025-08-29 13:38:23,533 [Worker-13: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier  to /spring/target/classes
+2025-08-29 13:38:23,543 [Worker-13: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier  to /spring/target/classes
+2025-08-29 13:38:23,556 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.5.19/mybatis-3.5.19.jar
+2025-08-29 13:38:23,608 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.5.19/mybatis-3.5.19.jar
+2025-08-29 13:38:23,613 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar
+2025-08-29 13:38:23,622 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar
+2025-08-29 13:38:23,656 [Worker-13: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier  to /spring/target/classes
+2025-08-29 13:38:24,518 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lx.edu:mybatis:0.0.1-SNAPSHOT @ C:\LX\spring-workspace\mybatisproject\pom.xml.
+2025-08-29 13:38:24,555 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier  to /spring/target/classes
+2025-08-29 13:38:24,807 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:38:24,808 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:38:24,810 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:38:24,810 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:38:25,020 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:38:25,021 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:38:25,023 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:38:25,024 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:38:25,777 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.5.19/mybatis-3.5.19-sources.jar
+2025-08-29 13:38:25,809 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.5.19/mybatis-3.5.19-sources.jar
+2025-08-29 13:38:25,811 [Worker-0: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mybatis:mybatis:3.5.19
+2025-08-29 13:38:25,827 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0-sources.jar
+2025-08-29 13:38:25,846 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0-sources.jar
+2025-08-29 13:38:25,850 [Worker-0: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet:jakarta.servlet-api:6.0.0
+2025-08-29 13:40:05,085 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:40:05,086 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:40:05,087 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:40:05,088 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:40:26,828 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:40:26,828 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:40:26,830 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:40:26,830 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:40:30,788 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:40:30,788 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:40:30,790 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:40:30,791 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:40:36,193 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lx.edu:mybatis:0.0.1-SNAPSHOT @ C:\LX\spring-workspace\mybatisproject\pom.xml.
+2025-08-29 13:40:36,223 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier  to /spring/target/classes
+2025-08-29 13:40:36,320 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:40:36,320 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 13:40:36,322 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 13:40:36,323 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 13:40:45,520 [Worker-12: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 13:40:45,553 [Worker-12: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 13:40:45,586 [Worker-12: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:09:12,497 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:09:12,498 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:09:12,500 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:09:12,501 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 14:15:24,410 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:15:24,411 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:15:24,414 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:15:24,414 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 14:15:30,469 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:15:30,470 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:15:30,471 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:15:30,471 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 14:15:43,216 [Worker-23: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:15:43,242 [Worker-23: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:15:43,270 [Worker-23: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:17:57,797 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:17:57,798 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:17:57,800 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:17:57,801 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 14:18:00,460 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:18:00,461 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:18:00,463 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:18:00,464 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 14:18:47,163 [Worker-26: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:18:47,189 [Worker-26: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:18:47,216 [Worker-26: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:18:57,067 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:18:57,068 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:18:57,069 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:18:57,070 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 14:19:11,902 [Worker-27: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:19:11,929 [Worker-27: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:19:11,955 [Worker-27: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:19:50,714 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:19:50,715 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:19:50,716 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:19:50,716 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 14:19:51,845 [Worker-24: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:19:51,871 [Worker-24: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:19:51,896 [Worker-24: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:22:05,831 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:22:05,832 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:22:05,833 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:22:05,834 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 14:22:07,734 [Worker-27: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:22:07,761 [Worker-27: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:22:07,787 [Worker-27: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:39:33,485 [Worker-24: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:39:33,487 [Worker-24: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:39:33,489 [Worker-24: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:39:33,489 [Worker-24: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 14:45:37,387 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:45:37,387 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:45:37,388 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:45:37,389 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 14:46:22,641 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:46:22,642 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:46:22,644 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:46:22,644 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 14:46:23,757 [Worker-26: Launching EmpMainMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:46:23,780 [Worker-26: Launching EmpMainMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:46:23,803 [Worker-26: Launching EmpMainMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 14:46:53,725 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:46:53,725 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 14:46:53,726 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 14:46:53,727 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 15:14:45,984 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 15:14:45,985 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 15:14:45,987 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 15:14:45,987 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 15:17:50,607 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 15:17:50,608 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 15:17:50,609 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 15:17:50,609 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 15:17:51,649 [Worker-28: Launching EmpMainMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 15:17:51,670 [Worker-28: Launching EmpMainMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 15:17:51,693 [Worker-28: Launching EmpMainMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 15:22:02,097 [Worker-28: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 15:22:02,098 [Worker-28: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 15:22:02,099 [Worker-28: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 15:22:02,100 [Worker-28: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 15:22:02,138 [Worker-28: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 15:22:02,164 [Worker-28: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 15:22:02,186 [Worker-28: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 15:30:48,507 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 15:30:48,508 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 15:30:48,509 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 15:30:48,509 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 15:46:20,851 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 15:46:20,852 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 15:46:20,854 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 15:46:20,854 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 16:22:51,977 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:22:51,978 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 16:22:51,980 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:22:51,980 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 16:22:56,034 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:22:56,035 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 16:22:56,036 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:22:56,036 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 16:23:46,251 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:23:46,251 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 16:23:46,252 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:23:46,252 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 16:29:30,078 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:29:30,079 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 16:29:30,081 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:29:30,082 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 16:29:46,251 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:29:46,252 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 16:29:46,253 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:29:46,253 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 16:31:58,978 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:31:58,980 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 16:31:58,981 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:31:58,982 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 16:32:07,516 [Worker-35: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:32:07,548 [Worker-35: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:32:07,578 [Worker-35: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:32:35,050 [Worker-43: Launching HelloMybatis] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:32:35,051 [Worker-43: Launching HelloMybatis] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 16:32:35,054 [Worker-43: Launching HelloMybatis] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:32:35,054 [Worker-43: Launching HelloMybatis] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 16:32:35,099 [Worker-43: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:32:35,127 [Worker-43: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:32:35,150 [Worker-43: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:33:58,234 [Worker-35: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:33:58,258 [Worker-35: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:33:58,283 [Worker-35: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:35:18,532 [Worker-45: Launching HelloMybatis] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:35:18,533 [Worker-45: Launching HelloMybatis] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 16:35:18,535 [Worker-45: Launching HelloMybatis] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:35:18,536 [Worker-45: Launching HelloMybatis] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 16:35:18,576 [Worker-45: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:35:18,600 [Worker-45: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:35:18,624 [Worker-45: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:36:34,360 [Worker-47: Launching HelloMybatis] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:36:34,360 [Worker-47: Launching HelloMybatis] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 16:36:34,361 [Worker-47: Launching HelloMybatis] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:36:34,362 [Worker-47: Launching HelloMybatis] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 16:36:34,396 [Worker-47: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:36:34,419 [Worker-47: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:36:34,442 [Worker-47: Launching HelloMybatis] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:36:48,844 [Worker-43: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:36:48,868 [Worker-43: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:36:48,893 [Worker-43: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 16:43:48,238 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:43:48,239 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 16:43:48,240 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 16:43:48,240 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:08:23,038 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:08:23,039 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:08:23,041 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:08:23,041 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:08:31,788 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:08:31,789 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:08:31,790 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:08:31,790 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:09:12,764 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:09:12,764 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:09:12,765 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:09:12,765 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:09:44,674 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:09:44,675 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:09:44,676 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:09:44,676 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:09:55,671 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:09:55,671 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:09:55,672 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:09:55,673 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:11:09,089 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:11:09,090 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:11:09,092 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:11:09,093 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:12:13,619 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:12:13,620 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:12:13,621 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:12:13,621 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:12:13,678 [Worker-56: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:12:13,710 [Worker-56: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:12:13,735 [Worker-56: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:13:27,118 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:13:27,119 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:13:27,119 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:13:27,120 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:17:55,378 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:17:55,379 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:17:55,380 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:17:55,380 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:18:10,470 [Worker-54: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:18:10,472 [Worker-54: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:18:10,475 [Worker-54: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:18:10,476 [Worker-54: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:18:10,521 [Worker-54: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:18:10,550 [Worker-54: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:18:10,576 [Worker-54: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:18:22,242 [Worker-56: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:18:22,243 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:18:22,243 [Worker-56: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:18:22,244 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:18:22,284 [Worker-42: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:18:22,309 [Worker-42: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:18:22,334 [Worker-42: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:18:40,626 [Worker-43: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:18:40,627 [Worker-43: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:18:40,628 [Worker-43: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:18:40,629 [Worker-43: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:18:40,687 [Worker-43: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:18:40,715 [Worker-43: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:18:40,738 [Worker-43: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:20:06,543 [Worker-57: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:20:06,544 [Worker-57: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:20:06,546 [Worker-57: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:20:06,547 [Worker-57: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:20:06,590 [Worker-57: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:20:06,617 [Worker-57: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:20:06,641 [Worker-57: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:20:31,064 [Worker-57: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:20:31,065 [Worker-57: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:20:31,068 [Worker-57: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:20:31,069 [Worker-57: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:20:31,115 [Worker-57: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:20:31,157 [Worker-57: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:20:31,185 [Worker-57: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:21:36,085 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:21:36,086 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:21:36,088 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:21:36,089 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:21:39,161 [Worker-61: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:21:39,162 [Worker-61: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:21:39,164 [Worker-61: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:21:39,164 [Worker-61: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:21:39,203 [Worker-61: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:21:39,229 [Worker-61: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:21:39,253 [Worker-61: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:23:01,176 [Worker-62: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:23:01,177 [Worker-62: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\main\resources
+2025-08-29 17:23:01,179 [Worker-62: Launching EmpMain] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-29 17:23:01,179 [Worker-62: Launching EmpMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LX\spring-workspace\mybatisproject\src\test\resources
+2025-08-29 17:23:01,218 [Worker-62: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:23:01,244 [Worker-62: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
+2025-08-29 17:23:01,267 [Worker-62: Launching EmpMain] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/spring: lx.edu:spring:0.0.1-SNAPSHOT with classifier null to /spring/target/classes
