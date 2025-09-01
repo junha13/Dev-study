@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Handles requests for the application home page.
  */
 @Controller
-public class HomeController {
+public class HomeController { // Spring bean 으로 생성이 되겠구나 읽혀짐
 
   private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 

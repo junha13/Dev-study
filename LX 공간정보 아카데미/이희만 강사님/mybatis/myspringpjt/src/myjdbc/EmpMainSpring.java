@@ -1,0 +1,38 @@
+package myjdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class EmpMainSpring {
+	public static void main(String[] args) throws Exception {
+		int deptNo = 100;
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
+		
+		// bean 이름을 내보냄 (xml파일을 참고해서 객체를 생성함) ★★★★★★★★★
+ 		String[] nameList = context.getBeanDefinitionNames();
+		for (String name : nameList ) System.out.println(name);
+		
+		
+		EmpService service = (EmpService) context.getBean("service");
+		List<Emp> empList = service.getEmpListByDeptNo(deptNo);
+
+//		EmpDAO dao = new EmpDAO();
+//		EmpService service = new EmpServiceImpl();
+//		service.setDAO(dao);
+//		List<Emp> empList = service.getEmpListByDeptNo(deptNo);
+		for(Emp emp : empList) {
+			System.out.println(emp);
+		}
+	}	
+}
+
+
+

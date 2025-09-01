@@ -17,8 +17,9 @@
 	</environments>
 
 	<!-- sql이 작성되는 mapper 파일 위치 등록 -->
-	<mappers>
+	<mappers> <!-- mappers 위에 커서를 올려봤을 때 하위 요소로 mapper*로 뜨면 mapper는 여러개 있어도 좋다는거임 -->
 		<mapper resource="mapper-emp.xml" />
+		<mapper resource="mapper-addrbook.xml" />
 	</mappers>
 
 

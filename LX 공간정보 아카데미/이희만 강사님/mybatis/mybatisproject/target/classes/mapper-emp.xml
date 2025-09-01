@@ -8,6 +8,7 @@
 		from employees
 		where employee_id = #{id}
 	</select>
+
 	<select id="getEmpListByJobId" resultType="mybatis.Emp">
 		select last_name lastName
 			, first_name firstName
