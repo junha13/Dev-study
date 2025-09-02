@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans 
+  https://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+  http://www.springframework.org/schema/context/spring-context.xsd">
+
+	 <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+	 	<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+	 	<property name="url" value="jdbc:mysql://localhost:3306/newhr"></property>
+	 	<property name="username" value="root"></property>
+	 	<property name="password" value="rootroot"></property>
+	 </bean>
+	 
+	 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+	 	<property name="dataSource" ref="dataSource"></property>
+	 	<property name="mapperLocations" value="classpath:mapper-*.xml"></property>
+	 	
+	 	<!-- 언더바를 카멜케이스로 바꾸는 property 근데 카멜케이스만 쓰는건 아니고 나중에 join에  as 쓰면 혼재해서 쓸 수 있음-->
+	 	<property name="configuration">
+	 		<bean class="org.apache.ibatis.session.Configuration">
+	 			<property name="mapUnderscoreToCamelCase" value="true"></property>
+	 		</bean>
+	 	</property>
+	 </bean>
+	 
+	 <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+	 	<constructor-arg index="0" ref="sqlSessionFactory"></constructor-arg>
+	 </bean>
+	
+	<context:component-scan base-package="myspring"></context:component-scan>
+	<!-- 어노테이션 방식이면 이렇게만 해도됨 ㄸ -->
+</beans>
