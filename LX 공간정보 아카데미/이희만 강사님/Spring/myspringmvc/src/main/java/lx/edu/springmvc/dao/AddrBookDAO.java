@@ -1,4 +1,4 @@
-package lx.edu.springmvc;
+package lx.edu.springmvc.dao;
 
 
 import java.sql.Connection;
@@ -17,6 +17,8 @@ import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import lx.edu.springmvc.vo.AddrBookVO;
+
 @Component
 public class AddrBookDAO {
 
@@ -30,29 +32,16 @@ public class AddrBookDAO {
 	public List<AddrBookVO> getDBList() throws Exception {
 		return session.selectList("getDBList");
 	}
+	
 
 	public AddrBookVO getDB(int abId) throws Exception {
-		AddrBookVO vo = new AddrBookVO();
-		Connection con = getConnection();
-		String sql = "select * from addrbook where ab_id = ?";
-		PreparedStatement psmt = con.prepareStatement(sql);
-		psmt.setInt(1, abId);
-		ResultSet rs = psmt.executeQuery();
-		if(rs.next()) {
-			vo.setAbName(rs.getString("ab_name"));
-			vo.setAbTel(rs.getString("ab_tel"));
-			vo.setAbEmail(rs.getString("ab_email"));
-			vo.setAbComdept(rs.getString("ab_comdept"));
-			vo.setAbMemo(rs.getString("ab_memo"));
-			vo.setAbId(rs.getInt("ab_id"));
-			vo.setAbBirth(rs.getString("ab_birth"));
-		}
-		con.close();
-		return vo;
+		return session.selectOne("getDB", abId);
 	}
-	public boolean updateDB(AddrBookVO ab) throws Exception {
-		return false;
+	public int updateDB(AddrBookVO ab) throws Exception {
+		return session.update("updateDB", ab);
 	}
+	
+	
 	public boolean deleteDB(int abId) throws Exception {
 		return false;
 	}

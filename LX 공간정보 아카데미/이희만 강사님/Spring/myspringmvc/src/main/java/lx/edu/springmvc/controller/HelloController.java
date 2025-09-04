@@ -1,4 +1,4 @@
-package lx.edu.springmvc;
+package lx.edu.springmvc.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

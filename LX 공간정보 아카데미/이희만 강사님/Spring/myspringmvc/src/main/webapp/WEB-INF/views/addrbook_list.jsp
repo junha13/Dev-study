@@ -1,19 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8" errorPage="addrbook_error.jsp"
-	import="java.util.*, lx.edu.springmvc.*"%>
+	import="java.util.*, lx.edu.springmvc.vo.*"%>
 <%@ taglib prefix="c" uri="jakarta.tags.core"%>
 <!DOCTYPE HTML>
 <html>
 <head>
-<link rel="stylesheet" href="<%=request.getContextPath()%>/resources/addrbook.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/addrbook.css" type="text/css" media="screen" />
 	media="screen" />
 
 <script type="text/javascript">
 	function check(ab_id) {
 		pwd = prompt('수정/삭제 하려면 비밀번호를 넣으세요');
 		//document.location.href="addrbook_control.jsp?action=edit&ab_id="+ab_id+"&upasswd="+pwd;
-		document.location.href = "editview.do?ab_id=" + ab_id + "&upasswd="
-				+ pwd;
+		document.location.href = "editview.do?abId=" + ab_id;
 	}
 </script>
 
@@ -41,7 +40,7 @@
 				</tr>
 				<c:forEach items="${data}" var="ab">
 					<tr>
-						<td><a href="javascript:check(${ab.abId})">${ab.abId}</a></td>
+						<td><a href="edit_form.do?abId=${ab.abId}">${ab.abId}</a></td>
 						<td>${ab.abName}</td>
 						<td>${ab.abTel}</td>
 						<td>${ab.abBirth}</td>

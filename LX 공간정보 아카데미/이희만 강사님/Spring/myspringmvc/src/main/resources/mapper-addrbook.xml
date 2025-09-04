@@ -3,13 +3,13 @@
 <mapper namespace="mapper-addrbook">
 <!-- public boolean insertDB(AddrBookVO ab) throws Exception -->
 	<insert id="insertDB"
-		parameterType="lx.edu.springmvc.AddrBookVO">
+		parameterType="lx.edu.springmvc.vo.AddrBookVO">
 		insert into
 		addrbook(ab_name, ab_email, ab_comdept, ab_birth, ab_tel, ab_memo)
 		values(#{abName}, #{abEmail},#{abComdept},#{abBirth},#{abTel},#{abMemo})
 	</insert>
 
-	<select id="getDBList" resultType="lx.edu.springmvc.AddrBookVO">
+	<select id="getDBList" resultType="lx.edu.springmvc.vo.AddrBookVO">
 		select AB_ID abId 
 			  ,AB_NAME abName 
 			  ,ab_email abEmail 
@@ -20,13 +20,41 @@
 		from addrbook
 	</select>
  
-	<select id="getEmpListByJobId" resultType="lx.edu.springmvc.AddrBookVO">
+	<select id="getEmpListByJobId" resultType="lx.edu.springmvc.vo.AddrBookVO">
 		select last_name lastName
 			, first_name firstName
 			, employee_id id
 		from employees
 		where job_id = #{JobId}
 	</select>
+ 
+ 
+	<select id="getDB" resultType="lx.edu.springmvc.vo.AddrBookVO" parameterType="int">
+		select ab_id abId 
+			  , aB_name abName 
+			  , ab_email abEmail 
+			  , ab_comdept abComdept 
+			  , ab_birth abBirth 
+			  , ab_tel abTel 
+			  , ab_memo abMemo
+		from addrbook
+		where AB_ID = #{abId}
+	</select>
+	
+	<update id="updateDB" parameterType="lx.edu.springmvc.vo.AddrBookVO">
+		update addrbook
+		SET ab_name = #{abName}
+			, ab_email = #{abEmail}
+			, ab_comdept = #{abComdept}
+			, ab_birth = #{abBirth}
+			, ab_tel = #{abTel}
+			, ab_memo = #{abMemo}
+		WHERE ab_id = #{abId}
+	</update>
+	
+	
+	
+	
 	
 	<!-- 하나는 emp, 하나는 emplist 지만 resultType은 resultType="mybatis.Emp" 이렇게 동일하게 써도 됨 -->
 

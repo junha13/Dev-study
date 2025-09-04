@@ -1,4 +1,4 @@
-package lx.edu.springmvc;
+package lx.edu.springmvc.vo;
 
 public class AddrBookVO {
 	/*
