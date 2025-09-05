@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper-addrbook">
+<!-- public boolean insertDB(AddrBookVO ab) throws Exception -->
+	<insert id="insertDB"
+		parameterType="lx.edu.springboot.vo.AddrBookVO">
+		insert into
+		addrbook(ab_name, ab_email, ab_comdept, ab_birth, ab_tel, ab_memo)
+		values(#{abName}, #{abEmail},#{abComdept},#{abBirth},#{abTel},#{abMemo})
+	</insert>
+
+	<select id="getDBList" resultType="lx.edu.springboot.vo.AddrBookVO">
+		select AB_ID abId 
+			  ,AB_NAME abName 
+			  ,ab_email abEmail 
+			  ,ab_comdept abComdept 
+			  ,ab_birth abBirth 
+			  ,ab_tel abTel 
+			  ,ab_memo abMemo
+		from addrbook
+	</select>
+ 
+	<select id="getEmpListByJobId" resultType="lx.edu.springboot.vo.AddrBookVO">
+		select last_name lastName
+			, first_name firstName
+			, employee_id id
+		from employees
+		where job_id = #{JobId}
+	</select>
+ 
+ 
+	<select id="getDB" resultType="lx.edu.springboot.vo.AddrBookVO" parameterType="int">
+		select ab_id
+			  , aB_name 
+			  , ab_email
+			  , ab_comdept
+			  , ab_birth 
+			  , ab_tel
+			  , ab_memo
+		from addrbook
+		where AB_ID = #{abId}
+	</select>
+	
+	<update id="updateDB" parameterType="lx.edu.springboot.vo.AddrBookVO">
+		update addrbook
+		SET ab_name = #{abName}
+			, ab_email = #{abEmail}
+			, ab_comdept = #{abComdept}
+			, ab_birth = #{abBirth}
+			, ab_tel = #{abTel}
+			, ab_memo = #{abMemo}
+		WHERE ab_id = #{abId}
+	</update>
+	
+	
+	
+	
+	
+	<!-- 하나는 emp, 하나는 emplist 지만 resultType은 resultType="mybatis.Emp" 이렇게 동일하게 써도 됨 -->
+
+</mapper>

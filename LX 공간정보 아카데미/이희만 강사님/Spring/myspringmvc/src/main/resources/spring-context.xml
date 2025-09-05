@@ -10,7 +10,7 @@
   http://www.springframework.org/schema/aop
   http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-	<!-- bean객체는 @Autowired를 이용해서 사용한다. -->
+	<!-- bean객체는 @Autowired를 이용해서 사용한다. 이게 persistanse layer bean임-->
 	<bean id="dataSource"
 		class="org.apache.commons.dbcp2.BasicDataSource">
 

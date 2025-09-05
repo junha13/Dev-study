@@ -30,13 +30,13 @@
  
  
 	<select id="getDB" resultType="lx.edu.springmvc.vo.AddrBookVO" parameterType="int">
-		select ab_id abId 
-			  , aB_name abName 
-			  , ab_email abEmail 
-			  , ab_comdept abComdept 
-			  , ab_birth abBirth 
-			  , ab_tel abTel 
-			  , ab_memo abMemo
+		select ab_id
+			  , aB_name 
+			  , ab_email
+			  , ab_comdept
+			  , ab_birth 
+			  , ab_tel
+			  , ab_memo
 		from addrbook
 		where AB_ID = #{abId}
 	</select>

@@ -14,7 +14,7 @@
 	
 	<!-- logger를 하나 만들고 level을 info로 변경함 -->
 	<logger name="org.springframework.web">
-		<level value="info"></level> <!-- DEBUG=무슨 일이 일어났는지, TRACE=그 일이 “어떻게” 한 단계씩 진행됐는지. -->
+		<level value="info"></level> <!-- info=그냥 한줄 찍기, DEBUG=무슨 일이 일어났는지, TRACE=그 일이 “어떻게” 한 단계씩 진행됐는지. -->
 	</logger>
 	<logger name="org.springframework.beans">
 		<level value="debug"></level> <!-- DEBUG=무슨 일이 일어났는지, TRACE=그 일이 “어떻게” 한 단계씩 진행됐는지. -->

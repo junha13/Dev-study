@@ -14,6 +14,14 @@
     <beans:property name="prefix" value="/WEB-INF/views/" />
     <beans:property name="suffix" value=".jsp" />
   </beans:bean>
+  
+  	<interceptors>
+  		<interceptor>
+  			<mapping path="/addrbook_list.do"/> <!-- 어떤 걸 요청했을 때 들어오게 할거냐 // 매핑을 여러개 해두면 그냥 여러개 되는거임-->
+  			<mapping path="/insert.do"/>
+  			<beans:bean class="lx.edu.springmvc.interceptor.LoginInterceptor"></beans:bean>
+  		</interceptor>
+  	</interceptors>
 
 	<context:component-scan	base-package="lx.edu.springmvc"/>
 </beans:beans>
