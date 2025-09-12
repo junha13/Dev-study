@@ -87,6 +87,7 @@ const grade = ref('')
 const semester = ref('')
 const user_id = ref('')
 
+
 // user name 저장
 import { storeToRefs } from 'pinia';
 
