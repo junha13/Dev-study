@@ -7,7 +7,7 @@ use company;
 -- 생성자 Oracle SQL Developer Data Modeler 24.3.1.351.0831
 --   위치:        2025-09-09 15:43:57 KST
 --   사이트:      Oracle Database 11g
---   유형:      Oracle Database 11g
+--   유형:      Oracle Database 11ggg
 
 
 
