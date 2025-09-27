@@ -12,8 +12,8 @@ module.exports = {
     },
     database: {  
         database_mysql: { 
-            type: 'mysql',
-            failover: 'true',
+            type: 'postgres',
+            failover: true,
             retryStrategy: {
                 interval: 2000,
                 limit: 3,
@@ -21,20 +21,20 @@ module.exports = {
             },
             master: {
                 host:'localhost',
-                port:3307,
-                user:'root',
+                port:5432,
+                user: 'postgres',
                 password:'rootroot',
-                database:'project',
-                connectionLimit:10,
+                database:'postgres',
+                max: 10,
                 debug:false
             },
             slave: {
                 host:'localhost',
-                port:3307,
-                user:'root',
+                port:5432,
+                user: 'postgres',
                 password:'rootroot',
-                database:'project',
-                connectionLimit:10,
+                database:'postgres',
+                max: 10,
                 debug:false
             }
         }

@@ -1,0 +1,128 @@
+2025-09-26 11:18:29.328 - INFO: [logger.js:246:9] service loader called.
+2025-09-26 11:18:29.356 - INFO: [logger.js:246:9] controller loader called.
+2025-09-26 11:18:29.357 - DEBUG: [logger.js:246:9] external_loader called.
+2025-09-26 11:18:29.358 - DEBUG: [logger.js:246:9] No external configuration.
+2025-09-26 11:18:29.722 - INFO: [logger.js:246:9] Http Server started.
+2025-09-26 11:18:29.723 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-09-26 11:18:29.724 - INFO: [logger.js:246:9] Namespace -> ::_8001_28532
+2025-09-26 11:18:29.738 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-09-26 11:21:17.593 - INFO: [logger.js:246:9] service loader called.
+2025-09-26 11:21:17.612 - INFO: [logger.js:246:9] controller loader called.
+2025-09-26 11:21:17.613 - DEBUG: [logger.js:246:9] external_loader called.
+2025-09-26 11:21:17.614 - DEBUG: [logger.js:246:9] No external configuration.
+2025-09-26 11:21:17.837 - INFO: [logger.js:246:9] Http Server started.
+2025-09-26 11:21:17.838 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-09-26 11:21:17.840 - INFO: [logger.js:246:9] Namespace -> ::_8001_31640
+2025-09-26 11:21:17.849 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-09-26 11:21:37.271 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 11:21:37.273 - DEBUG: [logger.js:246:9] GET /post/coffee_list_all requested
+2025-09-26 11:21:37.275 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 11:21:47.327 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
+2025-09-26 11:21:53.173 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 11:21:53.174 - DEBUG: [logger.js:246:9] GET /post/coffee_list_all requested
+2025-09-26 11:21:53.176 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 11:22:03.187 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
+2025-09-26 11:23:06.771 - INFO: [logger.js:246:9] service loader called.
+2025-09-26 11:23:06.796 - INFO: [logger.js:246:9] controller loader called.
+2025-09-26 11:23:06.796 - DEBUG: [logger.js:246:9] external_loader called.
+2025-09-26 11:23:06.797 - DEBUG: [logger.js:246:9] No external configuration.
+2025-09-26 11:23:07.050 - INFO: [logger.js:246:9] Http Server started.
+2025-09-26 11:23:07.051 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-09-26 11:23:07.052 - INFO: [logger.js:246:9] Namespace -> ::_8001_11320
+2025-09-26 11:23:07.062 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-09-26 11:23:10.025 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 11:23:10.026 - DEBUG: [logger.js:246:9] GET /post/coffee_list_all requested
+2025-09-26 11:23:10.027 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 11:23:20.074 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
+2025-09-26 11:24:52.648 - INFO: [logger.js:246:9] service loader called.
+2025-09-26 11:24:52.666 - INFO: [logger.js:246:9] controller loader called.
+2025-09-26 11:24:52.667 - DEBUG: [logger.js:246:9] external_loader called.
+2025-09-26 11:24:52.667 - DEBUG: [logger.js:246:9] No external configuration.
+2025-09-26 11:24:52.891 - INFO: [logger.js:246:9] Http Server started.
+2025-09-26 11:24:52.892 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-09-26 11:24:52.893 - INFO: [logger.js:246:9] Namespace -> ::_8001_24184
+2025-09-26 11:24:52.901 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-09-26 11:24:54.967 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 11:24:54.968 - DEBUG: [logger.js:246:9] GET /post/coffee_list_all requested
+2025-09-26 11:24:54.970 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 11:25:05.009 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
+2025-09-26 11:30:10.615 - INFO: [logger.js:246:9] service loader called.
+2025-09-26 11:30:10.642 - INFO: [logger.js:246:9] controller loader called.
+2025-09-26 11:30:10.642 - DEBUG: [logger.js:246:9] external_loader called.
+2025-09-26 11:30:10.643 - DEBUG: [logger.js:246:9] No external configuration.
+2025-09-26 11:30:10.898 - INFO: [logger.js:246:9] Http Server started.
+2025-09-26 11:30:10.899 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-09-26 11:30:10.900 - INFO: [logger.js:246:9] Namespace -> ::_8001_13064
+2025-09-26 11:30:10.910 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-09-26 11:30:13.459 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 11:30:13.460 - DEBUG: [logger.js:246:9] GET /post/coffee_list_all requested
+2025-09-26 11:30:13.461 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 11:30:23.489 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
+2025-09-26 11:31:05.296 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 11:31:05.297 - DEBUG: [logger.js:246:9] GET /post/coffee_list_all requested
+2025-09-26 11:31:05.299 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 11:31:15.316 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
+2025-09-26 11:33:23.194 - INFO: [logger.js:246:9] service loader called.
+2025-09-26 11:33:23.213 - INFO: [logger.js:246:9] controller loader called.
+2025-09-26 11:33:23.213 - DEBUG: [logger.js:246:9] external_loader called.
+2025-09-26 11:33:23.214 - DEBUG: [logger.js:246:9] No external configuration.
+2025-09-26 11:33:23.436 - INFO: [logger.js:246:9] Http Server started.
+2025-09-26 11:33:23.437 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-09-26 11:33:23.447 - INFO: [logger.js:246:9] Namespace -> ::_8001_16752
+2025-09-26 11:33:23.457 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-09-26 11:33:25.623 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 11:33:25.624 - DEBUG: [logger.js:246:9] GET /post/coffee_list_all requested
+2025-09-26 11:33:25.626 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 11:33:35.661 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
+2025-09-26 11:36:29.237 - INFO: [logger.js:246:9] service loader called.
+2025-09-26 11:36:29.257 - INFO: [logger.js:246:9] controller loader called.
+2025-09-26 11:36:29.258 - DEBUG: [logger.js:246:9] external_loader called.
+2025-09-26 11:36:29.258 - DEBUG: [logger.js:246:9] No external configuration.
+2025-09-26 11:36:29.502 - INFO: [logger.js:246:9] Http Server started.
+2025-09-26 11:36:29.503 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-09-26 11:36:29.504 - INFO: [logger.js:246:9] Namespace -> ::_8001_45500
+2025-09-26 11:36:29.515 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-09-26 11:36:35.032 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 11:36:35.033 - DEBUG: [logger.js:246:9] GET /post/coffee_list_all requested
+2025-09-26 11:36:35.036 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 11:36:45.075 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
+2025-09-26 11:38:31.641 - INFO: [logger.js:246:9] service loader called.
+2025-09-26 11:38:31.661 - INFO: [logger.js:246:9] controller loader called.
+2025-09-26 11:38:31.665 - DEBUG: [logger.js:246:9] external_loader called.
+2025-09-26 11:38:31.665 - DEBUG: [logger.js:246:9] No external configuration.
+2025-09-26 11:38:31.893 - INFO: [logger.js:246:9] Http Server started.
+2025-09-26 11:38:31.894 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-09-26 11:38:31.895 - INFO: [logger.js:246:9] Namespace -> ::_8001_2756
+2025-09-26 11:38:31.906 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-09-26 11:38:34.235 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 11:38:34.236 - DEBUG: [logger.js:246:9] GET /post/coffee_list_all requested
+2025-09-26 11:38:34.238 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 11:38:44.260 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
+2025-09-26 11:39:53.881 - INFO: [logger.js:246:9] service loader called.
+2025-09-26 11:39:53.903 - INFO: [logger.js:246:9] controller loader called.
+2025-09-26 11:39:53.903 - DEBUG: [logger.js:246:9] external_loader called.
+2025-09-26 11:39:53.904 - DEBUG: [logger.js:246:9] No external configuration.
+2025-09-26 11:39:54.146 - INFO: [logger.js:246:9] Http Server started.
+2025-09-26 11:39:54.147 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-09-26 11:39:54.148 - INFO: [logger.js:246:9] Namespace -> ::_8001_30824
+2025-09-26 11:39:54.158 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-09-26 11:39:58.078 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 11:39:58.079 - DEBUG: [logger.js:246:9] GET /post/coffee_list_all requested
+2025-09-26 11:39:58.083 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 11:40:08.114 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
+2025-09-26 11:50:15.520 - INFO: [logger.js:246:9] service loader called.
+2025-09-26 11:50:15.544 - INFO: [logger.js:246:9] controller loader called.
+2025-09-26 11:50:15.544 - DEBUG: [logger.js:246:9] external_loader called.
+2025-09-26 11:50:15.545 - DEBUG: [logger.js:246:9] No external configuration.
+2025-09-26 11:50:15.801 - INFO: [logger.js:246:9] Http Server started.
+2025-09-26 11:50:15.801 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-09-26 11:50:15.803 - INFO: [logger.js:246:9] Namespace -> ::_8001_19876
+2025-09-26 11:50:15.811 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-09-26 11:50:18.930 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 11:50:18.931 - DEBUG: [logger.js:246:9] POST /post/coffee_list_all requested
+2025-09-26 11:50:18.934 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 11:50:28.973 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
+2025-09-26 12:00:47.675 - DEBUG: [logger.js:246:9] Post::listAll 호출됨.
+2025-09-26 12:00:47.675 - DEBUG: [logger.js:246:9] POST /post/coffee_list_all requested
+2025-09-26 12:00:47.678 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-09-26 12:00:57.692 - DEBUG: [logger.js:246:9] Error in fetching database connection -> Error: Handshake inactivity timeout
